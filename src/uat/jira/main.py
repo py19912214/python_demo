@@ -23,9 +23,9 @@ driver.get(url)
 # driver.set_window_size(1410,900)
 # 设置用户名  密码  login-form-username  login-form-password  login-form-submit
 username=commonUtil.getElementBycss(driver,time,"#login-form-username");
-username.send_keys('yue.pan3@56qq.com');
+username.send_keys('');
 password=commonUtil.getElementBycss(driver,time,"#login-form-password");
-password.send_keys('Py19912214');
+password.send_keys('');
 submit=commonUtil.getElementBycss(driver,time,"#login-form-submit");
 driver.execute_script("$('#login-form-submit').trigger('click')");
 #更多按钮

@@ -13,10 +13,10 @@ options = webdriver.ChromeOptions()
 options.binary_location = r"C:/Program Files (x86)/ChromeCore/ChromeCore.exe"
 # options.binary_location = r"C:/Program Files (x86)/ChromeCore/ChromeCoreLauncher.exe"
 chromeDriverPath=r'C:/Users/yue.pan3/AppData/Local/Programs/Python/Python37/chromedriver.exe'
-url='https://jira.56qq.cn/browse/DEMO-6001'
+url='https://jira.cn/browse/DEMO-6001'
 #结果展示的url
-resultUrl='https://jira.56qq.cn/secure/TimesheetWW!default.jspa'
-# url='https://jira.56qq.cn/browse/LOAN-7587'
+resultUrl='https://jira.cn/secure/TimesheetWW!default.jspa'
+# url='https://jira.cn/browse/LOAN-7587'
 driver = webdriver.Chrome(chromeDriverPath,chrome_options =options)
 driver.maximize_window();
 driver.get(url)

@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb451603-6bb7-4430-8f30-80e0990c12a7" name="Default" comment="重新搭建测试代码">
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/pigErpManagerTenant/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -253,7 +252,7 @@
     "Python.BlueInvoiceManager.executor": "Run",
     "last_opened_file_path": "D:/py/python/work/python_demo/src/zgy/business/pigErpManagerTenant",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -524,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741397243016</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="重新搭建测试代码">
+      <option name="closed" value="true" />
+      <created>1741397885026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741397885026</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -579,7 +586,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_demo$BlueInvoiceManager.coverage" NAME="BlueInvoiceManager Coverage Results" MODIFIED="1741397814713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigErpManagerTenant" />
+    <SUITE FILE_PATH="coverage/python_demo$BlueInvoiceManager.coverage" NAME="BlueInvoiceManager Coverage Results" MODIFIED="1741397863154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigErpManagerTenant" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/uat/common/Util.py">

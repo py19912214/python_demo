@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb451603-6bb7-4430-8f30-80e0990c12a7" name="Default" comment="重新搭建测试代码">
+    <list default="true" id="bb451603-6bb7-4430-8f30-80e0990c12a7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/pigErpManagerTenant/BlueInvoiceManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/pigErpManagerTenant/BlueInvoiceManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/pigErpManagerTenant/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/pigErpManagerTenant/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -531,7 +535,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741397885026</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="重新搭建测试代码">
+      <option name="closed" value="true" />
+      <created>1741398275508</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741398275508</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -582,11 +594,21 @@
           <url>file://$PROJECT_DIR$/src/basic/proc/worker2_demo.py</url>
           <line>2</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/zgy/business/pigErpManagerTenant/__init__.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/zgy/business/pigErpManagerTenant/__init__.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_demo$BlueInvoiceManager.coverage" NAME="BlueInvoiceManager Coverage Results" MODIFIED="1741397863154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigErpManagerTenant" />
+    <SUITE FILE_PATH="coverage/python_demo$BlueInvoiceManager.coverage" NAME="BlueInvoiceManager Coverage Results" MODIFIED="1741575272366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigErpManagerTenant" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/uat/common/Util.py">

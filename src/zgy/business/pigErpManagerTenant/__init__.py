@@ -13,14 +13,14 @@ __dev__ = 'dev'
 __test__ = 'test'
 __prod__ = 'prod'
 
-__cur_env__ = __dev__
+__cur_env__ = __localHost__
 
-__tenant_id__ = "2600908777226240000"
-__tenant_user_id__ = "275644734783493"
-__authorization__ = 'Bearer ECO5dYq5ULU2t5SGbRLJgrXh4oz3cm23twUjhnIMZ9CCI1P8zmW5UbhW9gLsb7yMivd-239E1hgmpHrUOnENCyOXdO-vh8crVgZ0lSA6-17WCSjrlLe-vPdRWfXTqItW'
+__tenant_id__ = "2712645583831040000"
+__tenant_user_id__ = "271264558252037"
 
 
 class PigErpManagerTenantParent:
+    __authorization__ = 'Bearer JzlqmGpE98l4yZIzvWiYkwh38LWPh1bjiv7pdix4Ki-Ho-7GjJZPgcbNSLkcoi5tE7BeKRMXt8mwzS6UA-RsIHiC6-lhz2jSupsZHqh-nXuYSaXOgdGW6XiJP2jK9IQy'
     def __init__(self):
         self.message = "This is from the parent class."
         self.refreshToken();
@@ -42,7 +42,8 @@ class PigErpManagerTenantParent:
             "http://dev-erp.joolgo.cn/api/api-uaa/oauth/token?" + urlParams.decode("utf-8"),
             params,
             headers)
-        __authorization__ = "Bearer " + json.loads(response.text)['data']['access_token']
+        self.__authorization__ = "Bearer " + json.loads(response.text)['data']['access_token']
+        print(self.__authorization__)
 
     def getHost(self):
         if __cur_env__ == __localHost__:
@@ -66,7 +67,7 @@ class PigErpManagerTenantParent:
         headers = {
             'x-tenant-id': __tenant_id__,
             'x-tenant-user-id': __tenant_user_id__,
-            'authorization': __authorization__
+            'authorization': self.__authorization__
         }
         return HttpUtils.get(self.buildUrl(url), params, headers);
 
@@ -75,6 +76,6 @@ class PigErpManagerTenantParent:
             'Content-Type': 'application/json',
             'x-tenant-id': __tenant_id__,
             'x-tenant-user-id': __tenant_user_id__,
-            'authorization': __authorization__
+            'authorization': self.__authorization__
         }
         return HttpUtils.post(self.buildUrl(url), params, headers);

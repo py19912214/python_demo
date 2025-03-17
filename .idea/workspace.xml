@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb451603-6bb7-4430-8f30-80e0990c12a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/pigKjsc/PigKjscMerchantService.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/pigKjsc/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zgy/business/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zgy/business/pigTenant/BlueInvoiceManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/pigTenant/BlueInvoiceManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/pigTenant/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/pigTenant/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zgy/common/HttpUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/common/HttpUtils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -530,7 +526,7 @@
       <workItem from="1741746585918" duration="17348000" />
       <workItem from="1741827973421" duration="13600000" />
       <workItem from="1741856634851" duration="3718000" />
-      <workItem from="1741913536707" duration="27148000" />
+      <workItem from="1741913536707" duration="30966000" />
     </task>
     <task id="LOCAL-00001" summary="重新搭建测试代码">
       <option name="closed" value="true" />
@@ -588,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742030959979</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="修改数据">
+      <option name="closed" value="true" />
+      <created>1742182175012</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742182175012</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -656,7 +660,7 @@
     <SUITE FILE_PATH="coverage/python_demo$PigKjscMerchantService.coverage" NAME="PigKjscMerchantService Coverage Results" MODIFIED="1742182131616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigKjsc" />
     <SUITE FILE_PATH="coverage/python_demo$BlueInvoiceManager.coverage" NAME="BlueInvoiceManager Coverage Results" MODIFIED="1742027243977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigErpManagerTenant" />
     <SUITE FILE_PATH="coverage/python_demo$TestFrameworkController.coverage" NAME="TestFrameworkController Coverage Results" MODIFIED="1742029563785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigRpaGsAnnualReport" />
-    <SUITE FILE_PATH="coverage/python_demo$BlueInvoiceManager__1_.coverage" NAME="BlueInvoiceManager (1) Coverage Results" MODIFIED="1742182161152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigTenant" />
+    <SUITE FILE_PATH="coverage/python_demo$BlueInvoiceManager__1_.coverage" NAME="BlueInvoiceManager (1) Coverage Results" MODIFIED="1742201646277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigTenant" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/uat/common/Util.py">

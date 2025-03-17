@@ -29,3 +29,6 @@ class CommonParent:
 
     def post(self, url, params):
         return HttpUtils.post(self.buildUrl(url), params, self.buildPostHeaders());
+
+    def postFile(self, url, files):
+        return HttpUtils.postFile(self.buildUrl(url), files, self.buildPostHeaders());

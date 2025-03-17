@@ -9,3 +9,8 @@ def get(url, params, headers):
 def post(url, params, headers):
     print(url)
     return requests.post(url, json=params, headers=headers, verify=False)
+
+
+def postFile(url, files, headers):
+    print(url)
+    return requests.post(url, files=files, headers=headers, verify=False)

@@ -187,6 +187,21 @@ class BlueInvoiceManager(PigErpManagerTenantParent):
         response = self.post('/pig-tenant/yk/invoice-goods-info/v1/page', data)
         print(response.text)
 
+    def importGoodsTemplate(self, filePath):
+        data = {
+            'file': open(filePath, 'rb')
+        }
+        response = self.postFile('/pig-tenant/yk/blue/invoice-info/v1/import-goods-template', data)
+        print(response.text)
+
+    def getGoodsTemplate(self, filePath):
+        response = self.get('/pig-tenant/yk/blue/invoice-info/v1/get-goods-template', {})
+        with open(filePath, 'wb') as f:
+            for chunk in response.iter_content(chunk_size=8192):
+                if chunk:
+                    f.write(chunk)
+        print(f"文件已成功下载到 {filePath}")
+
 
 blueInvoiceManager = BlueInvoiceManager()
 # 获取下拉框数据
@@ -215,4 +230,9 @@ blueInvoiceManager = BlueInvoiceManager()
 # blueInvoiceManager.getTenantDiscount()
 # 回调接口 第一个参数是tpTaskId
 # blueInvoiceManager.blueInvoiceIssuedCallBack(326236316827649)
-blueInvoiceManager.pageGoods()
+# 分页查询商品
+# blueInvoiceManager.pageGoods()
+# 导入商品明细
+# blueInvoiceManager.importGoodsTemplate("C:\\Users\\admin\\Desktop\\发票开具项目信息导入模板 (10).xlsx")
+# 下载导入商品明细
+blueInvoiceManager.getGoodsTemplate("C:\\Users\\admin\\Desktop\\发票开具项目信息导入模板.xlsx")

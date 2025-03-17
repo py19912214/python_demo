@@ -179,6 +179,14 @@ class BlueInvoiceManager(PigErpManagerTenantParent):
         response = self.post('/pig-tenant-cronjob/nk/invoice-task-callback/v1/blue-invoice-issued', data)
         print(response.text)
 
+    def pageGoods(self):
+        data = {
+            "pageNo": 1,
+            "pageSize": 20
+        }
+        response = self.post('/pig-tenant/yk/invoice-goods-info/v1/page', data)
+        print(response.text)
+
 
 blueInvoiceManager = BlueInvoiceManager()
 # 获取下拉框数据
@@ -202,8 +210,9 @@ blueInvoiceManager = BlueInvoiceManager()
 # 开票失败得发票申请，申请重新开发
 # blueInvoiceManager.applyInvoiceRetry(326360560091136)
 # 根据id查询数据 正式数据
-blueInvoiceManager.queryById(326561090371584)
+# blueInvoiceManager.queryById(326561090371584)
 # 基础配置 获取小规模人的优惠信息
 # blueInvoiceManager.getTenantDiscount()
 # 回调接口 第一个参数是tpTaskId
 # blueInvoiceManager.blueInvoiceIssuedCallBack(326236316827649)
+blueInvoiceManager.pageGoods()

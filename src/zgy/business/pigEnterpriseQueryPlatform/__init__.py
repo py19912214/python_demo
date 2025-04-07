@@ -22,7 +22,7 @@ __tenant_user_id__ = "271433485926400"
 class PigErpManagerTenantParent(CommonParent):
     def __init__(self):
         super().__init__(__cur_env__, localHostPortRelMap, envAndHostRelMap)
-        # self.refreshPigTenantToken()
+        self.refreshPigTenantToken()
 
     def buildGetHeaders(self):
         return {

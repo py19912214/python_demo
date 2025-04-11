@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb451603-6bb7-4430-8f30-80e0990c12a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/enterprise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/enterpriseTag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/individualFetchCount.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/individualFlow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/national.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount/externalService.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgSaasInvididual/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgSaasInvididual/bizService.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgSaasInvididual/cronJobService.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgSaasInvididual/individual.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshg/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshg/bizQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/bizQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshg/incomeSettlement.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/incomeSettlement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshg/individual.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/individual.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshg/individualCallBack.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/individualCallBack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshg/individualDetail.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/individualDetail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshg/individualProcess.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/individualProcess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshg/selectParam.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/selectParam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/common/HttpUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/common/HttpUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgSaasInvididual/individual.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgSaasInvididual/individual.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -580,7 +555,7 @@
       <workItem from="1743986407333" duration="5236000" />
       <workItem from="1743996287788" duration="5947000" />
       <workItem from="1744008961398" duration="14275000" />
-      <workItem from="1744079597593" duration="69701000" />
+      <workItem from="1744079597593" duration="69756000" />
     </task>
     <task id="LOCAL-00001" summary="重新搭建测试代码">
       <option name="closed" value="true" />
@@ -662,7 +637,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743989752608</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1">
+      <option name="closed" value="true" />
+      <created>1744359944576</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744359944576</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">

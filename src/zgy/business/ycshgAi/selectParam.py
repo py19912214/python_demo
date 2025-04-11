@@ -1,7 +1,7 @@
-from src.zgy.business.ycshg import PigYcshg
+from src.zgy.business.ycshgAi import PigYcshgAi
 
 
-class SelectParam(PigYcshg):
+class SelectParam(PigYcshgAi):
     def selectTagTree(self):
         data = {}
         response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/select-option/select-tag-tree',

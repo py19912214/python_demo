@@ -1,9 +1,9 @@
-from src.zgy.business.ycshg import PigYcshg
+from src.zgy.business.ycshgAi import PigYcshgAi
 
 pageParam = {
-    "period": 202504,
-    # "declareType": "COMPREHENSIVE_INCOME",
-    "declareType": "PRODUCTION_OPERATION",
+    "period": 202503,
+    "declareType": "COMPREHENSIVE_INCOME",
+    # "declareType": "PRODUCTION_OPERATION",
     # "keyword": "企业名称_01",
     # "taxNatureList": ["SMALL_SCALE_TAXPAYER", "GENERAL_TAXPAYER"],
     # "nsrStatusList": ["NORMAL", "INSPECTION"],
@@ -13,7 +13,7 @@ pageParam = {
     # "declareMessage": "商品名称",
     # "payMessage": "商品名称",
     # "serviceManagerId": [2],
-    # "accountIdList": [1],
+    # "accountIdList": [202504100000002],
     # "contractStopTime": {
     #     "start": 202502,
     #     "end": 202506,
@@ -44,6 +44,7 @@ pageParam = {
     #     "end": "2025-04-02",
     #     "symbol": "range",
     # },
+    "submissionStatusList": ["SUBMIT_SUCCESS", "WAIT_SUBMIT"],
     # "payrollStatusList": ["TASK_ING", "COMPLETED", "NO_UPLOAD"],
     # "reportStatusList": ["NOT_FILLED", "TO_BE_IMPROVED", "FILLED"],
     # # "hasSalaryIncomeFacieList": [False, True],
@@ -59,7 +60,7 @@ pageParam = {
 }
 
 
-class IndividualDetailService(PigYcshg):
+class IndividualDetailService(PigYcshgAi):
     def page(self):
         data = pageParam
         response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax-declare-detail/select-info-page',
@@ -78,8 +79,9 @@ class IndividualDetailService(PigYcshg):
 
     def updateStatus(self):
         data = {
-            "enterpriseIds": [1],
-            "period": 202504,
+            "enterpriseIds": [202504100000002],
+            "period": 202503,
+            # "taxType": "PRODUCTION_OPERATION",
             "taxType": "COMPREHENSIVE_INCOME",
         }
         response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax-declare-detail/update-status',
@@ -88,8 +90,9 @@ class IndividualDetailService(PigYcshg):
 
     def batchDeclare(self):
         data = {
-            "enterpriseIds": [1],
-            "period": 202504,
+            "enterpriseIds": [202504100000002],
+            "period": 202503,
+            # "taxType": "PRODUCTION_OPERATION",
             "taxType": "COMPREHENSIVE_INCOME",
         }
         response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax-declare-detail/batch-declare',
@@ -98,8 +101,9 @@ class IndividualDetailService(PigYcshg):
 
     def tagNoneDeclare(self):
         data = {
-            "enterpriseIds": [1],
-            "period": 202504,
+            "enterpriseIds": [202504100000002],
+            "period": 202503,
+            # "taxType": "PRODUCTION_OPERATION",
             "taxType": "COMPREHENSIVE_INCOME",
             "syncSalary": True
         }
@@ -109,8 +113,9 @@ class IndividualDetailService(PigYcshg):
 
     def removeTagNoneDeclare(self):
         data = {
-            "enterpriseIds": [1],
-            "period": 202504,
+            "enterpriseIds": [202504100000002],
+            "period": 202503,
+            # "taxType": "PRODUCTION_OPERATION",
             "taxType": "COMPREHENSIVE_INCOME",
             "syncSalary": True
         }
@@ -121,7 +126,7 @@ class IndividualDetailService(PigYcshg):
 
     def updateLevyTask(self):
         data = {
-            "enterpriseIds": [1],
+            "enterpriseIds": [202504100000002],
             "period": 202504
         }
         response = self.post(
@@ -140,10 +145,10 @@ processService = IndividualDetailService()
 # 同步状态
 # processService.updateStatus()
 # 批量申报
-# processService.batchDeclare()
+processService.batchDeclare()
 # 标记状态为无需申报
 # processService.tagNoneDeclare()
 # 取消标记状态为无需申报
 # processService.removeTagNoneDeclare()
 # 更新核定
-processService.updateLevyTask()
+# processService.updateLevyTask()

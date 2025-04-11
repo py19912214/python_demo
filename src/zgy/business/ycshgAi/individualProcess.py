@@ -1,58 +1,58 @@
-from src.zgy.business.ycshg import PigYcshg
+from src.zgy.business.ycshgAi import PigYcshgAi
 
 pageParam = {
     "period": 202504,
-    "keyword": "企业名称_01",
-    "taxNature": ["SMALL_SCALE_TAXPAYER", "GENERAL_TAXPAYER"],
-    "salaryConfirmWay": ["ACCRUAL_LAST_ISSUED_LAST", "ACCRUAL_NOW_ISSUED_LAST"],
-    "productName": "商品名称",
-    "serviceManagerIdList": [2],
-    "accountIdList": [1],
-    "contractStopTime": {
-        "start": 202502,
-        "end": 202506,
-        "symbol": "range",
-    },
-    "openTime": {
-        "start": "2025-04-01",
-        "end": "2025-04-02",
-        "symbol": "range",
-    },
-    "payrollTime": {
-        "start": "2025-04-01",
-        "end": "2025-04-02",
-        "symbol": "range",
-    },
-    "ciFacieTime": {
-        "start": "2025-04-01",
-        "end": "2025-04-02",
-        "symbol": "range",
-    },
-    "ciDeclareTime": {
-        "start": "2025-04-01",
-        "end": "2025-04-02",
-        "symbol": "range",
-    },
-    "ciPayTime": {
-        "start": "2025-04-01",
-        "end": "2025-04-02",
-        "symbol": "range",
-    },
-    "poFacieTime": {
-        "start": "2025-04-01",
-        "end": "2025-04-02",
-        "symbol": "range",
-    },
-    "poDeclareTime": {
-        "start": "2025-04-01",
-        "end": "2025-04-02",
-        "symbol": "range",
-    },
-    "poPayTime": {
-        "start": "2025-04-01",
-        "end": "2025-04-02",
-        "symbol": "range",
-    },
+    # "keyword": "企业名称_01",
+    # "taxNature": ["SMALL_SCALE_TAXPAYER", "GENERAL_TAXPAYER"],
+    # "salaryConfirmWay": ["ACCRUAL_LAST_ISSUED_LAST", "ACCRUAL_NOW_ISSUED_LAST"],
+    # "productName": "商品名称",
+    # "serviceManagerIdList": [2],
+    # "accountIdList": [1],
+    # "contractStopTime": {
+    #     "start": 202502,
+    #     "end": 202506,
+    #     "symbol": "range",
+    # },
+    # "openTime": {
+    #     "start": "2025-04-01",
+    #     "end": "2025-04-02",
+    #     "symbol": "range",
+    # },
+    # "payrollTime": {
+    #     "start": "2025-04-01",
+    #     "end": "2025-04-02",
+    #     "symbol": "range",
+    # },
+    # "ciFacieTime": {
+    #     "start": "2025-04-01",
+    #     "end": "2025-04-02",
+    #     "symbol": "range",
+    # },
+    # "ciDeclareTime": {
+    #     "start": "2025-04-01",
+    #     "end": "2025-04-02",
+    #     "symbol": "range",
+    # },
+    # "ciPayTime": {
+    #     "start": "2025-04-01",
+    #     "end": "2025-04-02",
+    #     "symbol": "range",
+    # },
+    # "poFacieTime": {
+    #     "start": "2025-04-01",
+    #     "end": "2025-04-02",
+    #     "symbol": "range",
+    # },
+    # "poDeclareTime": {
+    #     "start": "2025-04-01",
+    #     "end": "2025-04-02",
+    #     "symbol": "range",
+    # },
+    # "poPayTime": {
+    #     "start": "2025-04-01",
+    #     "end": "2025-04-02",
+    #     "symbol": "range",
+    # },
     # "openStatusList": ["SUCCESS"],
     # "payrollStatusList": ["TASK_ING", "COMPLETED", "NO_UPLOAD"],
     # "hasCiFacieList": [False, True],
@@ -63,11 +63,11 @@ pageParam = {
     # "poTaxAmount": "ABOVE_ONE",
     # "poDeclareStatusList": ["WAIT_DECLARE"],
     # "poPayStatusList": ["WAIT_PAY"],
-    "tagIds": [1, 2],
+    # "tagIds": [1, 2],
 }
 
 
-class IndividualProcessService(PigYcshg):
+class IndividualProcessService(PigYcshgAi):
     def page(self):
         data = pageParam
         response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax-declare-process/select-info-page',
@@ -76,7 +76,7 @@ class IndividualProcessService(PigYcshg):
 
     def declareConfirm(self):
         data = {
-            "enterpriseId": 1,
+            "enterpriseId": 202504100000002,
             "period": 202504,
             "comprehensiveIncome": {
                 "taxAmount": 0,
@@ -118,8 +118,8 @@ class IndividualProcessService(PigYcshg):
 
 individualProcessService = IndividualProcessService()
 # 分页查询
-# individualProcessService.page()
+individualProcessService.page()
 # 申报确认
 # individualProcessService.declareConfirm()
 # 导出
-individualProcessService.export("C:\\Users\\admin\\Desktop\\发票开具项目信息导入模板123.xlsx")
+# individualProcessService.export("C:\\Users\\admin\\Desktop\\发票开具项目信息导入模板123.xlsx")

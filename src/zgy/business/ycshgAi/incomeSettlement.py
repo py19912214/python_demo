@@ -1,4 +1,4 @@
-from src.zgy.business.ycshg import PigYcshg
+from src.zgy.business.ycshgAi import PigYcshgAi
 
 pageParam = {
     "year": 2025,
@@ -10,7 +10,7 @@ pageParam = {
     # "declareMessage": "declareMessage",
     # "payMessage": "payMessage",
     # "serviceManagerIdList": [2],
-    # "accountIdList": [1],
+    # "accountIdList": [202504100000002],
     # "contractStopTime": {
     #     "start": 202502,
     #     "end": 202506,
@@ -43,7 +43,7 @@ pageParam = {
 }
 
 
-class IncomeSettlementProcessService(PigYcshg):
+class IncomeSettlementProcessService(PigYcshgAi):
     def page(self):
         data = pageParam
         response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/business-income-settlement/v1/select-info-page',
@@ -52,8 +52,8 @@ class IncomeSettlementProcessService(PigYcshg):
 
     def updateLevy(self):
         data = {
-            "enterpriseIds": [1],
-            "year": 2025,
+            "enterpriseIds": [202504100000002],
+            "year": 2024,
         }
         response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/business-income-settlement/v1/update-levy',
                              data)
@@ -61,7 +61,7 @@ class IncomeSettlementProcessService(PigYcshg):
 
     def fetchCount(self):
         data = {
-            "enterpriseIds": [1],
+            "enterpriseIds": [202504100000002],
             "year": 2025,
         }
         response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/business-income-settlement/v1/fetch-count',
@@ -70,8 +70,8 @@ class IncomeSettlementProcessService(PigYcshg):
 
     def batchDeclare(self):
         data = {
-            "enterpriseIds": [1],
-            "year": 2025,
+            "enterpriseIds": [202504100000002],
+            "year": 2024,
         }
         response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/business-income-settlement/v1/batch-declare',
                              data)
@@ -79,7 +79,7 @@ class IncomeSettlementProcessService(PigYcshg):
 
     def tagNoneDeclare(self):
         data = {
-            "enterpriseIds": [1],
+            "enterpriseIds": [202504100000002],
             "year": 2025,
         }
         response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/business-income-settlement/v1/tag-none-declare',
@@ -88,7 +88,7 @@ class IncomeSettlementProcessService(PigYcshg):
 
     def removeTagNoneDeclare(self):
         data = {
-            "enterpriseIds": [1],
+            "enterpriseIds": [202504100000002],
             "year": 2025,
         }
         response = self.post(
@@ -98,8 +98,8 @@ class IncomeSettlementProcessService(PigYcshg):
 
     def updateStatus(self):
         data = {
-            "enterpriseIds": [1],
-            "year": 2025,
+            "enterpriseIds": [202504100000002],
+            "year": 2024,
         }
         response = self.post(
             '/ycshg-ai-platform-produce-hgdz-biz/yk/business-income-settlement/v1/update-status',
@@ -131,6 +131,6 @@ processService = IncomeSettlementProcessService()
 # 取消标记状态为无需申报
 # processService.removeTagNoneDeclare()
 # 更新状态
-# processService.updateStatus()
+processService.updateStatus()
 # 导出
-processService.export("C:\\Users\\admin\\Desktop\\incomeSettlement.xlsx")
+# processService.export("C:\\Users\\admin\\Desktop\\incomeSettlement.xlsx")

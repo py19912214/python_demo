@@ -1,7 +1,7 @@
-from src.zgy.business.ycshg import PigYcshg
+from src.zgy.business.ycshgAi import PigYcshgAi
 
 
-class BizQueue(PigYcshg):
+class BizQueue(PigYcshgAi):
     def getBusinessTaskQueueParam(self):
         data = {}
         response = self.post(
@@ -20,9 +20,9 @@ class BizQueue(PigYcshg):
             data)
         print(response.text)
 
-    def retryById(self):
+    def retryById(self, taskIdList):
         data = {
-            "taskIdList": [1]
+            "taskIdList": taskIdList
         }
         response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/business/queue/v1/retryById',
                              data)
@@ -35,4 +35,4 @@ processService = BizQueue()
 # 分页查询批量任务队列
 # processService.selectPageBusinessTaskQueue()
 # 根据id进行重试
-processService.retryById()
+processService.retryById([331598872772608])

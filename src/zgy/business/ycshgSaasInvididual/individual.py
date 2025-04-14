@@ -24,7 +24,19 @@ class IndividualService(PigYcshgSaasIndividualBiz):
                                 data)
         print(response.text)
 
+    def get_company_info_from_jcsk(self):
+        data = {
+            "taxNo": "91510000734863892D",
+            "taxAreaCode": "151",
+            "loginType": "INDIVIDUAL_TAX_PASSWORD",
+            "password": "123456"
+        }
+        response = self.apiPost("/ycshg-saas-individual-tax-business/nk/external/register/v1/get_company_info_from_jcsk",
+                                data)
+        print(response.text)
+
 
 processService = IndividualService()
-processService.get_authorized()
-processService.get_login_url()
+# processService.get_authorized()
+# processService.get_login_url()
+processService.get_company_info_from_jcsk()

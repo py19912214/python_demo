@@ -14,7 +14,7 @@ class IndividualCallBackService(PigYcshgAi):
     def syncInfo(self):
         data = {
             "tpEnterpriseId": 331059305594882,
-            "jsonObject": {"jcxx": [{"djzclx_mc": "个体工商户11", "zgswj_mc": "主税务机关名称", "nsrzt_dm": "03"}]}
+            "jsonObject": {"jcxx": [{"djzclx_mc": "个体工商户", "zgswj_mc": "主税务机关名称", "nsrzt_dm": "03"}]}
         }
         response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-tax/v1/sync-info',
                              data)

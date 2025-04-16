@@ -16,7 +16,7 @@ envAndHostRelMap = {
 
 __cur_env__ = dev
 __x_platform_source__ = '22'
-__tenant_id__ = '3265317069619200000'
+__tenant_id__ = '3211194104545280000'
 __tenant_user_id__ = '326531707174917'
 __tenant_user_name__ = '123123'
 

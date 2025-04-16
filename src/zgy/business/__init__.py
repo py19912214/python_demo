@@ -30,13 +30,13 @@ class CommonParent:
         timestamp_milliseconds = int(timestamp_seconds * 1000)
         signatureMap = {}
         signatureMap["app-key"] = self.appKey
-        signatureMap["nonce-str"] = "aQXvVBK37CWRX19NjVsJ8pQuYihjuhZv"
+        signatureMap["nonce-str"] = "s0jdIG2w1XFKOdJPFX3iX3DLHtl8Cco4"
         signatureMap["timestamp"] = str(timestamp_milliseconds)
         signatureMap["data"] = data
         # 对字典按键排序
         sorted_data = dict(sorted(signatureMap.items()))
         # 将排序后的字典转换为 JSON 字符串
-        data_str = json.dumps(sorted_data, separators=(',', ':'))
+        data_str = json.dumps(sorted_data, separators=(',', ':'), ensure_ascii=False)
         data_bytes = data_str.encode('utf-8')
         h = hmac.new(self.appSecret.encode('utf-8'), digestmod=hashlib.sha256)
         h.update(data_bytes)

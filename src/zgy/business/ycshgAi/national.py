@@ -5,7 +5,7 @@ class NationalService(PigYcshgAi):
 
     def open(self):
         data = {
-            "enterpriseId": "202504100000002",
+            "enterpriseId": "202504080000001",
             "taxArea": "CODE_51",
             "loginType": "UNIFIED_LOGIN",
             "identityType": "FDDBR",
@@ -27,5 +27,5 @@ class NationalService(PigYcshgAi):
 
 
 processService = NationalService()
-# 注册
+# 开通国税
 processService.open()

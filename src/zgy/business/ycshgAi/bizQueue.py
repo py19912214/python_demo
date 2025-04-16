@@ -2,21 +2,23 @@ from src.zgy.business.ycshgAi import PigYcshgAi
 
 
 class BizQueue(PigYcshgAi):
-    def getBusinessTaskQueueParam(self):
-        data = {}
+    def groupRunningCount(self):
+        data = {
+            "moduleList": ["PRODUCTION_OPERATION_ANNUAL_REPORT"]
+        }
         response = self.post(
-            '/ycshg-ai-platform-produce-hgdz-biz/yk/business-task-queue/v1/get-business-task-queue-param',
+            '/ycshg-ai-platform-produce-hgdz-biz/yk/queue-task/group-running-count',
             data)
         print(response.text)
 
-    def selectPageBusinessTaskQueue(self):
+    def page(self):
         data = {
-            "taskModule": "SPEEDY_PERSONAL_TAX",
-            "taskFunction": "UPDATE_LEVY",
-            "taskStatus": "RUNNING",
+            "module": "SPEEDY_PERSONAL_TAX",
+            "function": "BATCH_DECLARE",
+            "status": "SUCCESS",
         }
         response = self.post(
-            '/ycshg-ai-platform-produce-hgdz-biz/yk/business-task-queue/v1/select-page-business-task-queue',
+            '/ycshg-ai-platform-produce-hgdz-biz/yk/queue-task/select-page',
             data)
         print(response.text)
 
@@ -24,15 +26,15 @@ class BizQueue(PigYcshgAi):
         data = {
             "taskIdList": taskIdList
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/business/queue/v1/retryById',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/business/queue/v1/reportRetryById',
                              data)
         print(response.text)
 
 
 processService = BizQueue()
 # 批量任务队列页面查询参数
-# processService.getBusinessTaskQueueParam()
+# processService.groupRunningCount()
 # 分页查询批量任务队列
-# processService.selectPageBusinessTaskQueue()
+# processService.page()
 # 根据id进行重试
-processService.retryById([331598872772608])
+processService.retryById([332379238645760])

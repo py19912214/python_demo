@@ -1,7 +1,7 @@
 from src.zgy.business.ycshgAi import PigYcshgAi
 
 pageParam = {
-    "year": 2025,
+    "year": 2024,
     # "keyword": "企业名称_01",
     # "taxNatureList": ["SMALL_SCALE_TAXPAYER", "GENERAL_TAXPAYER"],
     # "nsrStatusList": ["NORMAL", "INSPECTION"],
@@ -62,7 +62,7 @@ class IncomeSettlementProcessService(PigYcshgAi):
     def fetchCount(self):
         data = {
             "enterpriseIds": [202504100000002],
-            "year": 2025,
+            "year": 2023,
         }
         response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/business-income-settlement/v1/fetch-count',
                              data)
@@ -123,7 +123,7 @@ processService = IncomeSettlementProcessService()
 # 更新核定
 # processService.updateLevy()
 # 获取财务数据
-# processService.fetchCount()
+processService.fetchCount()
 # 批量申报
 # processService.batchDeclare()
 # 标记状态为无需申报
@@ -131,6 +131,6 @@ processService = IncomeSettlementProcessService()
 # 取消标记状态为无需申报
 # processService.removeTagNoneDeclare()
 # 更新状态
-processService.updateStatus()
+# processService.updateStatus()
 # 导出
 # processService.export("C:\\Users\\admin\\Desktop\\incomeSettlement.xlsx")

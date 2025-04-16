@@ -12,6 +12,7 @@ class IndividualService(PigYcshgSaasIndividualBiz):
         response = self.apiPost("/ycshg-saas-individual-tax-business/nk/external/register/v1/get_authorized",
                                 data)
         print(response.text)
+
     def get_login_url(self):
         data = {
             "userId": "151",
@@ -31,7 +32,20 @@ class IndividualService(PigYcshgSaasIndividualBiz):
             "loginType": "INDIVIDUAL_TAX_PASSWORD",
             "password": "123456"
         }
-        response = self.apiPost("/ycshg-saas-individual-tax-business/nk/external/register/v1/get_company_info_from_jcsk",
+        response = self.apiPost(
+            "/ycshg-saas-individual-tax-business/nk/external/register/v1/get_company_info_from_jcsk",
+            data)
+        print(response.text)
+
+    def get_financial_data(self):
+        data = {
+            # 注意这里要区分字符串和数字
+            "companyInfoId": "331414076342276",
+            "declarePeriod": 202312,
+            "userName": "潘月",
+            "userId": "329774038007808"
+        }
+        response = self.apiPost("/ycshg-saas-individual-tax-business/nk/external/year/v1/production/get_financial_data",
                                 data)
         print(response.text)
 
@@ -39,4 +53,6 @@ class IndividualService(PigYcshgSaasIndividualBiz):
 processService = IndividualService()
 # processService.get_authorized()
 # processService.get_login_url()
-processService.get_company_info_from_jcsk()
+# processService.get_company_info_from_jcsk()
+processService.get_financial_data()
+# 365c82e571d32ab83c5be882cb9b655e02b1ac5dc4d433dead3d3ef95a1d50e2

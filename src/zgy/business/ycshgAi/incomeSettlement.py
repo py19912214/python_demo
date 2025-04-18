@@ -119,11 +119,11 @@ class IncomeSettlementProcessService(PigYcshgAi):
 
 processService = IncomeSettlementProcessService()
 # 分页查询
-# processService.page()
+processService.page()
 # 更新核定
 # processService.updateLevy()
 # 获取财务数据
-processService.fetchCount()
+# processService.fetchCount()
 # 批量申报
 # processService.batchDeclare()
 # 标记状态为无需申报

@@ -44,7 +44,7 @@ pageParam = {
     #     "end": "2025-04-02",
     #     "symbol": "range",
     # },
-    "submissionStatusList": ["SUBMIT_SUCCESS", "WAIT_SUBMIT"],
+    # "submissionStatusList": ["SUBMIT_SUCCESS", "WAIT_SUBMIT"],
     # "payrollStatusList": ["TASK_ING", "COMPLETED", "NO_UPLOAD"],
     # "reportStatusList": ["NOT_FILLED", "TO_BE_IMPROVED", "FILLED"],
     # # "hasSalaryIncomeFacieList": [False, True],
@@ -137,7 +137,7 @@ class IndividualDetailService(PigYcshgAi):
 
 processService = IndividualDetailService()
 # 分页查询
-# processService.page()
+processService.page()
 # 申报确认
 # processService.declareConfirm()
 # 导出
@@ -145,7 +145,7 @@ processService = IndividualDetailService()
 # 同步状态
 # processService.updateStatus()
 # 批量申报
-processService.batchDeclare()
+# processService.batchDeclare()
 # 标记状态为无需申报
 # processService.tagNoneDeclare()
 # 取消标记状态为无需申报

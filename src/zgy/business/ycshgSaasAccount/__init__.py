@@ -1,4 +1,3 @@
-import json
 import urllib.parse
 
 from src.zgy.business import *
@@ -6,14 +5,26 @@ from src.zgy.business import *
 localHostPortRelMap = {
     "/hgdz-account-book-external/": "9708",
 }
+
+appKeyEnvRelMap = {
+    "dev": {
+        "appKey": "4awSsox7",
+        "appSecret": "48c79557c35ef8c772b035afa860bdf9a365ab24"
+    },
+    "test": {
+        "appKey": "4awSsox7",
+        "appSecret": "48c79557c35ef8c772b035afa860bdf9a365ab24"
+    }
+}
+
 envAndHostRelMap = {
     localHost: localHost_prefix,
     dev: ycshg_dev,
-    test: ycshg_test,
+    test: ycshg_jzgj_test,
     prod: ycshg_prod
 }
 
-__cur_env__ = dev
+__cur_env__ = test
 __x_platform_source__ = '22'
 __tenant_id__ = '3265317069619200000'
 __tenant_user_id__ = '326531707174917'
@@ -23,7 +34,7 @@ __tenant_user_name__ = '123123'
 class PigYcshgSaasAccount(CommonParent):
     def __init__(self):
         super().__init__(__cur_env__, localHostPortRelMap, envAndHostRelMap)
-        # self.refreshPigTenantToken()
+        super().setAppKey(appKeyEnvRelMap)
 
     def buildGetHeaders(self):
         return {

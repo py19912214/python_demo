@@ -4,7 +4,7 @@ from src.zgy.business.ycshgAi import PigYcshgAi
 class IndividualCallBackService(PigYcshgAi):
     def syncLoginError(self):
         data = {
-            "tpCompanyIdList": [1],
+            "tpCompanyIdList": [331414076342276],
             "msg": "错误信息123123"
         }
         response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-tax/v1/sync-login-error',
@@ -13,7 +13,7 @@ class IndividualCallBackService(PigYcshgAi):
 
     def syncInfo(self):
         data = {
-            "tpEnterpriseId": 331059305594882,
+            "tpEnterpriseId": 332527594602500,
             "jsonObject": {"jcxx": [{"djzclx_mc": "个体工商户", "zgswj_mc": "主税务机关名称", "nsrzt_dm": "03"}]}
         }
         response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-tax/v1/sync-info',
@@ -31,7 +31,7 @@ class IndividualCallBackService(PigYcshgAi):
 
     def syncDeclareStatus(self):
         data = {
-            "period": 202504,
+            "period": 202805,
             "type": "COMPREHENSIVE_INCOME",
             "tpEnterpriseId": 331059305594882,
             "enterpriseId": 1,
@@ -182,9 +182,9 @@ class IndividualCallBackService(PigYcshgAi):
 
 processService = IndividualCallBackService()
 # 同步开通信息登陆失败
-# processService.syncLoginError()
+processService.syncLoginError()
 # 同步个税信息
-processService.syncInfo()
+# processService.syncInfo()
 # 同步人员送报信息
 # processService.syncSubmissionStatus()
 # 同步报表申报缴款状态

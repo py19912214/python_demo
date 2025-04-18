@@ -21,8 +21,11 @@ class CommonParent:
         self.envAndHostRelMap = envAndHostRelMap
 
     def setAppKey(self, appKeyEnvRelMap):
-        self.appKey = appKeyEnvRelMap.get(self.cur_env).get("appKey")
-        self.appSecret = appKeyEnvRelMap.get(self.cur_env).get("appSecret")
+        cur_env_1 = self.cur_env
+        if (self.cur_env == localHost):
+            cur_env_1 = dev
+        self.appKey = appKeyEnvRelMap.get(cur_env_1).get("appKey")
+        self.appSecret = appKeyEnvRelMap.get(cur_env_1).get("appSecret")
 
     def buildApiHeader(self, data):
         now = datetime.datetime.now()

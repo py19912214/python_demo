@@ -37,4 +37,4 @@ processService = BizQueue()
 # 分页查询批量任务队列
 # processService.page()
 # 根据id进行重试
-processService.retryById([332379238645760])
+processService.retryById([332545356414976])

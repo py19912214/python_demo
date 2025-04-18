@@ -109,11 +109,11 @@ processService = IndividualService()
 # 注册开通前的登录密码检查
 # processService.checkPasswordBeforeRegister()
 # 注册
-processService.register()
+# processService.register()
 # 获取注册信息
 # processService.getRegisterInfo()
 # 更新注册信息
-# processService.updateRegisterInfo()
+processService.updateRegisterInfo()
 # 获取个税地址
 # processService.getIndividualUrl()
 # 标记为无需申报

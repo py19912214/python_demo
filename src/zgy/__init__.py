@@ -22,3 +22,5 @@ pig_merchant_prod = 'https://test-new-merchant.joolgo.cn/api'
 ycshg_dev = 'http://dev-ycsplatform.joolgo.cn/api'
 ycshg_test = 'http://test-ycsisp.joolgo.cn/api'
 ycshg_prod = 'https://test-new-merchant.joolgo.cn/api'
+# 记账工具
+ycshg_jzgj_test = 'http://test-erpgateway.joolgo.cn'

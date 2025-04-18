@@ -13,6 +13,18 @@ class ExternalService(PigYcshgSaasAccount):
             data)
         print(response.text)
 
+    def select_list(self):
+        data = {
+            "accountBookId": '3314140699852800000',
+            "source": 'HGDZ',
+            "periodList": [202501]
+        }
+        response = self.apiPost(
+            "/hgdz-account-book-external/nk/external/no-ticket/v1/select-list",
+            data)
+        print(response.text)
+
 
 processService = ExternalService()
-# processService.get_invoice_info()
+processService.get_invoice_info()
+# processService.select_list()

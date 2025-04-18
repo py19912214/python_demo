@@ -1,7 +1,7 @@
 from src.zgy.business.ycshgAi import PigYcshgAi
 
 pageParam = {
-    "period": 202504,
+    "period": 202503,
     # "keyword": "企业名称_01",
     # "taxNature": ["SMALL_SCALE_TAXPAYER", "GENERAL_TAXPAYER"],
     # "salaryConfirmWay": ["ACCRUAL_LAST_ISSUED_LAST", "ACCRUAL_NOW_ISSUED_LAST"],
@@ -55,7 +55,7 @@ pageParam = {
     # },
     # "openStatusList": ["SUCCESS"],
     # "payrollStatusList": ["TASK_ING", "COMPLETED", "NO_UPLOAD"],
-    # "hasCiFacieList": [False, True],
+    # "hasCiFacieList": ['null'],
     # "ciTaxAmount": "BELOW_EQUAL_ONE",
     # "ciDeclareStatusList": ["WAIT_DECLARE"],
     # "ciPayStatusList": ["WAIT_PAY"],

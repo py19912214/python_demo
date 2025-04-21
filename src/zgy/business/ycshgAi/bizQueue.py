@@ -22,11 +22,11 @@ class BizQueue(PigYcshgAi):
             data)
         print(response.text)
 
-    def retryById(self, taskIdList):
+    def replay(self, taskId):
         data = {
-            "taskIdList": taskIdList
+            "id": taskId
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/business/queue/v1/reportRetryById',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/task-test/queue/replay',
                              data)
         print(response.text)
 
@@ -37,4 +37,4 @@ processService = BizQueue()
 # 分页查询批量任务队列
 # processService.page()
 # 根据id进行重试
-processService.retryById([332545356414976])
+processService.replay(332545356414976)

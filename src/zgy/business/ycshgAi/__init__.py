@@ -14,7 +14,7 @@ envAndHostRelMap = {
     prod: ycshg_prod
 }
 
-__cur_env__ = localHost
+__cur_env__ = dev
 __x_platform_source__ = '22'
 __tenant_id__ = '3211194104545280000'
 __tenant_user_id__ = '329774038007808'

@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb451603-6bb7-4430-8f30-80e0990c12a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount/apiCallService.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgAi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgAi/bizQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/bizQueue.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgAi/enterprise.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/enterprise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgAi/incomeSettlement.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/incomeSettlement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgAi/individual.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/individual.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgAi/individualCallBack.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/individualCallBack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgAi/individualDetail.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/individualDetail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgAi/individualProcess.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/individualProcess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount/externalService.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount/externalService.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,49 +255,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.BlueInvoiceManager (1).executor": "Run",
-    "Python.BlueInvoiceManager.executor": "Run",
-    "Python.PigKjscMerchantService.executor": "Run",
-    "Python.TestFrameworkController.executor": "Run",
-    "Python.__init__ (1).executor": "Run",
-    "Python.__init__.executor": "Run",
-    "Python.account.executor": "Run",
-    "Python.apiCallService.executor": "Run",
-    "Python.bizQueue.executor": "Debug",
-    "Python.bizService (1).executor": "Debug",
-    "Python.bizService.executor": "Run",
-    "Python.cronJobService.executor": "Run",
-    "Python.enterprise.executor": "Run",
-    "Python.enterpriseTag.executor": "Run",
-    "Python.externalService (1).executor": "Run",
-    "Python.externalService.executor": "Run",
-    "Python.incomeSettlement.executor": "Run",
-    "Python.individual (1).executor": "Run",
-    "Python.individual.executor": "Run",
-    "Python.individualCallBack (1).executor": "Run",
-    "Python.individualCallBack.executor": "Run",
-    "Python.individualDetail.executor": "Run",
-    "Python.individualFetchCount.executor": "Run",
-    "Python.individualFlow.executor": "Run",
-    "Python.individualProcess.executor": "Run",
-    "Python.national.executor": "Run",
-    "Python.selectParam.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.ycshgSaasIndividualTaxBusiness.executor": "Run",
-    "Python.ycshgSaasIndividualTaxCronJob.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/py/python/work/python_demo/src/zgy/business/ycshgSaasAccount",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.BlueInvoiceManager (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.BlueInvoiceManager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PigKjscMerchantService.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TestFrameworkController.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__ (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.account.executor&quot;: &quot;Run&quot;,
+    &quot;Python.apiCallService.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bizQueue.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.bizService (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.bizService.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cronJobService.executor&quot;: &quot;Run&quot;,
+    &quot;Python.enterprise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.enterpriseTag.executor&quot;: &quot;Run&quot;,
+    &quot;Python.externalService (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.externalService.executor&quot;: &quot;Run&quot;,
+    &quot;Python.incomeSettlement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.individual (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.individual.executor&quot;: &quot;Run&quot;,
+    &quot;Python.individualCallBack (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.individualCallBack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.individualDetail.executor&quot;: &quot;Run&quot;,
+    &quot;Python.individualFetchCount.executor&quot;: &quot;Run&quot;,
+    &quot;Python.individualFlow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.individualProcess.executor&quot;: &quot;Run&quot;,
+    &quot;Python.national.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selectParam.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ycshgSaasIndividualTaxBusiness.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ycshgSaasIndividualTaxCronJob.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/py/python/work/python_demo/src/zgy/business/ycshgSaasAccount&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\py\python\work\python_demo\src\zgy\business\ycshgSaasAccount" />
@@ -320,7 +310,7 @@
       <recent name="D:\py\python\work\python_demo\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.apiCallService">
+  <component name="RunManager" selected="Python.enterprise">
     <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -419,6 +409,29 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method v="2" />
     </configuration>
+    <configuration name="enterprise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_demo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/zgy/business/ycshgAi/enterprise.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="externalService" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_demo" />
       <option name="ENV_FILES" value="" />
@@ -488,29 +501,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="individualProcess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_demo" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/zgy/business/ycshgAi/individualProcess.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -522,19 +512,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.b" />
+      <item itemvalue="Python.enterprise" />
       <item itemvalue="Python.apiCallService" />
       <item itemvalue="Python.incomeSettlement" />
       <item itemvalue="Python.individualDetail" />
       <item itemvalue="Python.externalService" />
-      <item itemvalue="Python.individualProcess" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.enterprise" />
         <item itemvalue="Python.apiCallService" />
         <item itemvalue="Python.externalService" />
         <item itemvalue="Python.individualDetail" />
         <item itemvalue="Python.incomeSettlement" />
-        <item itemvalue="Python.individualProcess" />
       </list>
     </recent_temporary>
   </component>
@@ -576,7 +566,8 @@
       <workItem from="1744698983930" duration="16143000" />
       <workItem from="1744790288209" duration="4071000" />
       <workItem from="1744799059245" duration="13709000" />
-      <workItem from="1744944487879" duration="4323000" />
+      <workItem from="1744944487879" duration="4606000" />
+      <workItem from="1745202318176" duration="3642000" />
     </task>
     <task id="LOCAL-00001" summary="重新搭建测试代码">
       <option name="closed" value="true" />
@@ -690,7 +681,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744766987205</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="1">
+      <option name="closed" value="true" />
+      <created>1744967319499</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744967319499</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -783,8 +782,8 @@
     <SUITE FILE_PATH="coverage/python_demo$bizService__1_.coverage" NAME="bizService (1) Coverage Results" MODIFIED="1744359315784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasInvididual" />
     <SUITE FILE_PATH="coverage/python_demo$individual.coverage" NAME="individual Coverage Results" MODIFIED="1744871288325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
     <SUITE FILE_PATH="coverage/python_demo$TestFrameworkController.coverage" NAME="TestFrameworkController Coverage Results" MODIFIED="1742029563785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigRpaGsAnnualReport" />
+    <SUITE FILE_PATH="coverage/python_demo$apiCallService.coverage" NAME="apiCallService Coverage Results" MODIFIED="1744967162348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount" />
     <SUITE FILE_PATH="coverage/python_demo$account.coverage" NAME="account Coverage Results" MODIFIED="1744251140993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
-    <SUITE FILE_PATH="coverage/python_demo$apiCallService.coverage" NAME="apiCallService Coverage Results" MODIFIED="1744967139592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount" />
     <SUITE FILE_PATH="coverage/python_demo$individualCallBack.coverage" NAME="individualCallBack Coverage Results" MODIFIED="1744871328718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
     <SUITE FILE_PATH="coverage/python_demo$individualDetail.coverage" NAME="individualDetail Coverage Results" MODIFIED="1744964891752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
     <SUITE FILE_PATH="coverage/python_demo$externalService__1_.coverage" NAME="externalService (1) Coverage Results" MODIFIED="1744254026382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount" />
@@ -807,7 +806,7 @@
     <SUITE FILE_PATH="coverage/python_demo$national.coverage" NAME="national Coverage Results" MODIFIED="1744710166623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
     <SUITE FILE_PATH="coverage/python_demo$cronJobService.coverage" NAME="cronJobService Coverage Results" MODIFIED="1744352854478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasInvididual" />
     <SUITE FILE_PATH="coverage/python_demo$externalService.coverage" NAME="externalService Coverage Results" MODIFIED="1744966307515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount" />
-    <SUITE FILE_PATH="coverage/python_demo$enterprise.coverage" NAME="enterprise Coverage Results" MODIFIED="1744945078832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
+    <SUITE FILE_PATH="coverage/python_demo$enterprise.coverage" NAME="enterprise Coverage Results" MODIFIED="1745205457190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/uat/common/Util.py">

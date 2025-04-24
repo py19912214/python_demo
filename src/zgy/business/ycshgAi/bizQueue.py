@@ -26,7 +26,7 @@ class BizQueue(PigYcshgAi):
         data = {
             "id": taskId
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/task-test/queue/replay',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/task-test/queue/replay?id='+taskId,
                              data)
         print(response.text)
 
@@ -37,4 +37,4 @@ processService = BizQueue()
 # 分页查询批量任务队列
 # processService.page()
 # 根据id进行重试
-processService.replay(332545356414976)
+processService.replay('333643860393984')

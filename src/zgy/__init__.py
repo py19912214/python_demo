@@ -18,9 +18,10 @@ pig_merchant_test = 'https://test-new-merchant.joolgo.cn/api'
 pig_merchant_prod = 'https://test-new-merchant.joolgo.cn/api'
 
 # 定义URL 业财税合规
-# ycshg_dev = 'http://dev-ycsisp.joolgo.cn/api'
-ycshg_dev = 'http://dev-ycsplatform.joolgo.cn/api'
-ycshg_test = 'http://test-ycsisp.joolgo.cn/api'
+ycshg_dev = 'http://dev-ycsisp.joolgo.cn/api'
+# ycshg_dev = 'http://dev-shop.hegui.com/api'
+ycshg_test = 'http://test-shop.hegui.cn/api'
 ycshg_prod = 'https://test-new-merchant.joolgo.cn/api'
 # 记账工具
-ycshg_jzgj_test = 'http://test-erpgateway.joolgo.cn'
+ycshg_jzgj_test = 'http://test-erpgateway.hegui.cn'
+ycshg_jzgj_test1 = 'http://test-hgdz-jzptbackstage.hegui.cn'

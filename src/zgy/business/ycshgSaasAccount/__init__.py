@@ -20,7 +20,7 @@ appKeyEnvRelMap = {
 envAndHostRelMap = {
     localHost: localHost_prefix,
     dev: ycshg_dev,
-    test: ycshg_jzgj_test,
+    test: ycshg_jzgj_test1,
     prod: ycshg_prod
 }
 

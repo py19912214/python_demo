@@ -105,11 +105,11 @@ class IndividualCallBackService(PigYcshgAi):
 
     def syncLevyInfo(self):
         data = {
-            "companyId": 1,
-            "period": 202504,
+            "companyId": 332527774957572,
+            "method": "AUDIT_COLLECTION",
+            "period": 202503,
             "taxDeadline": "MONTHLY",
-            "method": "REGULAR_QUOTA",
-            "taxIdentification": "OTHERS_INCOME_RATIO"
+            "taxIdentification": "ACTUAL_PREPAY"
         }
         response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-tax/v1/production/sync-levy-info',
                              data)
@@ -182,7 +182,7 @@ class IndividualCallBackService(PigYcshgAi):
 
 processService = IndividualCallBackService()
 # 同步开通信息登陆失败
-processService.syncLoginError()
+# processService.syncLoginError()
 # 同步个税信息
 # processService.syncInfo()
 # 同步人员送报信息
@@ -196,7 +196,7 @@ processService.syncLoginError()
 # 同步完税证明
 # processService.syncDutyPaidProof()
 # # 同步核定信息
-# processService.syncLevyInfo()
+processService.syncLevyInfo()
 # 生产经营同步报表申报缴款状态
 # processService.syncProductionDeclareStatus()
 # 生产经营同步报表信息

@@ -15,11 +15,11 @@ envAndHostRelMap = {
     prod: ycshg_prod
 }
 
-__cur_env__ = dev
+__cur_env__ = localHost
 __x_platform_source__ = '22'
 __tenant_id__ = '3211194104545280000'
 __tenant_user_id__ = '329774038007808'
-__tenant_user_name__ = quote(str('小潘同学'), encoding='GBK')
+__tenant_user_name__ = quote(str('小潘同学123'), encoding='UTF-8')
 
 
 class PigYcshgAi(CommonParent):

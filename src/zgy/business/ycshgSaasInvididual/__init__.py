@@ -1,4 +1,5 @@
 import urllib.parse
+from urllib.parse import quote
 
 from src.zgy.business import *
 
@@ -27,7 +28,7 @@ __cur_env__ = dev
 __x_platform_source__ = '22'
 __tenant_id__ = '3265317069619200000'
 __tenant_user_id__ = '326531707174917'
-__tenant_user_name__ = '123123'
+__tenant_user_name__ = quote(str('小潘同学123'), encoding='UTF-8')
 
 
 class PigYcshgSaasIndividualBiz(CommonParent):

@@ -1,5 +1,6 @@
 import json
 import urllib.parse
+from urllib.parse import quote
 
 from src.zgy.business import *
 
@@ -18,7 +19,7 @@ __cur_env__ = dev
 __x_platform_source__ = '22'
 __tenant_id__ = '3211194104545280000'
 __tenant_user_id__ = '329774038007808'
-__tenant_user_name__ = '123123'
+__tenant_user_name__ = quote(str('小潘同学'), encoding='GBK')
 
 
 class PigYcshgAi(CommonParent):

@@ -13,7 +13,17 @@ class NoInvoiceIncomeService(PigYcshgAi):
                              data)
         print(response.text)
 
+    def selectCategory(self):
+        data = {
+            "accountBookId": 3325306714030080000
+        }
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/no-invoice-income/v1/category-info',
+                             data)
+        print(response.text)
+
 
 processService = NoInvoiceIncomeService()
 # 更新注册信息
-processService.selectThisMonthPage()
+# processService.selectThisMonthPage()
+# 获取一二级分类类别信息
+processService.selectCategory()

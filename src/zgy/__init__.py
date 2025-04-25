@@ -25,3 +25,8 @@ ycshg_prod = 'https://test-new-merchant.joolgo.cn/api'
 # 记账工具
 ycshg_jzgj_test = 'http://test-erpgateway.hegui.cn'
 ycshg_jzgj_test1 = 'http://test-hgdz-jzptbackstage.hegui.cn'
+
+# 记账工具
+ycshg_gsgj_dev = 'http://dev-zgyjfzx.joolgo.cn/api'
+# ycshg_gsgj_dev = 'http://dev-zgyjfzx.hegui.cn/api'
+ycshg_gsgj_test = 'http://test-erpgateway.hegui.cn'

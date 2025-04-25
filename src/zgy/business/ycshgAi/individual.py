@@ -4,7 +4,7 @@ from src.zgy.business.ycshgAi import PigYcshgAi
 class IndividualService(PigYcshgAi):
     def checkPasswordBeforeRegister(self):
         data = {
-            "enterpriseId": 331608135811072,
+            "enterpriseId": 332530223104000,
             "taxArea": "AREA_CODE151",
             "loginType": "INDIVIDUAL_TAX_PASSWORD",
             "rnAccount": "13843838438",
@@ -107,13 +107,13 @@ class IndividualService(PigYcshgAi):
 
 processService = IndividualService()
 # 注册开通前的登录密码检查
-# processService.checkPasswordBeforeRegister()
+processService.checkPasswordBeforeRegister()
 # 注册
 # processService.register()
 # 获取注册信息
 # processService.getRegisterInfo()
 # 更新注册信息
-processService.updateRegisterInfo()
+# processService.updateRegisterInfo()
 # 获取个税地址
 # processService.getIndividualUrl()
 # 标记为无需申报

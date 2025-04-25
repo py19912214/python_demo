@@ -51,8 +51,8 @@ class IndividualService(PigYcshgSaasIndividualBiz):
 
 
 processService = IndividualService()
-# processService.get_authorized()
+processService.get_authorized()
 # processService.get_login_url()
 # processService.get_company_info_from_jcsk()
-processService.get_financial_data()
+# processService.get_financial_data()
 # 365c82e571d32ab83c5be882cb9b655e02b1ac5dc4d433dead3d3ef95a1d50e2

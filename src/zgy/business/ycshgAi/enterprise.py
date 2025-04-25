@@ -51,8 +51,8 @@ class EnterpriseService(PigYcshgAi):
 
 processService = EnterpriseService()
 # 查询列表
-# processService.selectPage()
+processService.selectPage()
 # 创建企业
 # processService.sync_enterprise_info()
 # 编辑企业
-processService.edit_enterprise()
+# processService.edit_enterprise()

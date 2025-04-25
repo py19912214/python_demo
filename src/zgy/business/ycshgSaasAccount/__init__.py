@@ -19,12 +19,12 @@ appKeyEnvRelMap = {
 
 envAndHostRelMap = {
     localHost: localHost_prefix,
-    dev: ycshg_dev,
-    test: ycshg_jzgj_test1,
+    dev: ycshg_jzgj_dev,
+    test: ycshg_jzgj_test,
     prod: ycshg_prod
 }
 
-__cur_env__ = test
+__cur_env__ = dev
 __x_platform_source__ = '22'
 __tenant_id__ = '3265317069619200000'
 __tenant_user_id__ = '326531707174917'

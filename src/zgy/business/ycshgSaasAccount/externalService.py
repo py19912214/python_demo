@@ -15,4 +15,4 @@ class ExternalService(PigYcshgSaasAccount):
 
 
 processService = ExternalService()
-# processService.get_invoice_info()
+processService.get_invoice_info()

@@ -77,7 +77,7 @@ class IndividualProcessService(PigYcshgAi):
     def declareConfirm(self):
         data = {
             "enterpriseId": 202504100000002,
-            "period": 202504,
+            "period": 202503,
             "comprehensiveIncome": {
                 "taxAmount": 0,
                 "declareStatus": "EXTERNAL_DECLARED",
@@ -118,8 +118,8 @@ class IndividualProcessService(PigYcshgAi):
 
 individualProcessService = IndividualProcessService()
 # 分页查询
-individualProcessService.page()
+# individualProcessService.page()
 # 申报确认
-# individualProcessService.declareConfirm()
+individualProcessService.declareConfirm()
 # 导出
 # individualProcessService.export("C:\\Users\\admin\\Desktop\\发票开具项目信息导入模板123.xlsx")

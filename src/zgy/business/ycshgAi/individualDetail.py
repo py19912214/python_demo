@@ -137,7 +137,7 @@ class IndividualDetailService(PigYcshgAi):
 
 processService = IndividualDetailService()
 # 分页查询
-processService.page()
+# processService.page()
 # 申报确认
 # processService.declareConfirm()
 # 导出

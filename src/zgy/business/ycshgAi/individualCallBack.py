@@ -22,7 +22,7 @@ class IndividualCallBackService(PigYcshgAi):
 
     def syncSubmissionStatus(self):
         data = {
-            "tpEnterpriseId": 331059305594882,
+            "tpEnterpriseId": 331414076342276,
             "submissionStatus": "SUBMIT_SUCCESS"
         }
         response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-tax/v1/sync-submission-status',
@@ -31,9 +31,9 @@ class IndividualCallBackService(PigYcshgAi):
 
     def syncDeclareStatus(self):
         data = {
-            "period": 202805,
+            "period": 202503,
             "type": "COMPREHENSIVE_INCOME",
-            "tpEnterpriseId": 331059305594882,
+            "tpEnterpriseId": 331414076342276,
             "enterpriseId": 1,
             "declareStatus": "DECLARE_SUCCESS",
             "declareMessage": "申报成功原因",
@@ -48,9 +48,9 @@ class IndividualCallBackService(PigYcshgAi):
 
     def syncReportInfo(self):
         data = {
-            "tpEnterpriseId": 331059305594882,
+            "tpEnterpriseId": 331414076342276,
             "type": "COMPREHENSIVE_INCOME",  # 代扣代缴 场景走这个分支
-            "period": 202504,
+            "period": 202503,
             "enterpriseId": 1,
             "reportStatus": "FILLED",
             "submissionCount": 3,
@@ -81,7 +81,7 @@ class IndividualCallBackService(PigYcshgAi):
     def syncLogInsert(self):
         data = {
             "period": 202504,
-            "tpEnterpriseId": 331059305594882,
+            "tpEnterpriseId": 331414076342276,
             "type": "UPDATE_LEVY_INFO",
             "content": "新增日志内容",
             "whetherAnnual": False,
@@ -95,7 +95,7 @@ class IndividualCallBackService(PigYcshgAi):
     def syncDutyPaidProof(self):
         data = {
             "period": 202504,
-            "tpEnterpriseId": 331059305594882,
+            "tpEnterpriseId": 331414076342276,
             "dutyPaidProofUrl": "https://dutypaidproof.hggh.gov.cn",
             "reportType": 1
         }
@@ -120,7 +120,7 @@ class IndividualCallBackService(PigYcshgAi):
             "period": 202504,
             # PRODUCTION_OPERATION :生产经营 PRODUCTION_OPERATION_ANNUAL_B ：生产经营年度汇算
             "type": "PRODUCTION_OPERATION_ANNUAL_B",
-            "tpEnterpriseId": 331059305594882,
+            "tpEnterpriseId": 331414076342276,
             "enterpriseId": 1,
             "declareStatus": "DECLARE_SUCCESS",
             "declareMessage": "申报成功原因",
@@ -136,7 +136,7 @@ class IndividualCallBackService(PigYcshgAi):
 
     def syncProductionReportInfo(self):
         data = {
-            "tpEnterpriseId": 331059305594882,
+            "tpEnterpriseId": 331414076342276,
             # PRODUCTION_OPERATION :生产经营 PRODUCTION_OPERATION_ANNUAL_B ：生产经营年度汇算
             "type": "PRODUCTION_OPERATION_ANNUAL_B",
             "period": 202504,
@@ -170,7 +170,7 @@ class IndividualCallBackService(PigYcshgAi):
     def syncProductionDutyPaidProof(self):
         data = {
             "period": 202504,
-            "tpEnterpriseId": 331059305594882,
+            "tpEnterpriseId": 331414076342276,
             "dutyPaidProofUrl": "https://dutypaidproof.hggh.gov.cn",
             "reportType": 2  # 1:生产经营 2：生产经营年度汇算
         }
@@ -188,7 +188,7 @@ processService = IndividualCallBackService()
 # 同步人员送报信息
 # processService.syncSubmissionStatus()
 # 同步报表申报缴款状态
-# processService.syncDeclareStatus()
+processService.syncDeclareStatus()
 # 同步报表信息
 # processService.syncReportInfo()
 # 同步新增日志
@@ -196,7 +196,7 @@ processService = IndividualCallBackService()
 # 同步完税证明
 # processService.syncDutyPaidProof()
 # # 同步核定信息
-processService.syncLevyInfo()
+# processService.syncLevyInfo()
 # 生产经营同步报表申报缴款状态
 # processService.syncProductionDeclareStatus()
 # 生产经营同步报表信息

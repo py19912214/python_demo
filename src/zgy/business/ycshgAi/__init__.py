@@ -15,10 +15,14 @@ envAndHostRelMap = {
     prod: ycshg_prod
 }
 
-__cur_env__ = localHost
+__cur_env__ = test
 __x_platform_source__ = '22'
-__tenant_id__ = '3211194104545280000'
-__tenant_user_id__ = '329774038007808'
+# test
+__tenant_id__ = '3286941137960960000'
+__tenant_user_id__ = '331590072811520'
+# dev
+# __tenant_id__ = '3211194104545280000'
+# __tenant_user_id__ = '329774038007808'
 __tenant_user_name__ = quote(str('小潘同学123'), encoding='UTF-8')
 
 

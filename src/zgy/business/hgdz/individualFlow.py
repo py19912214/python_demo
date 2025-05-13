@@ -1,7 +1,7 @@
-from src.zgy.business.ycshgAi import PigYcshgAi
-from src.zgy.business.ycshgAi.bizQueue import BizQueue
-from src.zgy.business.ycshgAi.individualCallBack import IndividualCallBackService
-from src.zgy.business.ycshgAi.individualDetail import IndividualDetailService
+from src.zgy.business.hgdz import PigYcshgAi
+from src.zgy.business.hgdz.bizQueue import BizQueue
+from src.zgy.business.hgdz.individualCallBack import IndividualCallBackService
+from src.zgy.business.hgdz.individualDetail import IndividualDetailService
 
 
 class IndividualFlowService(PigYcshgAi):

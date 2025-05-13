@@ -1,100 +1,110 @@
 from src.zgy.business.pigTenant import PigErpManagerTenantParent
 
 invoiceData = {
-    "agentCertificateCode": "",
-    "agentInternationCode": "",
-    "agentName": "",
-    "agentTaxNo": "",
-    "buyerAddress": "辽宁省大连市西岗区长江路539号",
-    "buyerAddressMobile": "18884354774",
-    "buyerBankAccount": "52525458546415661",
-    "buyerBankNo": "成都银行",
-    "buyerIdentificationNumber": "123412341234",
-    "buyerName": "1.12",
+    "agentCertificateType": "agentCertificateType",
+    "agentCertificateCode": "agentCertificateCode",
+    "agentInternationCode": "agentInternationCode",
+    "agentName": "agentName",
+    "agentTaxNo": "agentTaxNo",
+    "buyerAddress": "buyerAddress",
+    "buyerAddressMobile": "buyerAddressMobile",
+    "buyerBankAccount": "buyerBankAccount",
+    "buyerBankNo": "buyerBankNo",
+    "buyerIdentificationNumber": "buyerIdentificationNumber",
+    "buyerName": "buyerName",
     "buyerShowAddrInfo": 0,
     "buyerShowBankInfo": 0,
     "buyerType": 1,
-    "downloadUrl": "",
     "includeTax": 0,
-    "invoiceAmount": "5831.0700000000",
-    "invoiceType": 82,
-    "invoicingFailReason": "",
+    "invoiceType": 81,
     "payee": "payee",
     "remarks": "remarks",
     "reviewer": "reviewer",
-    "sellerAddress": "四川省成都市武侯区一环路西一段130号1栋8层823号",
-    "sellerAddressMobile": "18328433002",
-    "sellerBankAccount": "640718612",
-    "sellerBankNo": "中国民生银行股份有限公司成都锦江支行",
-    "sellerIdentificationNumber": "91110108551385082Q",
-    "sellerName": "小米科技有限责任公司",
+    "sellerAddress": "sellerAddress",
+    "sellerAddressMobile": "sellerAddressMobile",
+    "sellerBankAccount": "sellerBankAccount",
+    "sellerBankNo": "sellerBankNo",
+    "sellerIdentificationNumber": "sellerIdentificationNumber",
+    "sellerName": "sellerName",
     "sellerShowAddrInfo": 0,
     "sellerShowBankInfo": 0,
-    "shortfallTaxType": "02",
-    "taxAmount": "168.9300000000",
+    "taxAmount": "10",
+    "invoiceAmount": "1900",
+    "totalAmount": "1910",
     "itemRelInfoList": [
         {
-            "totalAmount": "6000.00",
-            "amount": "5831.07",
+            "rateAmount": "30",
+            "totalAmount": "1000",
+            "amount": "970",
             "businessType": 0,
-            "goodsGroupShort": "",
-            "goodsId": "",
-            "goodsName": "冰箱",
+            "taxTypeNameShort": "taxTypeNameShort",
+            "simpleTaxType": "simpleTaxType",
+            "goodsName": "冰箱1",
             "num": "1.00",
             "rate": "0.03000000",
-            "rateAmount": "168.93",
-            "spec": "",
-            "unit": "",
-            "unitPrice": "5831.07",
-            "itemBalanceRelInfoList": [
-                {
-                    "deductAmount": "200.00",
-                    "digitalTicketNumber": "55555555555555555555",
-                    "invoiceCode": "",
-                    "invoiceNumber": "",
-                    "invoiceTime": "2025-03-18",
-                    "remark": "8449",
-                    "totalAmount": "6000.00",
-                    "voucherNumber": "",
-                    "voucherType": "01"
-                }
-            ],
+            "spec": "spec",
+            "unit": "unit",
+            "unitPrice": "970",
+            "simpleCode": "simpleCode",
             "goodsConfigInfo": {
-                "id": "1901534707533815810",
-                "creatorId": "298104431951877",
-                "creatorName": "杜正伟",
-                "createTime": "2025-03-17 15:22:57",
-                "updaterId": "298104431951877",
-                "updaterName": "杜正伟",
-                "updateTime": "2025-03-17 15:22:57",
-                "tenantId": "2981044317061120000",
-                "goodsName": "冰箱",
-                "goodsTypeId": "0",
-                "taxTypeCode": "1090421020000000000",
-                "taxTypeName": "家用电冰箱用配件",
-                "taxTypeNameShort": "家用电器配件",
-                "simpleTaxEnable": 0,
-                "zeroTaxEnable": 0,
-                "taxRate": "0.03000000",
-                "unitPrice": "600.00000000",
-                "includeTax": 0,
-                "unitName": "",
-                "modelName": "",
-                "simpleCode": "",
-                "sourceType": 1,
-                "taxSysId": "",
-                "taxRateString": "3%"
-            },
-            "taxTypeNameShort": "家用电器配件"
+                "taxTypeCode": "taxTypeCode",
+                "taxTypeName": "taxTypeName",
+                "taxTypeNameShort": "taxTypeNameShort",
+                "simpleCode": "simpleCode",
+                "taxSysId": "taxSysId"
+            }
+        }, {
+            "rateAmount": "30",
+            "totalAmount": "1000",
+            "amount": "970",
+            "businessType": 0,
+            "taxTypeNameShort": "taxTypeNameShort",
+            "simpleTaxType": "simpleTaxType",
+            "goodsName": "冰箱2",
+            "num": "1.00",
+            "rate": "0.03000000",
+            "spec": "spec",
+            "unit": "unit",
+            "unitPrice": "970",
+            "goodsConfigInfo": {
+                "taxTypeCode": "taxTypeCode",
+                "taxTypeName": "taxTypeName",
+                "taxTypeNameShort": "taxTypeNameShort",
+                "simpleCode": "simpleCode",
+                "taxSysId": "taxSysId"
+            }
+        }, {
+            "rateAmount": "-50",
+            "totalAmount": "-90",
+            "amount": "-40",
+            "businessType": 1,
+            "taxTypeNameShort": "taxTypeNameShort",
+            "simpleTaxType": "simpleTaxType",
+            "goodsName": "冰箱2",
+            "num": "1.00",
+            "rate": "0.03000000",
+            "spec": "spec",
+            "unit": "unit",
+            "unitPrice": "970",
+            "goodsConfigInfo": {
+                "taxTypeCode": "taxTypeCode",
+                "taxTypeName": "taxTypeName",
+                "taxTypeNameShort": "taxTypeNameShort",
+                "simpleCode": "simpleCode",
+                "taxSysId": "taxSysId"
+            }
         }
     ],
     "paymentRelInfoList": [
         {
-            "paymentMethod": "02",
-            "paymentTransactionId": "12312312"
+            "paymentMethod": "10",
+            "paymentTransactionId": "123"
+        },
+        {
+            "paymentMethod": "09",
+            "paymentTransactionId": "456"
         }
-    ],
-    "totalAmount": "6000.0000000000"
+    ]
 }
 
 
@@ -222,7 +232,7 @@ blueInvoiceManager = BlueInvoiceManager()
 # 发票开具场景，发票预览-数据转换
 # blueInvoiceManager.previewInvoice()
 # 申请开发票
-# blueInvoiceManager.applyInvoice()
+blueInvoiceManager.applyInvoice()
 # 开票失败得发票申请，申请重新开发
 # blueInvoiceManager.applyInvoiceRetry(326360560091136)
 # 根据id查询数据 正式数据
@@ -230,7 +240,7 @@ blueInvoiceManager = BlueInvoiceManager()
 # 基础配置 获取小规模人的优惠信息
 # blueInvoiceManager.getTenantDiscount()
 # 回调接口 第一个参数是tpTaskId
-blueInvoiceManager.blueInvoiceIssuedCallBack(330008067457025)
+# blueInvoiceManager.blueInvoiceIssuedCallBack(330008067457025)
 # 分页查询商品
 # blueInvoiceManager.pageGoods()
 # 导入商品明细

@@ -4,22 +4,21 @@ import urllib.parse
 from src.zgy.business import *
 
 localHostPortRelMap = {
-    "/pig-tenant/": "10402",
-    "/pig-tenant-cronjob/": "10406"
+    "/ycshg-ai-app-service/": "9943"
 }
 envAndHostRelMap = {
     localHost: localHost_prefix,
-    dev: pig_tenant_dev,
-    test: pig_tenant_test,
+    dev: dev_ycshg_ai_app_service,
+    test: test_ycshg_ai_app_service,
     prod: pig_tenant_prod
 }
 
 __cur_env__ = dev
-__tenant_id__ = "2702037874442240000"
+__tenant_id__ = "2702037874442240001"
 __tenant_user_id__ = "271433485926400"
 
 
-class PigErpManagerTenantParent(CommonParent):
+class BaseParent(CommonParent):
     def __init__(self):
         super().__init__(__cur_env__, localHostPortRelMap, envAndHostRelMap)
         self.refreshPigTenantToken()

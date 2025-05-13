@@ -1,4 +1,4 @@
-from src.zgy.business.ycshgAi import PigYcshgAi
+from src.zgy.business.hgdz import PigYcshgAi
 
 pageParam = {
     "period": 202503,

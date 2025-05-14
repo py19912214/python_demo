@@ -19,9 +19,9 @@ pig_merchant_test = 'https://test-new-merchant.joolgo.cn/api'
 pig_merchant_prod = 'https://test-new-merchant.joolgo.cn/api'
 
 # 定义URL 业财税合规 dev环境得域名 还是用猪哥云得  测试环境得域名会切换成新得
-ycshg_dev = 'http://dev-ycsisp.joolgo.cn/api'
-ycshg_test = 'http://test-shop.hegui.cn/api'
-ycshg_prod = 'http://shop.hegui.cn/api'
+hgdz_dev = 'http://dev-ycsisp.joolgo.cn/api'
+hgdz_test = 'http://test-shop.hegui.cn/api'
+hgdz_prod = 'http://shop.hegui.cn/api'
 # 记账工具
 # ycshg_jzgj_dev = 'http://192.168.2.253:9708'
 ycshg_jzgj_dev = 'http://dev-erpgateway.joolgo.cn'
@@ -35,3 +35,7 @@ etax_unified_text = 'http://test-erpgateway.hegui.cn/api'
 # 记账工具
 dev_ycshg_ai_app_service = 'http://dev-ycsisp.joolgo.cn/api'
 test_ycshg_ai_app_service = 'http://test-shop.hegui.cn/api'
+# 业财税合规
+ycshg_dev = 'http://dev-ycsisp.joolgo.cn/api'
+ycshg_test = 'http://test-shop.hegui.cn/api'
+ycshg_prod = 'http://shop.hegui.cn/api'

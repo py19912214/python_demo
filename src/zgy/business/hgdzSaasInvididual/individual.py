@@ -1,4 +1,4 @@
-from src.zgy.business.ycshgSaasInvididual import PigYcshgSaasIndividualBiz
+from src.zgy.business.hgdzSaasInvididual import PigYcshgSaasIndividualBiz
 
 
 class IndividualService(PigYcshgSaasIndividualBiz):

@@ -1,4 +1,4 @@
-from src.zgy.business.ycshgSaasInvididual import PigYcshgSaasIndividualCronJob
+from src.zgy.business.hgdzSaasInvididual import PigYcshgSaasIndividualCronJob
 
 
 class CronJobService(PigYcshgSaasIndividualCronJob):

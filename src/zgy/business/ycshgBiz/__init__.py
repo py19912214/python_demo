@@ -1,21 +1,19 @@
-import json
 import urllib.parse
 from urllib.parse import quote
 
 from src.zgy.business import *
 
 localHostPortRelMap = {
-    "/ycshg-ai-platform-produce-hgdz-biz/": "9701",
-    "/ycshg-ai-platform-produce-hgdz-cronjob/": "9702",
+    "/ycshg-ai-platform-produce-ycshg-biz/": "9713",
 }
 envAndHostRelMap = {
     localHost: localHost_prefix,
-    dev: hgdz_dev,
-    test: hgdz_test,
-    prod: hgdz_prod
+    dev: ycshg_dev,
+    test: ycshg_test,
+    prod: ycshg_prod
 }
 
-__cur_env__ = dev
+__cur_env__ = localHost
 # test
 # __tenant_id__ = '3286941137960960000'
 # __tenant_user_id__ = '335072798457856'
@@ -66,7 +64,7 @@ class PigYcshgAi(CommonParent):
             'password': password
         }
         urlParams = urllib.parse.urlencode(params).encode('utf-8')
-        host = hgdz_dev
+        host = ycshg_dev
         if (self.cur_env != localHost):
             host = self.getHost()
         response = HttpUtils.post(

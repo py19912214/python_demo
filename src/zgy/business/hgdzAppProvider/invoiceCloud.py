@@ -1,8 +1,7 @@
-from src.zgy.business.ycshgAppProvider import BaseParent
+from src.zgy.business.hgdzAppProvider import BaseParent
 
 invoiceData = {
-    "unifiedAuthId": 3314140699852800000,
-    "tpEnterpriseId": 327063837884419,
+    "invoiceType": "PT_ENTERPRISE",  # PT_ ZY_ ENTERPRISE PERSON
     "agentCertificateType": "agentCertificateType",
     "agentCertificateCode": "agentCertificateCode",
     "agentInternationCode": "agentInternationCode",
@@ -22,7 +21,6 @@ invoiceData = {
     "purchaserInternationCode": "purchaserInternationCode",
     "downloadUrl": "",
     "includeTax": False,
-    "invoiceType": "QD_ZZS_ZY_FP",
     "payee": "payee",
     "remarks": "remarks",
     "reviewer": "reviewer",
@@ -141,7 +139,7 @@ class ProcessService(BaseParent):
         data = {
             # "invoiceTaskType": "INVOICE_ISSUED_BASE_INFO",
             "invoiceTaskType": "INVOICE_PROJECT_INFO",
-            # "statusList": ["SUCCESS","FAILED"],
+            "statusList": ["FAILED"],  # SUCCESS, FAILED
             "pageSize": 1
         }
         response = self.post(
@@ -156,7 +154,7 @@ class ProcessService(BaseParent):
             "keyword": "",
             "invoiceStatusList": [],
             "invoiceKindList": [],
-            "invoicingStatusList": ["PROCESS"],
+            "invoicingStatusList": ["SUCCESS"], # PROCESS SUCCESS
             "minTotalAmount": 1990,
             "maxTotalAmount": 2001,
             "createTimeStart": "2025-05-12 00:00:00",
@@ -178,8 +176,7 @@ class ProcessService(BaseParent):
 
     def applyBlueInvoiceAi(self):
         data = {
-            "invoiceType": "QD_ZZS_PT_FP",
-            "buyerType": "PERSON",
+            "invoiceType": "PT_ENTERPRISE",  # PT_ ZY_ ENTERPRISE PERSON
             "buyerName": "buyerName",
             "buyerIdentificationNumber": "buyerIdentificationNumber",
             "itemRelInfoList": [
@@ -237,7 +234,7 @@ class ProcessService(BaseParent):
 
 processService = ProcessService()
 # 基础配置
-processService.getBlueInvoiceSelectParam()
+# processService.getBlueInvoiceSelectParam()
 
 # 销售方信息
 # processService.getSellerInfo()
@@ -247,10 +244,12 @@ processService.getBlueInvoiceSelectParam()
 # processService.syncGoodsInfo()
 # processService.batchMatchGoods()
 # processService.pageGoodsInfo()
+
+# 同步任务分页查询
 # processService.pageSyncRecord()
 
 # 发票
 # processService.pageInvoiceInfo()
 # processService.applyInvoice()
 # processService.applyBlueInvoiceAi()
-# processService.queryBlueInvoice(337425679269888)
+processService.queryBlueInvoice(337603633102848)

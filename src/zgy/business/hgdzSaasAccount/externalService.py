@@ -1,4 +1,4 @@
-from src.zgy.business.ycshgSaasAccount import PigYcshgSaasAccount
+from src.zgy.business.hgdzSaasAccount import PigYcshgSaasAccount
 
 
 class ExternalService(PigYcshgSaasAccount):

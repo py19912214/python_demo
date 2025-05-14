@@ -5,20 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb451603-6bb7-4430-8f30-80e0990c12a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/etaxUnified/CallBackService.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/etaxUnified/Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/etaxUnified/blueInvoiceService.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/etaxUnified/invoiceBaseService.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAppProvider/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAppProvider/invoiceCloud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zgy/business/hgdz/TaskTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgBiz/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgBiz/individual.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgBiz/individualProcess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zgy/business/ycshgBiz/individualSync.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zgy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/invoiceCloudPlatform/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/etaxUnified/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/invoiceCloudPlatform/invoice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/pigTenant/BlueInvoiceManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/pigTenant/BlueInvoiceManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/pigTenant/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/pigTenant/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgAi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgAi/enterprise.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/ycshgAi/enterprise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdz/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdz/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgAppProvider/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzAppProvider/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgAppProvider/invoiceCloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzAppProvider/invoiceCloud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzSaasAccount/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount/apiCallService.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzSaasAccount/apiCallService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount/externalService.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzSaasAccount/externalService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgSaasInvididual/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzSaasInvididual/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgSaasInvididual/cronJobService.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzSaasInvididual/cronJobService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/ycshgSaasInvididual/individual.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzSaasInvididual/individual.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,70 +267,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.BlueInvoiceManager (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.BlueInvoiceManager.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CallBackService.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PigKjscMerchantService.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TestFrameworkController.executor&quot;: &quot;Run&quot;,
-    &quot;Python.__init__ (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
-    &quot;Python.account.executor&quot;: &quot;Run&quot;,
-    &quot;Python.apiCallService.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bankReceipt.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bizQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bizService (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.bizService.executor&quot;: &quot;Run&quot;,
-    &quot;Python.blueInvoiceService.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cronJobService.executor&quot;: &quot;Run&quot;,
-    &quot;Python.enterprise.executor&quot;: &quot;Run&quot;,
-    &quot;Python.enterpriseTag.executor&quot;: &quot;Run&quot;,
-    &quot;Python.externalService (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.externalService.executor&quot;: &quot;Run&quot;,
-    &quot;Python.incomeSettlement.executor&quot;: &quot;Run&quot;,
-    &quot;Python.individual (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.individual.executor&quot;: &quot;Run&quot;,
-    &quot;Python.individualCallBack (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.individualCallBack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.individualDetail.executor&quot;: &quot;Run&quot;,
-    &quot;Python.individualFetchCount.executor&quot;: &quot;Run&quot;,
-    &quot;Python.individualFlow.executor&quot;: &quot;Run&quot;,
-    &quot;Python.individualProcess.executor&quot;: &quot;Run&quot;,
-    &quot;Python.invoice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.invoiceBaseService.executor&quot;: &quot;Run&quot;,
-    &quot;Python.invoiceCloud.executor&quot;: &quot;Run&quot;,
-    &quot;Python.national.executor&quot;: &quot;Run&quot;,
-    &quot;Python.noInvoiceIncome.executor&quot;: &quot;Run&quot;,
-    &quot;Python.selectParam.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ycshgSaasIndividualTaxBusiness.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ycshgSaasIndividualTaxCronJob.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/py/python/work/python_demo/src/zgy/business&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.BlueInvoiceManager (1).executor": "Run",
+    "Python.BlueInvoiceManager.executor": "Run",
+    "Python.CallBackService.executor": "Run",
+    "Python.PigKjscMerchantService.executor": "Run",
+    "Python.TaskTest.executor": "Run",
+    "Python.Test.executor": "Run",
+    "Python.TestFrameworkController.executor": "Run",
+    "Python.__init__ (1).executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.account.executor": "Run",
+    "Python.apiCallService.executor": "Run",
+    "Python.bankReceipt.executor": "Run",
+    "Python.bizQueue.executor": "Run",
+    "Python.bizService (1).executor": "Debug",
+    "Python.bizService.executor": "Run",
+    "Python.blueInvoiceService.executor": "Run",
+    "Python.cronJobService.executor": "Run",
+    "Python.enterprise.executor": "Run",
+    "Python.enterpriseTag.executor": "Run",
+    "Python.externalService (1).executor": "Run",
+    "Python.externalService.executor": "Run",
+    "Python.incomeSettlement.executor": "Run",
+    "Python.individual (1).executor": "Run",
+    "Python.individual.executor": "Run",
+    "Python.individualCallBack (1).executor": "Run",
+    "Python.individualCallBack.executor": "Run",
+    "Python.individualDetail.executor": "Run",
+    "Python.individualFetchCount.executor": "Run",
+    "Python.individualFlow.executor": "Run",
+    "Python.individualProcess.executor": "Run",
+    "Python.invoice.executor": "Run",
+    "Python.invoiceBaseService.executor": "Run",
+    "Python.invoiceCloud (1).executor": "Run",
+    "Python.invoiceCloud.executor": "Run",
+    "Python.national.executor": "Run",
+    "Python.noInvoiceIncome.executor": "Run",
+    "Python.selectParam.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.ycshgSaasIndividualTaxBusiness.executor": "Run",
+    "Python.ycshgSaasIndividualTaxCronJob.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/py/python/work/python_demo/src/zgy/business/ycshgBiz",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\py\python\work\python_demo\src\zgy\business\ycshgBiz" />
       <recent name="D:\py\python\work\python_demo\src\zgy\business" />
+      <recent name="D:\py\python\work\python_demo\src\zgy\business\hgdz" />
       <recent name="D:\py\python\work\python_demo\src\zgy\business\etaxUnified" />
       <recent name="D:\py\python\work\python_demo\src\zgy\business\ycshgAi" />
-      <recent name="D:\py\python\work\python_demo\src\zgy\business\ycshgSaasAccount" />
-      <recent name="D:\py\python\work\python_demo\src\zgy\business\ycshgSaasInvididual" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\py\python\work\python_demo\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.blueInvoiceService">
+  <component name="RunManager" selected="Python.invoiceCloud (1)">
     <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -377,7 +381,7 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BlueInvoiceManager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_demo" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -386,35 +390,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/zgy/business/pigTenant" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/zgy/business/hgdz" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/zgy/business/pigTenant/BlueInvoiceManager.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_demo" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/zgy/business/etaxUnified" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/zgy/business/etaxUnified/Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/zgy/business/hgdz/TaskTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -473,7 +454,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="invoiceBaseService" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="individualProcess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_demo" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -482,12 +463,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/zgy/business/etaxUnified" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/zgy/business/ycshgBiz" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/zgy/business/etaxUnified/invoiceBaseService.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/zgy/business/ycshgBiz/individualProcess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="invoiceCloud (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_demo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/zgy/business/hgdzAppProvider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/zgy/business/hgdzAppProvider/invoiceCloud.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -530,19 +534,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.b" />
-      <item itemvalue="Python.BlueInvoiceManager" />
-      <item itemvalue="Python.Test" />
+      <item itemvalue="Python.individualProcess" />
+      <item itemvalue="Python.invoiceCloud (1)" />
+      <item itemvalue="Python.TaskTest" />
       <item itemvalue="Python.blueInvoiceService" />
       <item itemvalue="Python.invoiceCloud" />
-      <item itemvalue="Python.invoiceBaseService" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.invoiceCloud (1)" />
+        <item itemvalue="Python.individualProcess" />
+        <item itemvalue="Python.TaskTest" />
         <item itemvalue="Python.blueInvoiceService" />
         <item itemvalue="Python.invoiceCloud" />
-        <item itemvalue="Python.Test" />
-        <item itemvalue="Python.BlueInvoiceManager" />
-        <item itemvalue="Python.invoiceBaseService" />
       </list>
     </recent_temporary>
   </component>
@@ -603,7 +607,8 @@
       <workItem from="1746671388311" duration="3792000" />
       <workItem from="1746675294374" duration="33569000" />
       <workItem from="1747010593313" duration="18130000" />
-      <workItem from="1747051034266" duration="15332000" />
+      <workItem from="1747051034266" duration="18175000" />
+      <workItem from="1747192265940" duration="5765000" />
     </task>
     <task id="LOCAL-00001" summary="重新搭建测试代码">
       <option name="closed" value="true" />
@@ -781,7 +786,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745977610489</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="1">
+      <option name="closed" value="true" />
+      <created>1747121068566</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1747121068566</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -869,7 +882,8 @@
     <SUITE FILE_PATH="coverage/python_demo$externalService__1_.coverage" NAME="externalService (1) Coverage Results" MODIFIED="1744254026382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount" />
     <SUITE FILE_PATH="coverage/python_demo$invoiceCloud.coverage" NAME="invoiceCloud Coverage Results" MODIFIED="1747119418822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAppProvider" />
     <SUITE FILE_PATH="coverage/python_demo$individualCallBack__1_.coverage" NAME="individualCallBack (1) Coverage Results" MODIFIED="1743672693948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/qhs" />
-    <SUITE FILE_PATH="coverage/python_demo$individualProcess.coverage" NAME="individualProcess Coverage Results" MODIFIED="1745901812595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
+    <SUITE FILE_PATH="coverage/python_demo$individualProcess.coverage" NAME="individualProcess Coverage Results" MODIFIED="1747194275142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgBiz" />
+    <SUITE FILE_PATH="coverage/python_demo$invoiceCloud__1_.coverage" NAME="invoiceCloud (1) Coverage Results" MODIFIED="1747202556488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/hgdzAppProvider" />
     <SUITE FILE_PATH="coverage/python_demo$individualFetchCount.coverage" NAME="individualFetchCount Coverage Results" MODIFIED="1744267689322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
     <SUITE FILE_PATH="coverage/python_demo$ycshgSaasIndividualTaxBusiness.coverage" NAME="ycshgSaasIndividualTaxBusiness Coverage Results" MODIFIED="1744189926862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshg" />
     <SUITE FILE_PATH="coverage/python_demo$ycshgSaasIndividualTaxCronJob.coverage" NAME="ycshgSaasIndividualTaxCronJob Coverage Results" MODIFIED="1744191203935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshg" />
@@ -884,6 +898,7 @@
     <SUITE FILE_PATH="coverage/python_demo$BlueInvoiceManager.coverage" NAME="BlueInvoiceManager Coverage Results" MODIFIED="1747115902549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigTenant" />
     <SUITE FILE_PATH="coverage/python_demo$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1744252137427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
     <SUITE FILE_PATH="coverage/python_demo$BlueInvoiceManager__1_.coverage" NAME="BlueInvoiceManager (1) Coverage Results" MODIFIED="1743496432027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigTenant" />
+    <SUITE FILE_PATH="coverage/python_demo$TaskTest.coverage" NAME="TaskTest Coverage Results" MODIFIED="1747122674690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/hgdz" />
     <SUITE FILE_PATH="coverage/python_demo$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1745802067961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount" />
     <SUITE FILE_PATH="coverage/python_demo$CallBackService.coverage" NAME="CallBackService Coverage Results" MODIFIED="1746757547548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/etaxUnified" />
     <SUITE FILE_PATH="coverage/python_demo$PigKjscMerchantService.coverage" NAME="PigKjscMerchantService Coverage Results" MODIFIED="1742202920465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigKjsc" />

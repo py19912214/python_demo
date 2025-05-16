@@ -139,7 +139,7 @@ class ProcessService(BaseParent):
         data = {
             "invoiceTaskType": "INVOICE_ISSUED_BASE_INFO",
             # "invoiceTaskType": "INVOICE_PROJECT_INFO",
-            # "statusList": ["FAILED"],  # SUCCESS, FAILED
+            "statusList": ["SUCCESS"],  # SUCCESS, FAILED
             "pageSize": 10
         }
         response = self.post(

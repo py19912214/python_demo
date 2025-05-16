@@ -6,7 +6,7 @@ prod = 'prod'
 
 # localHost_prefix = 'http://192.168.2.253:'
 # localHost_prefix = 'http://192.168.2.253:'
-localHost_prefix = 'http://localhost:19999'
+localHost_prefix = 'http://localhost:'
 
 # 定义URL pig-tenant服务
 pig_tenant_dev = 'http://dev-erp.joolgo.cn/api'

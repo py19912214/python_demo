@@ -18,7 +18,7 @@ class IndividualService(PigYcshgAi):
 
     def register(self):
         data = {
-            "enterpriseId": 2712645583831040001,
+            "enterpriseId": 279084062179332,
             "taxArea": "AREA_CODE151",
             "loginType": "INDIVIDUAL_TAX_PASSWORD",
             "password": "123456",
@@ -115,7 +115,7 @@ processService = IndividualService()
 # 注册开通前的登录密码检查
 # processService.checkPasswordBeforeRegister()
 # 注册
-# processService.register()
+processService.register()
 # 获取注册信息
 # processService.getRegisterInfo()
 # 更新注册信息

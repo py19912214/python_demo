@@ -46,9 +46,10 @@ class InvoiceBaseService(SignalService):
 
     def pageSyncRecord(self):
         data = {
-            "unifiedAuthId": 3314140699852800000,
+            "unifiedAuthId": 2025051500000000001,
             # "invoiceTaskType": "INVOICE_ISSUED_BASE_INFO",
             "invoiceTaskType": "INVOICE_PROJECT_INFO",
+            # "queryCount": False,
             "statusList": [],
             "pageSize": 1
         }

@@ -10,7 +10,7 @@ class ExternalService(PigYcshgSaasAccount):
             # "accountBookId": "3321749622456320000" # 测试环境
         }
         response = self.apiPost(
-            "/hgdz-account-book-external/external/individual-fetch-count/v1/get_invoice_info",
+            "/hgdzBiz-account-book-external/external/individual-fetch-count/v1/get_invoice_info",
             data)
         print(response.text)
 
@@ -20,7 +20,7 @@ class ExternalService(PigYcshgSaasAccount):
             # "accountBookId": "3321749622456320000"  # 测试环境
         }
         response = self.apiPost(
-            "/hgdz-account-book-external/nk/report/v1/get-account-balance-sheet-report-data-acquisition",
+            "/hgdzBiz-account-book-external/nk/report/v1/get-account-balance-sheet-report-data-acquisition",
             data)
         print(response.text)
 
@@ -30,7 +30,7 @@ class ExternalService(PigYcshgSaasAccount):
             # "accountBookId": "3321749622456320000"  # 测试环境
         }
         response = self.apiPost(
-            "/hgdz-account-book-external/nk/report/v1/get-balance-sheet-report-data-acquisition",
+            "/hgdzBiz-account-book-external/nk/report/v1/get-balance-sheet-report-data-acquisition",
             data)
         print(response.text)
 

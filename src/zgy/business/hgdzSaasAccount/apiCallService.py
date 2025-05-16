@@ -9,7 +9,7 @@ class ExternalService(PigYcshgSaasAccount):
             "accountBookId": 3314140699852800000
         }
         response = self.post(
-            "/hgdz-account-book-external/external/individual-fetch-count/v1/get_invoice_info",
+            "/hgdzBiz-account-book-external/external/individual-fetch-count/v1/get_invoice_info",
             data)
         print(response.text)
 
@@ -20,7 +20,7 @@ class ExternalService(PigYcshgSaasAccount):
             "periodList": [202501]
         }
         response = self.apiPost(
-            "/hgdz-account-book-external/nk/external/no-ticket/v1/select-list",
+            "/hgdzBiz-account-book-external/nk/external/no-ticket/v1/select-list",
             data)
         print(response.text)
     def get_login_token(self):

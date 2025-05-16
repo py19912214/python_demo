@@ -1,4 +1,4 @@
-from src.zgy.business.hgdz import PigYcshgAi
+from src.zgy.business.hgdzBiz import PigYcshgAi
 
 
 class IndividualService(PigYcshgAi):
@@ -12,7 +12,7 @@ class IndividualService(PigYcshgAi):
             "taxpayer": "123456",
             "password": "123456",
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax/check-password-before-register',
+        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/individual-tax/check-password-before-register',
                              data)
         print(response.text)
 
@@ -60,7 +60,7 @@ class IndividualService(PigYcshgAi):
                 "zcdlxdh": ""
             }
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax/register',
+        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/individual-tax/register',
                              data)
         print(response.text)
 
@@ -68,7 +68,7 @@ class IndividualService(PigYcshgAi):
         data = {
             "enterpriseId": 202504100000002
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax/register-info',
+        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/individual-tax/register-info',
                              data)
         print(response.text)
 
@@ -82,7 +82,7 @@ class IndividualService(PigYcshgAi):
             "taxpayer": "123456",
             "password": "123456",
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax/update-register-info',
+        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/individual-tax/update-register-info',
                              data)
         print(response.text)
 
@@ -92,7 +92,7 @@ class IndividualService(PigYcshgAi):
             "accessModeCode": 0,
             "whetherAdmin": False
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax/get-individual-url',
+        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/individual-tax/get-individual-url',
                              data)
         print(response.text)
 
@@ -100,7 +100,7 @@ class IndividualService(PigYcshgAi):
         data = {
             "enterpriseId": 202504100000001
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax/unnecessary',
+        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/individual-tax/unnecessary',
                              data)
         print(response.text)
 

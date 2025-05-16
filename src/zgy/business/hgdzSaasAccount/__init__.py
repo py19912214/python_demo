@@ -4,7 +4,7 @@ from urllib.parse import quote
 from src.zgy.business import *
 
 localHostPortRelMap = {
-    "/hgdz-account-book-external/": "9708",
+    "/hgdzBiz-account-book-external/": "9708",
 }
 
 appKeyEnvRelMap = {

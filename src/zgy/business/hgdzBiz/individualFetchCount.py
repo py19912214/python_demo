@@ -1,4 +1,4 @@
-from src.zgy.business.hgdz import PigYcshgAi
+from src.zgy.business.hgdzBiz import PigYcshgAi
 
 
 class IndividualFetchCountService(PigYcshgAi):
@@ -8,7 +8,7 @@ class IndividualFetchCountService(PigYcshgAi):
             "period": [202501, 202502],
             "queryType": 10
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-fetch-count/v1/get_invoice_info',
+        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-cronjob/nk/individual-fetch-count/v1/get_invoice_info',
                              data)
         print(response.text)
 

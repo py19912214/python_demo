@@ -127,8 +127,8 @@ class ProcessService(BaseParent):
     def pageGoodsInfo(self):
         data = {
             "pageNo": 1,
-            "pageSize": 2,
-            "matchGoodsName": "外星人"
+            "pageSize": 100,
+            # "matchGoodsName": "外星人"
         }
         response = self.post(
             "/ycshg-ai-app-service/yk/invoice-info/v1/page-goods-info",
@@ -137,10 +137,10 @@ class ProcessService(BaseParent):
 
     def pageSyncRecord(self):
         data = {
-            # "invoiceTaskType": "INVOICE_ISSUED_BASE_INFO",
-            "invoiceTaskType": "INVOICE_PROJECT_INFO",
-            "statusList": ["FAILED"],  # SUCCESS, FAILED
-            "pageSize": 1
+            "invoiceTaskType": "INVOICE_ISSUED_BASE_INFO",
+            # "invoiceTaskType": "INVOICE_PROJECT_INFO",
+            # "statusList": ["FAILED"],  # SUCCESS, FAILED
+            "pageSize": 10
         }
         response = self.post(
             "/ycshg-ai-app-service/yk/invoice-info/v1/page-sync-record",
@@ -154,7 +154,7 @@ class ProcessService(BaseParent):
             "keyword": "",
             "invoiceStatusList": [],
             "invoiceKindList": [],
-            "invoicingStatusList": ["SUCCESS"], # PROCESS SUCCESS
+            "invoicingStatusList": ["PROCESS"],  # PROCESS SUCCESS
             "minTotalAmount": 1990,
             "maxTotalAmount": 2001,
             "createTimeStart": "2025-05-12 00:00:00",
@@ -165,17 +165,28 @@ class ProcessService(BaseParent):
             data)
         print(response.text)
 
-    def batchMatchGoods(self):
+    def batchMatchGoodsAi(self):
         data = {
+            "enterpriseId": 3222533697536000000,
             "goodsNameList": ["小众外星人", "大众外星人商品"]
         }
         response = self.post(
-            "/ycshg-ai-app-service/yk/invoice-info/v1/batch-match-goods",
+            "/ycshg-ai-app-service/feign/app/invoice-info/v1/batch-match-goods",
+            data)
+        print(response.text)
+
+    def delete(self, id):
+        data = {
+            "invoiceId": id,
+        }
+        response = self.post(
+            "/ycshg-ai-app-service/yk/invoice-info/blue/v1/delete",
             data)
         print(response.text)
 
     def applyBlueInvoiceAi(self):
         data = {
+            "enterpriseId": 3222533697536000000,
             "invoiceType": "PT_ENTERPRISE",  # PT_ ZY_ ENTERPRISE PERSON
             "buyerName": "buyerName",
             "buyerIdentificationNumber": "buyerIdentificationNumber",
@@ -187,8 +198,7 @@ class ProcessService(BaseParent):
                     "num": 1,
                     "unitPrice": 2,
                     "totalAmount": 1000,
-                    "rate": 0.03,
-                    "goodsConfig": '{"simpleTaxType":"simpleTaxType","taxSysId":"taxSysId","taxTypeCode":"taxTypeCode","taxTypeNameShort":"taxTypeNameShort"}'
+                    "goodsConfig": '{"simpleTaxType":"simpleTaxType","taxSysId":"taxSysId","taxTypeCode":"taxTypeCode","taxTypeNameShort":"taxTypeNameShort","taxRateMap":{"3%":"0.03","1%":"0.01"}}'
                 },
                 {
                     "goodsName": "goodsName1",
@@ -197,13 +207,12 @@ class ProcessService(BaseParent):
                     "num": 1,
                     "unitPrice": 2,
                     "totalAmount": 1000,
-                    "rate": 0.13,
-                    "goodsConfig": '{"simpleTaxType":"simpleTaxType","taxSysId":"taxSysId","taxTypeCode":"taxTypeCode","taxTypeNameShort":"taxTypeNameShort"}'
+                    "goodsConfig": '{"simpleTaxType":"simpleTaxType","taxSysId":"taxSysId","taxTypeCode":"taxTypeCode","taxTypeNameShort":"taxTypeNameShort","taxRateMap":{"3%":"0.03","1%":"0.09"}}'
                 }
             ],
         }
         response = self.post(
-            "/ycshg-ai-app-service/yk/invoice-info/blue/v1/apply-invoice-ai",
+            "/ycshg-ai-app-service/feign/app/invoice-info/blue/v1/apply-invoice-ai",
             data)
         print(response.text)
 
@@ -242,14 +251,17 @@ processService = ProcessService()
 
 # ai - 匹配商品
 # processService.syncGoodsInfo()
-# processService.batchMatchGoods()
 # processService.pageGoodsInfo()
 
 # 同步任务分页查询
-# processService.pageSyncRecord()
+processService.pageSyncRecord()
 
 # 发票
+# processService.delete(337603169632256)
 # processService.pageInvoiceInfo()
 # processService.applyInvoice()
+# processService.queryBlueInvoice(337603633102848)
+
+# ai相关的接口
+# processService.batchMatchGoodsAi()
 # processService.applyBlueInvoiceAi()
-processService.queryBlueInvoice(337603633102848)

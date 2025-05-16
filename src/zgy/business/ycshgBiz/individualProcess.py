@@ -1,68 +1,68 @@
 from src.zgy.business.ycshgBiz import PigYcshgAi
 
 pageParam = {
-    "period": 202503,
-    "keyword": "企业名称_01",
-    "taxNature": ["SMALL_SCALE_TAXPAYER", "GENERAL_TAXPAYER"],
-    "productName": "商品名称",
-    "adminName": "管理员姓名",
-    "adminPhone": "管理员手机号码",
-    "serviceManagerIdList": [2],
-    "contractStopTime": {
-        "start": 202502,
-        "end": 202506,
-        "symbol": "range",
-    },
-    "openTime": {
-        "start": "2025-04-01",
-        "end": "2025-04-02",
-        "symbol": "range",
-    },
-    "payrollTime": {
-        "start": "2025-04-01",
-        "end": "2025-04-02",
-        "symbol": "range",
-    },
-    "ciFacieTime": {
-        "start": "2025-04-01",
-        "end": "2025-04-02",
-        "symbol": "range",
-    },
-    "ciDeclareTime": {
-        "start": "2025-04-01",
-        "end": "2025-04-02",
-        "symbol": "range",
-    },
-    "ciPayTime": {
-        "start": "2025-04-01",
-        "end": "2025-04-02",
-        "symbol": "range",
-    },
-    "poFacieTime": {
-        "start": "2025-04-01",
-        "end": "2025-04-02",
-        "symbol": "range",
-    },
-    "poDeclareTime": {
-        "start": "2025-04-01",
-        "end": "2025-04-02",
-        "symbol": "range",
-    },
-    "poPayTime": {
-        "start": "2025-04-01",
-        "end": "2025-04-02",
-        "symbol": "range",
-    },
-    "openStatusList": ["SUCCESS"],
-    "payrollStatusList": ["WAIT_CONFIRM", "CONFIRMED"],
-    "hasCiFacieList": ['null'],
-    "ciTaxAmount": "BELOW_EQUAL_ONE",
-    "ciDeclareStatusList": ["WAIT_DECLARE"],
-    "ciPayStatusList": ["WAIT_PAY"],
-    "hasPoFacieList": [True, False],
-    "poTaxAmount": "ABOVE_ONE",
-    "poDeclareStatusList": ["WAIT_DECLARE"],
-    "poPayStatusList": ["WAIT_PAY"],
+    "period": 202504,
+    # "keyword": "企业名称_01",
+    # "taxNature": ["SMALL_SCALE_TAXPAYER", "GENERAL_TAXPAYER"],
+    # "productName": "商品名称",
+    # "adminName": "管理员姓名",
+    # "adminPhone": "管理员手机号码",
+    # "serviceManagerIdList": [2],
+    # "contractStopTime": {
+    #     "start": 202502,
+    #     "end": 202506,
+    #     "symbol": "range",
+    # },
+    # "openTime": {
+    #     "start": "2025-04-01",
+    #     "end": "2025-04-02",
+    #     "symbol": "range",
+    # },
+    # "payrollTime": {
+    #     "start": "2025-04-01",
+    #     "end": "2025-04-02",
+    #     "symbol": "range",
+    # },
+    # "ciFacieTime": {
+    #     "start": "2025-04-01",
+    #     "end": "2025-04-02",
+    #     "symbol": "range",
+    # },
+    # "ciDeclareTime": {
+    #     "start": "2025-04-01",
+    #     "end": "2025-04-02",
+    #     "symbol": "range",
+    # },
+    # "ciPayTime": {
+    #     "start": "2025-04-01",
+    #     "end": "2025-04-02",
+    #     "symbol": "range",
+    # },
+    # "poFacieTime": {
+    #     "start": "2025-04-01",
+    #     "end": "2025-04-02",
+    #     "symbol": "range",
+    # },
+    # "poDeclareTime": {
+    #     "start": "2025-04-01",
+    #     "end": "2025-04-02",
+    #     "symbol": "range",
+    # },
+    # "poPayTime": {
+    #     "start": "2025-04-01",
+    #     "end": "2025-04-02",
+    #     "symbol": "range",
+    # },
+    # "openStatusList": ["SUCCESS"],
+    # "payrollStatusList": ["WAIT_CONFIRM", "CONFIRMED"],
+    # "hasCiFacieList": ['null'],
+    # "ciTaxAmount": "BELOW_EQUAL_ONE",
+    # "ciDeclareStatusList": ["WAIT_DECLARE"],
+    # "ciPayStatusList": ["WAIT_PAY"],
+    # "hasPoFacieList": [True, False],
+    # "poTaxAmount": "ABOVE_ONE",
+    # "poDeclareStatusList": ["WAIT_DECLARE"],
+    # "poPayStatusList": ["WAIT_PAY"],
 }
 
 
@@ -75,10 +75,10 @@ class IndividualProcessService(PigYcshgAi):
 
     def declareConfirm(self):
         data = {
-            "enterpriseId": 202504100000002,
-            "period": 202503,
+            "enterpriseId": 1,
+            "period": 202504,
             "comprehensiveIncome": {
-                "taxAmount": 0,
+                "taxAmount": 1,
                 "declareStatus": "EXTERNAL_DECLARED",
                 "payStatus": "NEED_NOT_PAY",
                 "declareScreenshotList": [
@@ -89,7 +89,7 @@ class IndividualProcessService(PigYcshgAi):
                 ]
             },
             "productionOperation": {
-                "taxAmount": 1,
+                "taxAmount": 2,
                 "declareStatus": "NONE_DECLARE",
                 "payStatus": "PAY_SUCCESS",
                 "declareScreenshotList": [
@@ -117,8 +117,8 @@ class IndividualProcessService(PigYcshgAi):
 
 individualProcessService = IndividualProcessService()
 # 分页查询
-# individualProcessService.page()
+individualProcessService.page()
 # 申报确认
-individualProcessService.declareConfirm()
+# individualProcessService.declareConfirm()
 # 导出
-# individualProcessService.export("C:\\Users\\admin\\Desktop\\发票开具项目信息导入模板123.xlsx")
+# individualProcessService.export("C:\\Users\\admin\\Desktop\\发票开具项目信息导入模板1234.xlsx")

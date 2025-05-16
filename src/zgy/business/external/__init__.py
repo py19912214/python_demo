@@ -4,7 +4,7 @@ import urllib.parse
 from src.zgy.business import *
 
 localHostPortRelMap = {
-    "/ycshg-ai-app-service/": "9943"
+    "/pig-manager-erp-external/": "10404"
 }
 envAndHostRelMap = {
     localHost: localHost_prefix,
@@ -14,14 +14,25 @@ envAndHostRelMap = {
 }
 
 __cur_env__ = dev
-__tenant_id__ = "3222533697536000000"
+__tenant_id__ = "2712645583831040000"
 __tenant_user_id__ = "271433485926400"
+appKeyEnvRelMap = {
+    "dev": {
+        "appKey": "JOOLGO",
+        "appSecret": "47955a9dc3a7e05e7fe177c8efaccd79"
+    },
+    "test": {
+        "appKey": "JOOLGO",
+        "appSecret": "47955a9dc3a7e05e7fe177c8efaccd79"
+    }
+}
 
 
 class BaseParent(CommonParent):
     def __init__(self):
         super().__init__(__cur_env__, localHostPortRelMap, envAndHostRelMap)
         self.refreshPigTenantToken()
+        super().setAppKey(appKeyEnvRelMap)
 
     def buildGetHeaders(self):
         return {

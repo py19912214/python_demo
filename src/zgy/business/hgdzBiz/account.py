@@ -1,4 +1,4 @@
-from src.zgy.business.hgdz import PigYcshgAi
+from src.zgy.business.hgdzBiz import PigYcshgAi
 
 
 class AccountService(PigYcshgAi):
@@ -18,7 +18,7 @@ class AccountService(PigYcshgAi):
             "industryCategory": "1",
             "industrySubcategory": "1"
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/account/v1/create-account',
+        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/account/v1/create-account',
                              data)
         print(response.text)
 

@@ -30,7 +30,7 @@ __tenant_user_id__ = '326531707174917'
 __tenant_user_name__ = quote(str('小潘同学123'), encoding='UTF-8')
 
 
-class InvoiceCloudPlatform(CommonParent):
+class PigYcshgSaasIndividualBiz(CommonParent):
     def __init__(self):
         super().__init__(__cur_env__, localHostPortRelMap, envAndHostRelMap)
         super().setAppKey(appKeyEnvRelMap)

@@ -6,7 +6,7 @@ prod = 'prod'
 
 # localHost_prefix = 'http://192.168.2.253:'
 # localHost_prefix = 'http://192.168.2.253:'
-localHost_prefix = 'http://localhost:'
+localHost_prefix = 'http://localhost:19999'
 
 # 定义URL pig-tenant服务
 pig_tenant_dev = 'http://dev-erp.joolgo.cn/api'
@@ -37,5 +37,5 @@ dev_ycshg_ai_app_service = 'http://dev-ycsisp.joolgo.cn/api'
 test_ycshg_ai_app_service = 'http://test-shop.hegui.cn/api'
 # 业财税合规
 ycshg_dev = 'http://dev-ycsisp.joolgo.cn/api'
-ycshg_test = 'http://test-shop.hegui.cn/api'
+ycshg_test = 'http://test-erp.hegui.cn/api'
 ycshg_prod = 'http://shop.hegui.cn/api'

@@ -1,4 +1,4 @@
-from src.zgy.business.hgdz import PigYcshgAi
+from src.zgy.business.hgdzBiz import PigYcshgAi
 
 
 class BizQueue(PigYcshgAi):
@@ -7,7 +7,7 @@ class BizQueue(PigYcshgAi):
             "moduleList": ["PRODUCTION_OPERATION_ANNUAL_REPORT"]
         }
         response = self.post(
-            '/ycshg-ai-platform-produce-hgdz-biz/yk/queue-task/group-running-count',
+            '/ycshg-ai-platform-produce-hgdzBiz-biz/yk/queue-task/group-running-count',
             data)
         print(response.text)
 
@@ -18,7 +18,7 @@ class BizQueue(PigYcshgAi):
             "status": "SUCCESS",
         }
         response = self.post(
-            '/ycshg-ai-platform-produce-hgdz-biz/yk/queue-task/select-page',
+            '/ycshg-ai-platform-produce-hgdzBiz-biz/yk/queue-task/select-page',
             data)
         print(response.text)
 
@@ -26,7 +26,7 @@ class BizQueue(PigYcshgAi):
         data = {
             "id": taskId
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/task-test/queue/replay?id='+taskId,
+        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-cronjob/nk/task-test/queue/replay?id='+taskId,
                              data)
         print(response.text)
 

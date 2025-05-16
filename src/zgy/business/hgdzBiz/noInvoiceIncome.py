@@ -1,4 +1,4 @@
-from src.zgy.business.hgdz import PigYcshgAi
+from src.zgy.business.hgdzBiz import PigYcshgAi
 
 
 # 无票收入
@@ -9,7 +9,7 @@ class NoInvoiceIncomeService(PigYcshgAi):
             "year": 2025,
             "month": 2,
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/no-invoice-income/v1/this-month-page',
+        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/no-invoice-income/v1/this-month-page',
                              data)
         print(response.text)
 
@@ -17,7 +17,7 @@ class NoInvoiceIncomeService(PigYcshgAi):
         data = {
             "accountBookId": 3325306714030080000
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/no-invoice-income/v1/category-info',
+        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/no-invoice-income/v1/category-info',
                              data)
         print(response.text)
 

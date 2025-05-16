@@ -1,10 +1,10 @@
-from src.zgy.business.hgdz import PigYcshgAi
+from src.zgy.business.ycshgBiz import PigYcshgAi
 
 
 class IndividualService(PigYcshgAi):
     def checkPasswordBeforeRegister(self):
         data = {
-            "enterpriseId": 332530223104000,
+            "enterpriseId": 2712645583831040001,
             "taxArea": "AREA_CODE151",
             "loginType": "INDIVIDUAL_TAX_PASSWORD",
             "rnAccount": "13843838438",
@@ -18,12 +18,12 @@ class IndividualService(PigYcshgAi):
 
     def register(self):
         data = {
-            "enterpriseId": "202504100000001",
+            "enterpriseId": 2712645583831040001,
             "taxArea": "AREA_CODE151",
             "loginType": "INDIVIDUAL_TAX_PASSWORD",
             "password": "123456",
-            "rnAccount": "",
-            "rnPwd": "",
+            "rnAccount": "rnAccount",
+            "rnPwd": "rnPwd",
             "taxpayer": {
                 "djzclx_dm": "411",
                 "hy_dm": "7499",
@@ -66,7 +66,7 @@ class IndividualService(PigYcshgAi):
 
     def getRegisterInfo(self):
         data = {
-            "enterpriseId": 202504100000002
+            "enterpriseId": 2712645583831040001
         }
         response = self.post('/ycshg-ai-platform-produce-ycshg-biz/yk/individual-tax/register-info',
                              data)
@@ -74,7 +74,7 @@ class IndividualService(PigYcshgAi):
 
     def updateRegisterInfo(self):
         data = {
-            "enterpriseId": 202504100000002,
+            "enterpriseId": 2712645583831040001,
             "taxArea": "AREA_CODE152",
             "loginType": "INDIVIDUAL_TAX_PASSWORD",
             "rnAccount": "13843838438",
@@ -88,9 +88,7 @@ class IndividualService(PigYcshgAi):
 
     def getIndividualUrl(self):
         data = {
-            "enterpriseId": 246702504001544,
-            "accessModeCode": 0,
-            "whetherAdmin": False
+            "enterpriseId": 2712645583831040001
         }
         response = self.post('/ycshg-ai-platform-produce-ycshg-biz/yk/individual-tax/get-individual-url',
                              data)
@@ -98,16 +96,24 @@ class IndividualService(PigYcshgAi):
 
     def unnecessary(self):
         data = {
-            "enterpriseId": 202504100000001
+            "enterpriseId": 2712645583831040001
         }
         response = self.post('/ycshg-ai-platform-produce-ycshg-biz/yk/individual-tax/unnecessary',
+                             data)
+        print(response.text)
+
+    def getIndividualUrl(self):
+        data = {
+            "enterpriseId": 2712645583831040001
+        }
+        response = self.post('/ycshg-ai-platform-produce-ycshg-biz/yk/individual-tax/get-individual-url',
                              data)
         print(response.text)
 
 
 processService = IndividualService()
 # 注册开通前的登录密码检查
-processService.checkPasswordBeforeRegister()
+# processService.checkPasswordBeforeRegister()
 # 注册
 # processService.register()
 # 获取注册信息

@@ -18,7 +18,7 @@ __cur_env__ = test
 # __tenant_id__ = '3286941137960960000'
 # __tenant_user_id__ = '335072798457856'
 # dev
-__tenant_id__ = '279084062179332'
+__tenant_id__ = '3286941137960960000'
 __tenant_user_id__ = '329774038007808'
 __tenant_user_name__ = quote(str('小潘同学123'), encoding='UTF-8')
 
@@ -26,14 +26,14 @@ __tenant_user_name__ = quote(str('小潘同学123'), encoding='UTF-8')
 class PigYcshgAi(CommonParent):
     def __init__(self):
         super().__init__(__cur_env__, localHostPortRelMap, envAndHostRelMap)
-        # self.refreshPigTenantToken()
+        self.refreshPigTenantToken()
 
     def buildGetHeaders(self):
         return {
             'Content-Type': 'application/json',
-            # 'x-tenant-Id': __tenant_id__,
-            # 'x-tenant-user-id': __tenant_user_id__,
-            # 'x-tenant-user-name': __tenant_user_name__,
+            'x-tenant-Id': __tenant_id__,
+            'x-tenant-user-id': __tenant_user_id__,
+            'x-tenant-user-name': __tenant_user_name__,
             'authorization': self.authorization
 
         }
@@ -41,9 +41,9 @@ class PigYcshgAi(CommonParent):
     def buildPostHeaders(self):
         return {
             'Content-Type': 'application/json',
-            # 'x-tenant-Id': __tenant_id__,
-            # 'x-tenant-user-name': __tenant_user_name__,
-            # 'x-tenant-user-id': __tenant_user_id__,
+            'x-tenant-Id': __tenant_id__,
+            'x-tenant-user-name': __tenant_user_name__,
+            'x-tenant-user-id': __tenant_user_id__,
             'authorization': self.authorization
         }
 

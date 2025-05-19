@@ -1,7 +1,8 @@
 from src.zgy.business.hgdzAppProvider import BaseParent
 
 invoiceData = {
-    "invoiceType": "PT_ENTERPRISE",  # PT_ ZY_ ENTERPRISE PERSON
+    "invoiceType": "QD_ZZS_ZY_FP",  # 发票类型 QD_ZZS_ZY_FP：专票，QD_ZZS_PT_FP：普票
+    "buyerType": "PERSON",  # 购买方类型： PERSON：个人 ENTERPRISE：企业
     "agentCertificateType": "agentCertificateType",
     "agentCertificateCode": "agentCertificateCode",
     "agentInternationCode": "agentInternationCode",
@@ -186,7 +187,7 @@ class ProcessService(BaseParent):
 
     def applyBlueInvoiceAi(self):
         data = {
-            "enterpriseId": 3222533697536000000,
+            "enterpriseId": 3384876607078400000,
             "invoiceType": "PT_ENTERPRISE",  # PT_ ZY_ ENTERPRISE PERSON
             "buyerName": "buyerName",
             "buyerIdentificationNumber": "buyerIdentificationNumber",
@@ -197,7 +198,7 @@ class ProcessService(BaseParent):
                     "unit": "unit",
                     "num": 1,
                     "unitPrice": 2,
-                    "totalAmount": 1000,
+                    "totalAmount": 10000,
                     "goodsConfig": '{"simpleTaxType":"simpleTaxType","taxSysId":"taxSysId","taxTypeCode":"taxTypeCode","taxTypeNameShort":"taxTypeNameShort","taxRateMap":{"3%":"0.03","1%":"0.01"}}'
                 },
                 {
@@ -254,7 +255,7 @@ processService = ProcessService()
 # processService.pageGoodsInfo()
 
 # 同步任务分页查询
-processService.pageSyncRecord()
+# processService.pageSyncRecord()
 
 # 发票
 # processService.delete(337603169632256)
@@ -264,4 +265,4 @@ processService.pageSyncRecord()
 
 # ai相关的接口
 # processService.batchMatchGoodsAi()
-# processService.applyBlueInvoiceAi()
+processService.applyBlueInvoiceAi()

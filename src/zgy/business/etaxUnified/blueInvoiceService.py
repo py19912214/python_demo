@@ -35,9 +35,9 @@ invoiceData = {
     "sellerName": "sellerName",
     "sellerShowAddrInfo": True,
     "sellerShowBankInfo": False,
-    "taxAmount": "167.9300000000",
-    "amount": "5830.0700000000",
-    "totalAmount": "5998",
+    "taxAmount": 177,
+    "amount": 5900,
+    "totalAmount": 6077,
     "itemRelInfoList": [
         {
             "businessType": "NORMAL",
@@ -47,13 +47,13 @@ invoiceData = {
             "taxSysId": "taxSysId",
             "simpleTaxType": "simpleTaxType",
             "num": "1.00",
-            "unitPrice": "5831.07",
+            "unitPrice": "6180",
             "spec": "spec",
             "unit": "unit",
             "rate": "0.03000000",
-            "taxAmount": "168.93",
-            "amount": "5831.07",
-            "totalAmount": "6000.00"
+            "taxAmount": "180",
+            "amount": "6000",
+            "totalAmount": "6180"
         },
         {
             "businessType": "DISCOUNT",
@@ -67,9 +67,9 @@ invoiceData = {
             "spec": "spec",
             "unit": "unit",
             "rate": "0.03000000",
-            "taxAmount": "-1",
-            "amount": "-1",
-            "totalAmount": "-2"
+            "taxAmount": "-3",
+            "amount": "-100",
+            "totalAmount": "-103"
         }
     ],
     "paymentRelInfoList": [
@@ -127,7 +127,7 @@ class InvoiceBaseService(SignalService):
 
 
 processService = InvoiceBaseService()
-processService.getSelectParam()
-# processService.applyInvoice()
+# processService.getSelectParam()
+processService.applyInvoice()
 # processService.submit()
 # processService.queryById(336669838573568)

@@ -196,18 +196,18 @@ class ProcessService(BaseParent):
                     "goodsName": "goodsName",
                     "spec": "spec",
                     "unit": "unit",
-                    "num": 1,
-                    "unitPrice": 2,
-                    "totalAmount": 10000,
+                    "num": 50,
+                    "unitPrice": 20,
+                    "totalAmount": 1000,
                     "goodsConfig": '{"simpleTaxType":"simpleTaxType","taxSysId":"taxSysId","taxTypeCode":"taxTypeCode","taxTypeNameShort":"taxTypeNameShort","taxRateMap":{"3%":"0.03","1%":"0.01"}}'
                 },
                 {
                     "goodsName": "goodsName1",
                     "spec": "spec1",
                     "unit": "unit1",
-                    "num": 1,
-                    "unitPrice": 2,
-                    "totalAmount": 1000,
+                    "num": 20,
+                    "unitPrice": 501,
+                    "totalAmount": 10000,
                     "goodsConfig": '{"simpleTaxType":"simpleTaxType","taxSysId":"taxSysId","taxTypeCode":"taxTypeCode","taxTypeNameShort":"taxTypeNameShort","taxRateMap":{"3%":"0.03","1%":"0.09"}}'
                 }
             ],

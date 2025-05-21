@@ -10,7 +10,7 @@ localHost_prefix = 'http://localhost:'
 
 # 定义URL pig-tenant服务
 pig_tenant_dev = 'http://dev-erp.joolgo.cn/api'
-pig_tenant_test = 'http://test-erp.joolgo.cn/api'
+pig_tenant_test = 'http://test-erp.hegui.cn/api'
 pig_tenant_prod = 'https://erp.joolgo.com/api'
 
 # 定义URL merchant 商户管理
@@ -31,7 +31,7 @@ ycshg_gsgj_dev = 'http://dev-zgyjfzx.joolgo.cn/api'
 ycshg_gsgj_test = 'http://test-erpgateway.hegui.cn'
 # 记账工具
 etax_unified_dex = 'http://dev-zgyjfzx.joolgo.cn/api'
-etax_unified_text = 'http://test-erpgateway.hegui.cn/api'
+etax_unified_text = 'http://test-shop.hegui.cn/api'
 # 记账工具
 dev_ycshg_ai_app_service = 'http://dev-ycsisp.joolgo.cn/api'
 test_ycshg_ai_app_service = 'http://test-shop.hegui.cn/api'

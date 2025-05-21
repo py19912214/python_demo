@@ -1,10 +1,9 @@
-import json
 import urllib.parse
 
 from src.zgy.business import *
 
 localHostPortRelMap = {
-    "/ycshg-ai-app-service/": "9943"
+    "/pig-cloud-gateway/": "19999"
 }
 envAndHostRelMap = {
     localHost: localHost_prefix,
@@ -13,9 +12,7 @@ envAndHostRelMap = {
     prod: pig_tenant_prod
 }
 
-__cur_env__ = dev
-__tenant_id__ = "3372245081128960000"
-__tenant_user_id__ = "271433485926400"
+__cur_env__ = localHost
 
 
 class BaseParent(CommonParent):
@@ -26,15 +23,11 @@ class BaseParent(CommonParent):
     def buildGetHeaders(self):
         return {
             'Content-Type': 'application/json',
-            'x-tenant-id': __tenant_id__,
-            'x-tenant-user-id': __tenant_user_id__,
             'authorization': self.authorization
         }
 
     def buildPostHeaders(self):
         return {
-            'x-tenant-id': __tenant_id__,
-            'x-tenant-user-id': __tenant_user_id__,
             'authorization': self.authorization
         }
 

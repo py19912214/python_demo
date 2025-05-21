@@ -14,29 +14,17 @@ invoiceData = {
     "buyerBankNo": "buyerBankNo",
     "buyerIdentificationNumber": "buyerIdentificationNumber",
     "buyerName": "buyerName",
-    "buyerShowAddrInfo": False,
-    "buyerShowBankInfo": False,
     "buyerType": "ENTERPRISE",
-    "purchaserCertificateType": "purchaserCertificateType",
-    "purchaserCertificateCode": "purchaserCertificateCode",
-    "purchaserInternationCode": "purchaserInternationCode",
-    "downloadUrl": "",
     "includeTax": False,
     "payee": "payee",
     "remarks": "remarks",
     "reviewer": "reviewer",
-    "drawer": "drawer",
     "sellerAddress": "sellerAddress",
     "sellerAddressMobile": "sellerAddressMobile",
     "sellerBankAccount": "sellerBankAccount",
     "sellerBankNo": "sellerBankNo",
     "sellerIdentificationNumber": "sellerIdentificationNumber",
     "sellerName": "sellerName",
-    "sellerShowAddrInfo": False,
-    "sellerShowBankInfo": False,
-    "taxAmount": "10",
-    "amount": "1900",
-    "totalAmount": "1910",
     "itemRelInfoList": [
         {
             "businessType": "NORMAL",
@@ -46,13 +34,13 @@ invoiceData = {
             "taxSysId": "taxSysId",
             "simpleTaxType": "simpleTaxType",
             "num": "1.00",
-            "unitPrice": "970",
+            "unitPrice": "1000",
             "spec": "spec",
             "unit": "unit",
             "rate": "0.03000000",
             "taxAmount": "30",
-            "amount": "970",
-            "totalAmount": "1000"
+            "amount": "1000",
+            "totalAmount": "1030"
         },
         {
             "businessType": "NORMAL",
@@ -62,13 +50,13 @@ invoiceData = {
             "taxSysId": "taxSysId",
             "simpleTaxType": "simpleTaxType",
             "num": "1.00",
-            "unitPrice": "970",
+            "unitPrice": "1000",
             "spec": "spec",
             "unit": "unit",
             "rate": "0.03000000",
             "taxAmount": "30",
-            "amount": "970",
-            "totalAmount": "1000"
+            "amount": "1000",
+            "totalAmount": "1030"
         },
         {
             "businessType": "DISCOUNT",
@@ -78,13 +66,13 @@ invoiceData = {
             "taxSysId": "taxSysId",
             "simpleTaxType": "simpleTaxType",
             "num": "1.00",
-            "unitPrice": "970",
+            "unitPrice": "103",
             "spec": "spec",
             "unit": "unit",
             "rate": "0.03000000",
-            "taxAmount": "-50",
-            "amount": "-40",
-            "totalAmount": "-90"
+            "taxAmount": "-3",
+            "amount": "-100",
+            "totalAmount": "-103"
         }
     ],
     "paymentRelInfoList": [
@@ -138,9 +126,9 @@ class ProcessService(BaseParent):
 
     def pageSyncRecord(self):
         data = {
-            "invoiceTaskType": "INVOICE_ISSUED_BASE_INFO",
-            # "invoiceTaskType": "INVOICE_PROJECT_INFO",
-            "statusList": ["SUCCESS"],  # SUCCESS, FAILED
+            # "invoiceTaskType": "INVOICE_ISSUED_BASE_INFO",
+            "invoiceTaskType": "INVOICE_PROJECT_INFO",
+            # "statusList": ["SUCCESS"],  # SUCCESS, FAILED
             "pageSize": 10
         }
         response = self.post(
@@ -252,7 +240,7 @@ processService = ProcessService()
 
 # ai - 匹配商品
 # processService.syncGoodsInfo()
-# processService.pageGoodsInfo()
+processService.pageGoodsInfo()
 
 # 同步任务分页查询
 # processService.pageSyncRecord()
@@ -265,4 +253,4 @@ processService = ProcessService()
 
 # ai相关的接口
 # processService.batchMatchGoodsAi()
-processService.applyBlueInvoiceAi()
+# processService.applyBlueInvoiceAi()

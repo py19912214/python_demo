@@ -1,6 +1,6 @@
 from src.zgy.business.etaxUnified import SignalService
 
-invoiceData = {
+invoiceData1 = {
     "unifiedAuthId": 3314140699852800000,
     "tpEnterpriseId": 331414105194496,
     "agentCertificateType": "agentCertificateType",
@@ -81,6 +81,46 @@ invoiceData = {
             "paymentTransactionId": "456"
         },
     ]
+}
+invoiceData = {
+    "amount": 9.9,
+    "buyerIdentificationNumber": "",
+    "buyerName": "张",
+    "buyerShowAddrInfo": False,
+    "buyerShowBankInfo": False,
+    "buyerType": "ENTERPRISE",
+    "includeTax": True,
+    "invoiceType": "QD_ZZS_PT_FP",
+    "itemRelInfoList": [
+        {
+            "amount": 9.9,
+            "businessType": "NORMAL",
+            "goodsName": "小众商品（外星人）",
+            "num": 2,
+            "rate": 0.01,
+            "simpleTaxType": "",
+            "spec": "",
+            "taxAmount": 0.1,
+            "taxSysId": "f8d6313627b848b5a5906207e6090beb",
+            "taxTypeCode": "3049900000000000000",
+            "taxTypeNameShort": "现代服务",
+            "totalAmount": 10,
+            "unit": "",
+            "unitPrice": 17
+        }
+    ],
+    "sellerAddress": "四川省成都市武侯区一环路西一段130号1栋8层823号",
+    "sellerAddressMobile": "18328433002",
+    "sellerBankAccount": "640718612",
+    "sellerBankNo": "中国民生银行股份有限公司成都锦江支行",
+    "sellerIdentificationNumber": "91510100MA6CEBNQ4K",
+    "sellerName": "猪哥云（四川）数字科技有限公司",
+    "sellerShowAddrInfo": False,
+    "sellerShowBankInfo": False,
+    "taxAmount": 0.1,
+    "totalAmount": 10,
+    "tpEnterpriseId": 338669705723906,
+    "unifiedAuthId": 338680105566208
 }
 
 

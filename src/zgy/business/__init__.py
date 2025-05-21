@@ -9,7 +9,7 @@ from src.zgy.common import HttpUtils
 
 # 其他服务域名
 class CommonParent:
-    authorization = "Bearer lI4uz1V9p6IXhewIK7Cw1EzrFjxyG_Sw46Uby4xj8s5jlPyKONszpQ6Xhh6xhPmqiJgB9tttari3fAISuVn2AmzYP4UtFbRjY3Ti7Yo9AVZV09a2EhQWfsDhYJrDz-6p"
+    authorization = "Bearer qN6a7a0f86nU2EMiO5c1DPcsnW9a9k_nweRNsKd-Yr3JUqMJ2EN-PfoDkvkxv0PHEx11pgg2ST6q_s5ubBErDwEZQS0Z-qDpnlgJEdmTBsFcG_QOF_KyDZwoGeemH_jU"
     cur_env = ""
     localHostPortRelMap = {}
     appKey = ""

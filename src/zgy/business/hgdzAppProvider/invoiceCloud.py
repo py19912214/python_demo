@@ -175,7 +175,8 @@ class ProcessService(BaseParent):
 
     def applyBlueInvoiceAi(self):
         data = {
-            "enterpriseId": 3384876607078400000,
+            "enterpriseId": 3386997519810560000,
+            "userId": 3236488256880641,
             "invoiceType": "PT_ENTERPRISE",  # PT_ ZY_ ENTERPRISE PERSON
             "buyerName": "buyerName",
             "buyerIdentificationNumber": "buyerIdentificationNumber",
@@ -240,7 +241,7 @@ processService = ProcessService()
 
 # ai - 匹配商品
 # processService.syncGoodsInfo()
-processService.pageGoodsInfo()
+# processService.pageGoodsInfo()
 
 # 同步任务分页查询
 # processService.pageSyncRecord()
@@ -253,4 +254,4 @@ processService.pageGoodsInfo()
 
 # ai相关的接口
 # processService.batchMatchGoodsAi()
-# processService.applyBlueInvoiceAi()
+processService.applyBlueInvoiceAi()

@@ -83,44 +83,45 @@ invoiceData1 = {
     ]
 }
 invoiceData = {
-    "amount": 9.9,
+    "amount": 97.09,
     "buyerIdentificationNumber": "",
-    "buyerName": "张",
+    "buyerName": "莫名",
     "buyerShowAddrInfo": False,
     "buyerShowBankInfo": False,
-    "buyerType": "ENTERPRISE",
-    "includeTax": True,
+    "buyerType": "PERSON",
+    "drawer": "阿里巴巴",
+    "includeTax": False,
     "invoiceType": "QD_ZZS_PT_FP",
     "itemRelInfoList": [
         {
-            "amount": 9.9,
+            "amount": 97.09,
             "businessType": "NORMAL",
-            "goodsName": "小众商品（外星人）",
-            "num": 2,
-            "rate": 0.01,
+            "goodsName": "苹果",
+            "num": 100,
+            "rate": 0.03,
             "simpleTaxType": "",
             "spec": "",
-            "taxAmount": 0.1,
-            "taxSysId": "f8d6313627b848b5a5906207e6090beb",
+            "taxAmount": 2.91,
+            "taxSysId": "7c15204fe5f0497db3d8c561b6095f4e",
             "taxTypeCode": "3049900000000000000",
             "taxTypeNameShort": "现代服务",
-            "totalAmount": 10,
-            "unit": "",
-            "unitPrice": 17
+            "totalAmount": 100,
+            "unit": "斤",
+            "unitPrice": 0.9709
         }
     ],
     "sellerAddress": "四川省成都市武侯区一环路西一段130号1栋8层823号",
     "sellerAddressMobile": "18328433002",
     "sellerBankAccount": "640718612",
     "sellerBankNo": "中国民生银行股份有限公司成都锦江支行",
-    "sellerIdentificationNumber": "91510100MA6CEBNQ4K",
-    "sellerName": "猪哥云（四川）数字科技有限公司",
+    "sellerIdentificationNumber": "91511525MA64897Y25",
+    "sellerName": "高县优美会展服务有限责任公司",
     "sellerShowAddrInfo": False,
     "sellerShowBankInfo": False,
-    "taxAmount": 0.1,
-    "totalAmount": 10,
-    "tpEnterpriseId": 338669705723906,
-    "unifiedAuthId": 338680105566208
+    "taxAmount": 2.91,
+    "totalAmount": 100,
+    "tpEnterpriseId": 338886041747458,
+    "unifiedAuthId": 338886031294464
 }
 
 
@@ -153,7 +154,7 @@ class InvoiceBaseService(SignalService):
         data = [
             {
                 "callBackUrl": "http://dev-erpgateway.joolgo.cn/invoice-cloud-platform/nk/invoice-task-callback/v1/blue-invoice-issued",
-                "reqData": "{\"agent\":{\"certificateNo\":\"agentCertificateCode\",\"certificateTypeCode\":\"agentCertificateType\",\"name\":\"agentName\",\"nationality\":\"agentInternationCode\",\"taxpayerCode\":\"agentTaxNo\"},\"buyerAddress\":\"buyerAddress\",\"buyerBank\":\"buyerBankNo\",\"buyerBankAccount\":\"buyerBankAccount\",\"buyerIdentificationNumber\":\"buyerIdentificationNumber\",\"buyerName\":\"buyerName\",\"buyerPhone\":\"buyerAddressMobile\",\"issuedInvoiceType\":\"01\",\"payInfos\":[{\"orderNO\":\"12312312\",\"payChannelCode\":\"10\"}],\"payee\":\"payee\",\"projectInfos\":[{\"amount\":5831.07,\"easyTaxType\":\"simpleTaxType\",\"invoiceLineNature\":0,\"price\":6000,\"projectId\":\"taxSysId\",\"projectName\":\"冰箱\",\"quantity\":1.00,\"serialNo\":1,\"slv\":0.03000000,\"specification\":\"spec\",\"taxAmount\":168.93,\"taxServiceCode\":\"taxTypeCode\",\"taxServiceForShort\":\"taxTypeNameShort\",\"unit\":\"unit\"},{\"amount\":-1,\"easyTaxType\":\"simpleTaxType\",\"invoiceLineNature\":1,\"projectId\":\"taxSysId\",\"projectName\":\"冰箱\",\"serialNo\":2,\"slv\":0.03000000,\"specification\":\"\",\"taxAmount\":-1,\"taxServiceCode\":\"taxTypeCode\",\"taxServiceForShort\":\"taxTypeNameShort\",\"unit\":\"\"}],\"remark\":\"remarks\",\"reviewer\":\"reviewer\",\"sellerAddress\":\"sellerAddress\",\"sellerBank\":\"sellerBankNo\",\"sellerBankAccount\":\"sellerBankAccount\",\"sellerIdentificationNumber\":\"sellerIdentificationNumber\",\"sellerName\":\"sellerName\",\"sellerPhone\":\"sellerAddressMobile\",\"showBuyerAddressInfo\":true,\"showBuyerBankInfo\":false,\"showSellerAddressInfo\":true,\"showSellerBankInfo\":false,\"taxInclusiveLabel\":true,\"toNaturalPerson\":false}",
+                "reqData": "{\"agent\":{\"certificateNo\":\"agentCertificateCode\",\"certificateTypeCode\":\"agentCertificateType\",\"name\":\"agentName\",\"nationality\":\"agentInternationCode\",\"taxpayerCode\":\"agentTaxNo\"},\"buyerAddress\":\"buyerAddress\",\"buyerBank\":\"buyerBankNo\",\"buyerBankAccount\":\"buyerBankAccount\",\"buyerIdentificationNumber\":\"buyerIdentificationNumber\",\"buyerName\":\"buyerName\",\"buyerPhone\":\"buyerAddressMobile\",\"issuedInvoiceType\":\"01\",\"payInfos\":[{\"orderNO\":\"12312312\",\"payChannelCode\":\"10\"}],\"payee\":\"payee\",\"projectInfos\":[{\"amount\":5831.07,\"easyTaxType\":\"simpleTaxType\",\"invoiceLineNature\":0,\"price\":6000,\"projectId\":\"taxSysId\",\"projectName\":\"冰箱\",\"quantity\":1.00,\"serialNo\":1,\"slv\":0.03000000,\"specification\":\"spec\",\"taxAmount\":168.93,\"taxServiceCode\":\"taxTypeCode\",\"taxServiceForShort\":\"taxTypeNameShort\",\"unit\":\"unit\"},{\"amount\":-1,\"easyTaxType\":\"simpleTaxType\",\"invoiceLineNature\":1,\"projectId\":\"taxSysId\",\"projectName\":\"冰箱\",\"serialNo\":2,\"slv\":0.03000000,\"specification\":\"\",\"taxAmount\":-1,\"taxServiceCode\":\"taxTypeCode\",\"taxServiceForShort\":\"taxTypeNameShort\",\"unit\":\"\"}],\"remark\":\"remarks\",\"reviewer\":\"reviewer\",\"sellerAddress\":\"sellerAddress\",\"sellerBank\":\"sellerBankNo\",\"sellerBankAccount\":\"sellerBankAccount\",\"sellerIdentificationNumber\":\"sellerIdentificationNumber\",\"sellerName\":\"sellerName\",\"sellerPhone\":\"sellerAddressMobile\",\"showBuyerAddressInfo\":true,\"showBuyerBankInfo\":False,\"showSellerAddressInfo\":true,\"showSellerBankInfo\":False,\"taxInclusiveLabel\":true,\"toNaturalPerson\":False}",
                 "reqId": 337292415516672,
                 "taskTypeCode": "BLUE_INVOICE_ISSUED",
                 "taskTypeName": "蓝字发票开具",

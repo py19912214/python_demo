@@ -1,110 +1,48 @@
 from src.zgy.business.pigTenant import PigErpManagerTenantParent
 
 invoiceData = {
-    "agentCertificateType": "agentCertificateType",
-    "agentCertificateCode": "agentCertificateCode",
-    "agentInternationCode": "agentInternationCode",
-    "agentName": "agentName",
-    "agentTaxNo": "agentTaxNo",
-    "buyerAddress": "buyerAddress",
-    "buyerAddressMobile": "buyerAddressMobile",
-    "buyerBankAccount": "buyerBankAccount",
-    "buyerBankNo": "buyerBankNo",
-    "buyerIdentificationNumber": "buyerIdentificationNumber",
-    "buyerName": "buyerName",
+    "buyerIdentificationNumber": "",
+    "buyerName": "莫名",
     "buyerShowAddrInfo": 0,
     "buyerShowBankInfo": 0,
-    "buyerType": 1,
+    "buyerType": 0,
     "includeTax": 0,
-    "invoiceType": 81,
-    "payee": "payee",
-    "remarks": "remarks",
-    "reviewer": "reviewer",
-    "sellerAddress": "sellerAddress",
-    "sellerAddressMobile": "sellerAddressMobile",
-    "sellerBankAccount": "sellerBankAccount",
-    "sellerBankNo": "sellerBankNo",
-    "sellerIdentificationNumber": "sellerIdentificationNumber",
-    "sellerName": "sellerName",
+    "invoiceType": "82",
+    "sellerAddress": "四川省成都市武侯区一环路西一段130号1栋8层823号",
+    "sellerAddressMobile": "18328433002",
+    "sellerBankAccount": "640718612",
+    "sellerBankNo": "中国民生银行股份有限公司成都锦江支行",
+    "sellerIdentificationNumber": "91511525MA64897Y25",
+    "sellerName": "高县优美会展服务有限责任公司",
     "sellerShowAddrInfo": 0,
     "sellerShowBankInfo": 0,
-    "taxAmount": "10",
-    "invoiceAmount": "1900",
-    "totalAmount": "1910",
+    "invoiceAmount": 97.09,
+    "taxAmount": 2.91,
+    "totalAmount": 100,
     "itemRelInfoList": [
         {
-            "rateAmount": "30",
-            "totalAmount": "1000",
-            "amount": "970",
-            "businessType": 0,
-            "taxTypeNameShort": "taxTypeNameShort",
-            "simpleTaxType": "simpleTaxType",
-            "goodsName": "冰箱1",
-            "num": "1.00",
-            "rate": "0.03000000",
-            "spec": "spec",
-            "unit": "unit",
-            "unitPrice": "970",
-            "simpleCode": "simpleCode",
+            "amount": 97.09,
+            "businessType": "0",
+            "goodsName": "苹果",
+            "num": 100,
+            "rate": 0.03,
+            "simpleTaxType": "",
+            "spec": "",
+            "rateAmount": 2.91,
+            "taxTypeNameShort": "现代服务",
+            "totalAmount": 100,
+            "unit": "斤",
+            "unitPrice": 0.9709,
             "goodsConfigInfo": {
-                "taxTypeCode": "taxTypeCode",
+                "taxTypeCode": "3049900000000000000",
                 "taxTypeName": "taxTypeName",
-                "taxTypeNameShort": "taxTypeNameShort",
+                "taxTypeNameShort": "现代服务",
                 "simpleCode": "simpleCode",
-                "taxSysId": "taxSysId"
-            }
-        }, {
-            "rateAmount": "30",
-            "totalAmount": "1000",
-            "amount": "970",
-            "businessType": 0,
-            "taxTypeNameShort": "taxTypeNameShort",
-            "simpleTaxType": "simpleTaxType",
-            "goodsName": "冰箱2",
-            "num": "1.00",
-            "rate": "0.03000000",
-            "spec": "spec",
-            "unit": "unit",
-            "unitPrice": "970",
-            "goodsConfigInfo": {
-                "taxTypeCode": "taxTypeCode",
-                "taxTypeName": "taxTypeName",
-                "taxTypeNameShort": "taxTypeNameShort",
-                "simpleCode": "simpleCode",
-                "taxSysId": "taxSysId"
-            }
-        }, {
-            "rateAmount": "-50",
-            "totalAmount": "-90",
-            "amount": "-40",
-            "businessType": 1,
-            "taxTypeNameShort": "taxTypeNameShort",
-            "simpleTaxType": "simpleTaxType",
-            "goodsName": "冰箱2",
-            "num": "1.00",
-            "rate": "0.03000000",
-            "spec": "spec",
-            "unit": "unit",
-            "unitPrice": "970",
-            "goodsConfigInfo": {
-                "taxTypeCode": "taxTypeCode",
-                "taxTypeName": "taxTypeName",
-                "taxTypeNameShort": "taxTypeNameShort",
-                "simpleCode": "simpleCode",
-                "taxSysId": "taxSysId"
+                "taxSysId": "7c15204fe5f0497db3d8c561b6095f4e"
             }
         }
     ],
-    "paymentRelInfoList": [
-        {
-            "paymentMethod": "10",
-            "paymentTransactionId": "123"
-        },
-        {
-            "paymentMethod": "09",
-            "paymentTransactionId": "456"
-        }
-    ]
+    "paymentRelInfoList": []
 }
 
 

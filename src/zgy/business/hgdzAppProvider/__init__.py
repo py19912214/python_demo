@@ -14,14 +14,14 @@ envAndHostRelMap = {
 }
 
 __cur_env__ = dev
-__tenant_id__ = "3372245081128960000"
-__tenant_user_id__ = "271433485926400"
+__tenant_id__ = "3386997519810560000"
+__tenant_user_id__ = "323648825688064"
 
 
 class BaseParent(CommonParent):
     def __init__(self):
         super().__init__(__cur_env__, localHostPortRelMap, envAndHostRelMap)
-        # self.refreshPigTenantToken()
+        self.refreshPigTenantToken()
 
     def buildGetHeaders(self):
         return {

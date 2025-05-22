@@ -14,9 +14,14 @@ envAndHostRelMap = {
     prod: pig_tenant_prod
 }
 
-__cur_env__ = dev
-__tenant_id__ = "2702037874442240000"
-__tenant_user_id__ = "271433485926400"
+__cur_env__ = test
+# dev
+# __tenant_id__ = "2702037874442240000"
+# __tenant_user_id__ = "271433485926400"
+
+# test
+__tenant_id__ = "2984383133614080000"
+__tenant_user_id__ = "298438315212800"
 
 
 class PigErpManagerTenantParent(CommonParent):

@@ -14,7 +14,7 @@ invoiceData = {
     "buyerBankNo": "buyerBankNo",
     "buyerIdentificationNumber": "buyerIdentificationNumber",
     "buyerName": "buyerName",
-    "buyerType": "ENTERPRISE",
+    "buyerType": "PERSON",
     "includeTax": False,
     "payee": "payee",
     "remarks": "remarks",
@@ -175,8 +175,12 @@ class ProcessService(BaseParent):
 
     def applyBlueInvoiceAi(self):
         data = {
-            "enterpriseId": 3386997519810560000,
-            "userId": 3236488256880641,
+            # dev
+            # "enterpriseId": 3312338360893440000,
+            # "userId": 322606020608000,
+            # test
+            "enterpriseId": 3388397470351360000,
+            "userId": 333639929905152,
             "invoiceType": "PT_ENTERPRISE",  # PT_ ZY_ ENTERPRISE PERSON
             "buyerName": "buyerName",
             "buyerIdentificationNumber": "buyerIdentificationNumber",
@@ -195,8 +199,8 @@ class ProcessService(BaseParent):
                     "spec": "spec1",
                     "unit": "unit1",
                     "num": 20,
-                    "unitPrice": 501,
-                    "totalAmount": 10000,
+                    "unitPrice": 50,
+                    "totalAmount": 1000,
                     "goodsConfig": '{"simpleTaxType":"simpleTaxType","taxSysId":"taxSysId","taxTypeCode":"taxTypeCode","taxTypeNameShort":"taxTypeNameShort","taxRateMap":{"3%":"0.03","1%":"0.09"}}'
                 }
             ],
@@ -244,7 +248,7 @@ processService = ProcessService()
 # processService.pageGoodsInfo()
 
 # 同步任务分页查询
-# processService.pageSyncRecord()
+processService.pageSyncRecord()
 
 # 发票
 # processService.delete(337603169632256)
@@ -254,4 +258,4 @@ processService = ProcessService()
 
 # ai相关的接口
 # processService.batchMatchGoodsAi()
-processService.applyBlueInvoiceAi()
+# processService.applyBlueInvoiceAi()

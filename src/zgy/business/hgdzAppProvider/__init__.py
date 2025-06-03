@@ -13,8 +13,12 @@ envAndHostRelMap = {
     prod: pig_tenant_prod
 }
 
-__cur_env__ = dev
-__tenant_id__ = "3386997519810560000"
+__cur_env__ = test
+# dev
+# __tenant_id__ = "3312338360893440001"
+# __tenant_user_id__ = "322606020608000"
+# test
+__tenant_id__ = "3387048372469760000"
 __tenant_user_id__ = "323648825688064"
 
 

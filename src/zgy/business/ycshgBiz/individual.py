@@ -24,7 +24,7 @@ class IndividualService(PigYcshgAi):
             "password": "123456",
             "rnAccount": "rnAccount",
             "rnPwd": "rnPwd",
-            "taxpayer": {
+            "taxpayer1": {
                 "djzclx_dm": "411",
                 "hy_dm": "7499",
                 "zcdz": "四川省成都市武侯区一环路西一段130号1栋8层823号",
@@ -115,12 +115,12 @@ processService = IndividualService()
 # 注册开通前的登录密码检查
 # processService.checkPasswordBeforeRegister()
 # 注册
-# processService.register()
+processService.register()
 # 获取注册信息
 # processService.getRegisterInfo()
 # 更新注册信息
 # processService.updateRegisterInfo()
 # 获取个税地址
-processService.getIndividualUrl()
+# processService.getIndividualUrl()
 # 标记为无需申报
 # processService.unnecessary()

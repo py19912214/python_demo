@@ -15,7 +15,7 @@ envAndHostRelMap = {
     prod: hgdz_prod
 }
 
-__cur_env__ = dev
+__cur_env__ = localHost
 # test
 # __tenant_id__ = '3286941137960960000'
 # __tenant_user_id__ = '335072798457856'

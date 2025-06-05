@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb451603-6bb7-4430-8f30-80e0990c12a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/invoice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/hgdzPlatform/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/hgdzPlatform/invoice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/hgdzPlatform/qywx.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/__init__.py" afterDir="false" />
     </list>
     <list id="52cef452-b114-4c30-a38d-27d2660476c0" name="ignore" comment="">
       <change afterPath="$PROJECT_DIR$/src/zgy/business/mysql/sendbox.py" afterDir="false" />
@@ -536,10 +531,10 @@
     <list>
       <item itemvalue="Python.b" />
       <item itemvalue="Python.invoice" />
+      <item itemvalue="Python.qywx" />
       <item itemvalue="Python.__init__" />
       <item itemvalue="Python.individualProcess" />
       <item itemvalue="Python.sendbox" />
-      <item itemvalue="Python.qywx" />
     </list>
     <recent_temporary>
       <list>
@@ -628,7 +623,7 @@
       <workItem from="1748504940671" duration="322000" />
       <workItem from="1748505450646" duration="282000" />
       <workItem from="1748916590233" duration="1864000" />
-      <workItem from="1749005440233" duration="8756000" />
+      <workItem from="1749005440233" duration="9974000" />
     </task>
     <task id="LOCAL-00001" summary="重新搭建测试代码">
       <option name="closed" value="true" />
@@ -894,7 +889,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748917857165</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="1">
+      <option name="closed" value="true" />
+      <created>1749094082353</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1749094082353</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">

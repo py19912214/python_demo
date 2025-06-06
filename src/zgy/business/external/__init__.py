@@ -57,8 +57,8 @@ class BaseParent(CommonParent):
         params = {
             "grant_type": "password",
             "loginType": "password",
-            "username": "13111867801",
-            "password": "AwxsbzgJZhnxlPjnfTbHNA==",
+            "username": "13982081834",
+            "password": "Ltnn5Hqpu10hkxcn88fMxQ==",
             "loginAccountSystem": "PIG_TENANT"
         }
         urlParams = urllib.parse.urlencode(params).encode('utf-8')

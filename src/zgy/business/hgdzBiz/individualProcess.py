@@ -70,7 +70,7 @@ pageParam = {
 class IndividualProcessService(PigYcshgAi):
     def page(self):
         data = pageParam
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/individual-tax-declare-process/select-info-page',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax-declare-process/select-info-page',
                              data)
         print(response.text)
 
@@ -101,13 +101,13 @@ class IndividualProcessService(PigYcshgAi):
                 ]
             },
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/individual-tax-declare-process/declare-confirm',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax-declare-process/declare-confirm',
                              data)
         print(response.text)
 
     def export(self, filePath):
         data = pageParam
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/individual-tax-declare-process/export',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax-declare-process/export',
                              data)
         with open(filePath, 'wb') as f:
             for chunk in response.iter_content(chunk_size=8192):

@@ -4,28 +4,27 @@ import urllib.parse
 from src.zgy.business import *
 
 localHostPortRelMap = {
-    "/ycshg-ai-service-provider/": "9942"
+    "/tax-platform-cronjob/": "10189"
 }
 envAndHostRelMap = {
     localHost: localHost_prefix,
-    dev: dev_ycshg_ai_service_produce,
-    test: test_ycshg_ai_service_produce,
-    prod: pig_tenant_prod
+    dev: tax_platform_dev,
+    test: tax_platform_test,
 }
 
 __cur_env__ = test
 # dev
-# __tenant_id__ = "3211194104545280000"
-# __tenant_user_id__ = "329774037827584"
+__tenant_id__ = "3211194104545280000"
+__tenant_user_id__ = "329774037827584"
 # test
-__tenant_id__ = "3312283985510400000"
-__tenant_user_id__ = "342512550313984"
+# __tenant_id__ = "3387048372469760000"
+# __tenant_user_id__ = "323648825688064"
 
 
 class BaseParent(CommonParent):
     def __init__(self):
         super().__init__(__cur_env__, localHostPortRelMap, envAndHostRelMap)
-        self.refreshPigTenantToken()
+        # self.refreshPigTenantToken()
 
     def buildGetHeaders(self):
         return {

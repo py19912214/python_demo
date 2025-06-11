@@ -35,6 +35,9 @@ etax_unified_text = 'http://test-shop.hegui.cn/api'
 # 记账工具
 dev_ycshg_ai_app_service = 'http://dev-ycsisp.joolgo.cn/api'
 test_ycshg_ai_app_service = 'http://test-shop.hegui.cn/api'
+# 记账工具
+dev_ycshg_ai_service_produce = 'http://dev-shop.hegui.cn/api'
+test_ycshg_ai_service_produce = 'http://test-shop.hegui.cn/api'
 # 业财税合规
 ycshg_dev = 'http://dev-ycsisp.joolgo.cn/api'
 ycshg_test = 'http://test-erp.hegui.cn/api'
@@ -43,3 +46,6 @@ ycshg_prod = 'http://shop.hegui.cn/api'
 # 巧慧算
 qhs_platform_dev = 'http://dev-ycsisp.joolgo.cn/api'
 qhs_platform_test = 'http://test-manage.qiaohuisuan.cn/api'
+# 发票中台
+tax_platform_dev = 'http://dev-taxplatform.joolgo.cn'
+tax_platform_test = 'http://192.168.2.212:10189'

@@ -5,16 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb451603-6bb7-4430-8f30-80e0990c12a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/zgy/business/qhs/individualDetail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zgy/business/hgdzPlatform/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zgy/business/pigTaxPlatform/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zgy/business/pigTaxPlatform/cronjob.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zgy/business/qywx/qywx.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zgy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/external/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/external/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/gateway/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/gateway/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzAppProvider/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzAppProvider/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/pigEnterpriseQueryPlatform/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/pigEnterpriseQueryPlatform/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/pigTenant/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/pigTenant/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zgy/business/qhs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/qhs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/etaxUnified/CallBackService.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/etaxUnified/CallBackService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/etaxUnified/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/etaxUnified/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/TaskTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/TaskTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/bankReceipt.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/bankReceipt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/bizQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/bizQueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/enterprise.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/enterprise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/enterpriseTag.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/enterpriseTag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/incomeSettlement.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/incomeSettlement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/individual.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/individual.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/individualCallBack.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/individualCallBack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/individualDetail.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/individualDetail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/individualFetchCount.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/individualFetchCount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/individualProcess.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/individualProcess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/invoice.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/invoice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/national.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/national.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/noInvoiceIncome.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/noInvoiceIncome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/selectParam.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzBiz/selectParam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzPlatform/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzPlatform/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzPlatform/invoice.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzPlatform/invoice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzSaasInvididual/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzSaasInvididual/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgy/business/hgdzSaasInvididual/cronJobService.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgy/business/hgdzSaasInvididual/cronJobService.py" afterDir="false" />
     </list>
     <list id="52cef452-b114-4c30-a38d-27d2660476c0" name="ignore" comment="">
       <change afterPath="$PROJECT_DIR$/src/zgy/business/mysql/sendbox.py" afterDir="false" />
@@ -283,6 +302,7 @@
     "Python.bizService.executor": "Run",
     "Python.blueInvoiceService.executor": "Run",
     "Python.cronJobService.executor": "Run",
+    "Python.cronjob.executor": "Run",
     "Python.enterprise.executor": "Run",
     "Python.enterpriseTag.executor": "Run",
     "Python.external (1).executor": "Run",
@@ -300,6 +320,7 @@
     "Python.individualFlow.executor": "Run",
     "Python.individualProcess.executor": "Run",
     "Python.individualSync.executor": "Run",
+    "Python.invoice (1).executor": "Run",
     "Python.invoice.executor": "Run",
     "Python.invoiceBaseService.executor": "Run",
     "Python.invoiceCloud (1).executor": "Run",
@@ -307,14 +328,16 @@
     "Python.national.executor": "Run",
     "Python.noInvoiceIncome.executor": "Run",
     "Python.qw.executor": "Run",
+    "Python.qywx (1).executor": "Run",
     "Python.selectParam.executor": "Run",
     "Python.sendbox.executor": "Run",
+    "Python.task.executor": "Run",
     "Python.test.executor": "Run",
     "Python.ycshgSaasIndividualTaxBusiness.executor": "Run",
     "Python.ycshgSaasIndividualTaxCronJob.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/py/python/work/python_demo/src/zgy/business/qhs",
+    "last_opened_file_path": "D:/py/python/work/python_demo/src/zgy/business/hgdzPlatform",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -325,19 +348,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\py\python\work\python_demo\src\zgy\business\qhs" />
       <recent name="D:\py\python\work\python_demo\src\zgy\business\hgdzPlatform" />
       <recent name="D:\py\python\work\python_demo\src\zgy\business" />
+      <recent name="D:\py\python\work\python_demo\src\zgy\business\qhs" />
       <recent name="D:\py\python\work\python_demo\src\zgy\business\hgdzBiz" />
       <recent name="D:\py\python\work\python_demo\src\zgy\business\ycshgBiz" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\py\python\work\python_demo\src\zgy\business\qywx" />
       <recent name="D:\py\python\work\python_demo\src\zgy\business\external" />
       <recent name="D:\py\python\work\python_demo\src\zgy\business\hgdzAppProvider" />
       <recent name="D:\py\python\work\python_demo\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sendbox">
+  <component name="RunManager" selected="Python.invoice (1)">
     <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -386,6 +410,29 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TaskTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_demo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/zgy/business/hgdzBiz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/zgy/business/hgdzBiz/TaskTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="b" type="PythonConfigurationType" factoryName="Python">
       <module name="python_demo" />
       <option name="ENV_FILES" value="" />
@@ -413,7 +460,7 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method v="2" />
     </configuration>
-    <configuration name="individualDetail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="cronjob" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_demo" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -422,12 +469,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/zgy/business/qhs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/zgy/business/pigTaxPlatform" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/zgy/business/qhs/individualDetail.py" />
+      <option name="SCRIPT_NAME" value="D:\py\python\work\python_demo\src\zgy\business\pigTaxPlatform\cronjob.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -436,7 +483,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="individualProcess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="invoice (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_demo" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -445,12 +492,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/zgy/business/ycshgBiz" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/zgy/business/hgdzPlatform" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/zgy/business/ycshgBiz/individualProcess.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/zgy/business/hgdzPlatform/invoice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -482,7 +529,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="qywx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="productionOrder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_demo" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -496,30 +543,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\py\python\work\python_demo\src\zgy\business\hgdzPlatform\qywx.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sendbox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_demo" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/zgy/business/mysql" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/zgy/business/mysql/sendbox.py" />
+      <option name="SCRIPT_NAME" value="D:\py\python\work\python_demo\src\zgy\business\hgdzPlatform\productionOrder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -539,19 +563,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.b" />
-      <item itemvalue="Python.individualDetail" />
+      <item itemvalue="Python.TaskTest" />
       <item itemvalue="Python.invoice" />
-      <item itemvalue="Python.qywx" />
-      <item itemvalue="Python.individualProcess" />
-      <item itemvalue="Python.sendbox" />
+      <item itemvalue="Python.cronjob" />
+      <item itemvalue="Python.invoice (1)" />
+      <item itemvalue="Python.productionOrder" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sendbox" />
-        <item itemvalue="Python.individualDetail" />
-        <item itemvalue="Python.qywx" />
+        <item itemvalue="Python.invoice (1)" />
+        <item itemvalue="Python.cronjob" />
+        <item itemvalue="Python.TaskTest" />
         <item itemvalue="Python.invoice" />
-        <item itemvalue="Python.individualProcess" />
+        <item itemvalue="Python.productionOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -633,7 +657,11 @@
       <workItem from="1748505450646" duration="282000" />
       <workItem from="1748916590233" duration="1864000" />
       <workItem from="1749005440233" duration="13375000" />
-      <workItem from="1749180067981" duration="7562000" />
+      <workItem from="1749180067981" duration="9524000" />
+      <workItem from="1749455743180" duration="4990000" />
+      <workItem from="1749462653021" duration="15109000" />
+      <workItem from="1749611789300" duration="8971000" />
+      <workItem from="1749630881631" duration="3836000" />
     </task>
     <task id="LOCAL-00001" summary="重新搭建测试代码">
       <option name="closed" value="true" />
@@ -915,7 +943,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749095927278</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="1">
+      <option name="closed" value="true" />
+      <created>1749196956984</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1749196956984</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1024,11 +1060,6 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/zgy/business/ycshgBiz/individual.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/zgy/business/qhs/__init__.py</url>
           <line>66</line>
           <option name="timeStamp" value="16" />
@@ -1044,52 +1075,55 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_demo$bankReceipt.coverage" NAME="bankReceipt Coverage Results" MODIFIED="1745552685632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
     <SUITE FILE_PATH="coverage/python_demo$enterpriseTag.coverage" NAME="enterpriseTag Coverage Results" MODIFIED="1744341483401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
-    <SUITE FILE_PATH="coverage/python_demo$individual__1_.coverage" NAME="individual (1) Coverage Results" MODIFIED="1745550719478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasInvididual" />
     <SUITE FILE_PATH="coverage/python_demo$bizService__1_.coverage" NAME="bizService (1) Coverage Results" MODIFIED="1744359315784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasInvididual" />
     <SUITE FILE_PATH="coverage/python_demo$individual.coverage" NAME="individual Coverage Results" MODIFIED="1748484592878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgBiz" />
-    <SUITE FILE_PATH="coverage/python_demo$invoice.coverage" NAME="invoice Coverage Results" MODIFIED="1749007055823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/hgdzBiz" />
+    <SUITE FILE_PATH="coverage/python_demo$invoice.coverage" NAME="invoice Coverage Results" MODIFIED="1749625652841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/hgdzBiz" />
     <SUITE FILE_PATH="coverage/python_demo$external__1_.coverage" NAME="external (1) Coverage Results" MODIFIED="1747303191619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/external" />
-    <SUITE FILE_PATH="coverage/python_demo$TestFrameworkController.coverage" NAME="TestFrameworkController Coverage Results" MODIFIED="1742029563785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigRpaGsAnnualReport" />
     <SUITE FILE_PATH="coverage/python_demo$account.coverage" NAME="account Coverage Results" MODIFIED="1744251140993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
     <SUITE FILE_PATH="coverage/python_demo$apiCallService.coverage" NAME="apiCallService Coverage Results" MODIFIED="1745458258008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount" />
     <SUITE FILE_PATH="coverage/python_demo$invoiceBaseService.coverage" NAME="invoiceBaseService Coverage Results" MODIFIED="1747384343447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/etaxUnified" />
-    <SUITE FILE_PATH="coverage/python_demo$individualCallBack.coverage" NAME="individualCallBack Coverage Results" MODIFIED="1745902176772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
-    <SUITE FILE_PATH="coverage/python_demo$individualDetail.coverage" NAME="individualDetail Coverage Results" MODIFIED="1749182036332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/qhs" />
-    <SUITE FILE_PATH="coverage/python_demo$externalService__1_.coverage" NAME="externalService (1) Coverage Results" MODIFIED="1744254026382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount" />
     <SUITE FILE_PATH="coverage/python_demo$invoiceCloud.coverage" NAME="invoiceCloud Coverage Results" MODIFIED="1747922386917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/hgdzAppProvider" />
     <SUITE FILE_PATH="coverage/python_demo$qw.coverage" NAME="qw Coverage Results" MODIFIED="1749016804235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/hgdzPlatform" />
     <SUITE FILE_PATH="coverage/python_demo$individualCallBack__1_.coverage" NAME="individualCallBack (1) Coverage Results" MODIFIED="1743672693948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/qhs" />
     <SUITE FILE_PATH="coverage/python_demo$invoiceCloud__1_.coverage" NAME="invoiceCloud (1) Coverage Results" MODIFIED="1747792501348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/gateway" />
     <SUITE FILE_PATH="coverage/python_demo$individualProcess.coverage" NAME="individualProcess Coverage Results" MODIFIED="1748917334154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgBiz" />
     <SUITE FILE_PATH="coverage/python_demo$individualFetchCount.coverage" NAME="individualFetchCount Coverage Results" MODIFIED="1744267689322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
+    <SUITE FILE_PATH="coverage/python_demo$invoice__1_.coverage" NAME="invoice (1) Coverage Results" MODIFIED="1749634684444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/hgdzPlatform" />
     <SUITE FILE_PATH="coverage/python_demo$ycshgSaasIndividualTaxBusiness.coverage" NAME="ycshgSaasIndividualTaxBusiness Coverage Results" MODIFIED="1744189926862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshg" />
+    <SUITE FILE_PATH="coverage/python_demo$bizService.coverage" NAME="bizService Coverage Results" MODIFIED="1744353526371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount" />
+    <SUITE FILE_PATH="coverage/python_demo$qywx__1_.coverage" NAME="qywx (1) Coverage Results" MODIFIED="1749541381168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/qywx" />
+    <SUITE FILE_PATH="coverage/python_demo$sendbox.coverage" NAME="sendbox Coverage Results" MODIFIED="1749184248940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/mysql" />
+    <SUITE FILE_PATH="coverage/python_demo$PigKjscMerchantService.coverage" NAME="PigKjscMerchantService Coverage Results" MODIFIED="1742202920465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigKjsc" />
+    <SUITE FILE_PATH="coverage/python_demo$cronJobService.coverage" NAME="cronJobService Coverage Results" MODIFIED="1749542570088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/hgdzSaasInvididual" />
+    <SUITE FILE_PATH="coverage/python_demo$individualSync.coverage" NAME="individualSync Coverage Results" MODIFIED="1747211579802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgBiz" />
+    <SUITE FILE_PATH="coverage/python_demo$enterprise.coverage" NAME="enterprise Coverage Results" MODIFIED="1747722464710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgBiz" />
+    <SUITE FILE_PATH="coverage/python_demo$external.coverage" NAME="external Coverage Results" MODIFIED="1747624003339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/external" />
+    <SUITE FILE_PATH="coverage/python_demo$bankReceipt.coverage" NAME="bankReceipt Coverage Results" MODIFIED="1745552685632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
+    <SUITE FILE_PATH="coverage/python_demo$individual__1_.coverage" NAME="individual (1) Coverage Results" MODIFIED="1745550719478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasInvididual" />
+    <SUITE FILE_PATH="coverage/python_demo$TestFrameworkController.coverage" NAME="TestFrameworkController Coverage Results" MODIFIED="1742029563785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigRpaGsAnnualReport" />
+    <SUITE FILE_PATH="coverage/python_demo$individualCallBack.coverage" NAME="individualCallBack Coverage Results" MODIFIED="1745902176772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
+    <SUITE FILE_PATH="coverage/python_demo$individualDetail.coverage" NAME="individualDetail Coverage Results" MODIFIED="1749182036332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/qhs" />
+    <SUITE FILE_PATH="coverage/python_demo$externalService__1_.coverage" NAME="externalService (1) Coverage Results" MODIFIED="1744254026382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount" />
     <SUITE FILE_PATH="coverage/python_demo$ycshgSaasIndividualTaxCronJob.coverage" NAME="ycshgSaasIndividualTaxCronJob Coverage Results" MODIFIED="1744191203935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshg" />
     <SUITE FILE_PATH="coverage/python_demo$Test.coverage" NAME="Test Coverage Results" MODIFIED="1747116382783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/etaxUnified" />
     <SUITE FILE_PATH="coverage/python_demo$blueInvoiceService.coverage" NAME="blueInvoiceService Coverage Results" MODIFIED="1747821292511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/etaxUnified" />
     <SUITE FILE_PATH="coverage/python_demo$selectParam.coverage" NAME="selectParam Coverage Results" MODIFIED="1743579482616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshg" />
     <SUITE FILE_PATH="coverage/python_demo$bizQueue.coverage" NAME="bizQueue Coverage Results" MODIFIED="1745316028383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
     <SUITE FILE_PATH="coverage/python_demo$individualFlow.coverage" NAME="individualFlow Coverage Results" MODIFIED="1744010463847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshg" />
-    <SUITE FILE_PATH="coverage/python_demo$bizService.coverage" NAME="bizService Coverage Results" MODIFIED="1744353526371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount" />
-    <SUITE FILE_PATH="coverage/python_demo$test.coverage" NAME="test Coverage Results" MODIFIED="1742809174252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigEnterpriseQueryPlatform" />
-    <SUITE FILE_PATH="coverage/python_demo$incomeSettlement.coverage" NAME="incomeSettlement Coverage Results" MODIFIED="1744964870860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
+    <SUITE FILE_PATH="coverage/python_demo$test.coverage" NAME="cronjob Coverage Results" MODIFIED="1749634645553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigTaxPlatform" />
+    <SUITE FILE_PATH="coverage/python_demo$task.coverage" NAME="task Coverage Results" MODIFIED="1749612263770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/hgdzPlatform" />
     <SUITE FILE_PATH="coverage/python_demo$BlueInvoiceManager.coverage" NAME="BlueInvoiceManager Coverage Results" MODIFIED="1747821074696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigTenant" />
-    <SUITE FILE_PATH="coverage/python_demo$sendbox.coverage" NAME="sendbox Coverage Results" MODIFIED="1749184248940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/mysql" />
+    <SUITE FILE_PATH="coverage/python_demo$incomeSettlement.coverage" NAME="incomeSettlement Coverage Results" MODIFIED="1744964870860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
     <SUITE FILE_PATH="coverage/python_demo$gateway__1_.coverage" NAME="gateway (1) Coverage Results" MODIFIED="1747793456173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/gateway" />
     <SUITE FILE_PATH="coverage/python_demo$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1744252137427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
     <SUITE FILE_PATH="coverage/python_demo$BlueInvoiceManager__1_.coverage" NAME="BlueInvoiceManager (1) Coverage Results" MODIFIED="1743496432027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigTenant" />
-    <SUITE FILE_PATH="coverage/python_demo$TaskTest.coverage" NAME="TaskTest Coverage Results" MODIFIED="1747122674690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/hgdz" />
-    <SUITE FILE_PATH="coverage/python_demo$CallBackService.coverage" NAME="CallBackService Coverage Results" MODIFIED="1746757547548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/etaxUnified" />
+    <SUITE FILE_PATH="coverage/python_demo$TaskTest.coverage" NAME="TaskTest Coverage Results" MODIFIED="1749631340704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/hgdzBiz" />
     <SUITE FILE_PATH="coverage/python_demo$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1748917302795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgBiz" />
-    <SUITE FILE_PATH="coverage/python_demo$PigKjscMerchantService.coverage" NAME="PigKjscMerchantService Coverage Results" MODIFIED="1742202920465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/pigKjsc" />
+    <SUITE FILE_PATH="coverage/python_demo$CallBackService.coverage" NAME="CallBackService Coverage Results" MODIFIED="1749537765236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/etaxUnified" />
     <SUITE FILE_PATH="coverage/python_demo$national.coverage" NAME="national Coverage Results" MODIFIED="1744710166623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
-    <SUITE FILE_PATH="coverage/python_demo$cronJobService.coverage" NAME="cronJobService Coverage Results" MODIFIED="1744352854478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasInvididual" />
     <SUITE FILE_PATH="coverage/python_demo$noInvoiceIncome.coverage" NAME="noInvoiceIncome Coverage Results" MODIFIED="1745565223906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgAi" />
-    <SUITE FILE_PATH="coverage/python_demo$individualSync.coverage" NAME="individualSync Coverage Results" MODIFIED="1747211579802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgBiz" />
     <SUITE FILE_PATH="coverage/python_demo$externalService.coverage" NAME="externalService Coverage Results" MODIFIED="1745802089814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgSaasAccount" />
-    <SUITE FILE_PATH="coverage/python_demo$enterprise.coverage" NAME="enterprise Coverage Results" MODIFIED="1747722464710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/ycshgBiz" />
-    <SUITE FILE_PATH="coverage/python_demo$external.coverage" NAME="external Coverage Results" MODIFIED="1747624003339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/zgy/business/external" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/uat/common/Util.py">

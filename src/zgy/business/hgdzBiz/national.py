@@ -21,7 +21,7 @@ class NationalService(PigYcshgAi):
             "creatorId": "123",
             "creatorName": "123"
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/national-tax/open',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/national-tax/open',
                              data)
         print(response.text)
 

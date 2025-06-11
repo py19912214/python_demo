@@ -38,6 +38,6 @@ class CronJobService(PigYcshgSaasIndividualCronJob):
 
 
 processService = CronJobService()
-# processService.testBatchDeclareTask('331226540654592')
+processService.testBatchDeclareTask('342507630821376')
 # processService.productionSendDeclare()
-processService.getAuthorized()
+# processService.getAuthorized()

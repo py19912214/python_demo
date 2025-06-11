@@ -7,7 +7,7 @@ class IndividualCallBackService(PigYcshgAi):
             "tpCompanyIdList": [331414076342276],
             "msg": "错误信息123123"
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-cronjob/nk/individual-tax/v1/sync-login-error',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-tax/v1/sync-login-error',
                              data)
         print(response.text)
 
@@ -16,7 +16,7 @@ class IndividualCallBackService(PigYcshgAi):
             "tpEnterpriseId": 332527594602500,
             "jsonObject": {"jcxx": [{"djzclx_mc": "个体工商户", "zgswj_mc": "主税务机关名称", "nsrzt_dm": "03"}]}
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-cronjob/nk/individual-tax/v1/sync-info',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-tax/v1/sync-info',
                              data)
         print(response.text)
 
@@ -25,7 +25,7 @@ class IndividualCallBackService(PigYcshgAi):
             "tpEnterpriseId": 331414076342276,
             "submissionStatus": "SUBMIT_SUCCESS"
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-cronjob/nk/individual-tax/v1/sync-submission-status',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-tax/v1/sync-submission-status',
                              data)
         print(response.text)
 
@@ -42,7 +42,7 @@ class IndividualCallBackService(PigYcshgAi):
             "actualTaxAmount": 100,
             "syncSource": 1,
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-cronjob/nk/individual-tax/v1/sync-declare-status',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-tax/v1/sync-declare-status',
                              data)
         print(response.text)
 
@@ -74,7 +74,7 @@ class IndividualCallBackService(PigYcshgAi):
             "payTaxesIncome": 108,
             "redeemAmount": 109
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-cronjob/nk/individual-tax/v1/sync-report-info',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-tax/v1/sync-report-info',
                              data)
         print(response.text)
 
@@ -88,7 +88,7 @@ class IndividualCallBackService(PigYcshgAi):
             "userId": 1,
             "userName": "userName"
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-cronjob/nk/individual-tax/v1/sync-record-insert',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-tax/v1/sync-record-insert',
                              data)
         print(response.text)
 
@@ -99,7 +99,7 @@ class IndividualCallBackService(PigYcshgAi):
             "dutyPaidProofUrl": "https://dutypaidproof.hggh.gov.cn",
             "reportType": 1
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-cronjob/nk/individual-tax/v1/sync-duty-paid-proof',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-tax/v1/sync-duty-paid-proof',
                              data)
         print(response.text)
 
@@ -111,7 +111,7 @@ class IndividualCallBackService(PigYcshgAi):
             "taxDeadline": "MONTHLY",
             "taxIdentification": "ACTUAL_PREPAY"
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-cronjob/nk/individual-tax/v1/production/sync-levy-info',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-tax/v1/production/sync-levy-info',
                              data)
         print(response.text)
 
@@ -130,7 +130,7 @@ class IndividualCallBackService(PigYcshgAi):
             "syncSource": 1,
         }
         response = self.post(
-            '/ycshg-ai-platform-produce-hgdzBiz-cronjob/nk/individual-tax/v1/production/sync-declare-status',
+            '/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-tax/v1/production/sync-declare-status',
             data)
         print(response.text)
 
@@ -163,7 +163,7 @@ class IndividualCallBackService(PigYcshgAi):
             "payTaxesIncome": 108,
             "redeemAmount": 109
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-cronjob/nk/individual-tax/v1/production/sync-report-info',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-tax/v1/production/sync-report-info',
                              data)
         print(response.text)
 
@@ -175,7 +175,7 @@ class IndividualCallBackService(PigYcshgAi):
             "reportType": 2  # 1:生产经营 2：生产经营年度汇算
         }
         response = self.post(
-            '/ycshg-ai-platform-produce-hgdzBiz-cronjob/nk/individual-tax/v1/production/sync-duty-paid-proof',
+            '/ycshg-ai-platform-produce-hgdz-cronjob/nk/individual-tax/v1/production/sync-duty-paid-proof',
             data)
         print(response.text)
 

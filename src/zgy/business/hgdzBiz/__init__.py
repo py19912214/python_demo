@@ -5,8 +5,8 @@ from urllib.parse import quote
 from src.zgy.business import *
 
 localHostPortRelMap = {
-    "/ycshg-ai-platform-produce-hgdzBiz-biz/": "9701",
-    "/ycshg-ai-platform-produce-hgdzBiz-cronjob/": "9702",
+    "/ycshg-ai-platform-produce-hgdz-biz/": "9701",
+    "/ycshg-ai-platform-produce-hgdz-cronjob/": "9702",
 }
 envAndHostRelMap = {
     localHost: localHost_prefix,
@@ -15,7 +15,7 @@ envAndHostRelMap = {
     prod: hgdz_prod
 }
 
-__cur_env__ = localHost
+__cur_env__ = test
 # test
 # __tenant_id__ = '3286941137960960000'
 # __tenant_user_id__ = '335072798457856'

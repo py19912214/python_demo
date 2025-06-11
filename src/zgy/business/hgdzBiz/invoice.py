@@ -91,10 +91,11 @@ invoiceData = {
 class ProcessService(PigYcshgAi):
     def getSellerInfo(self):
         data = {
-            "customerId": 789456456465465
+            "customerId": 789456456465465,
+            "appEnterpriseId": 146702504001011
         }
         response = self.post(
-            "/ycshg-ai-platform-produce-hgdzBiz-biz/yk/invoice-info/v1/get-seller-info",
+            "/ycshg-ai-platform-produce-hgdz-biz/feign/invoice-info/v1/get-seller-info",
             data)
         print(response.text)
 
@@ -103,7 +104,7 @@ class ProcessService(PigYcshgAi):
             "customerId": 789456456465465
         }
         response = self.post(
-            "/ycshg-ai-platform-produce-hgdzBiz-biz/yk/invoice-info/v1/sync-seller-info",
+            "/ycshg-ai-platform-produce-hgdz-biz/feign/invoice-info/v1/sync-seller-info",
             data)
         print(response.text)
 
@@ -112,7 +113,7 @@ class ProcessService(PigYcshgAi):
             "customerId": 789456456465465
         }
         response = self.post(
-            "/ycshg-ai-platform-produce-hgdzBiz-biz/yk/invoice-info/v1/sync-goods-info",
+            "/ycshg-ai-platform-produce-hgdz-biz/feign/invoice-info/v1/sync-goods-info",
             data)
         print(response.text)
 
@@ -124,7 +125,7 @@ class ProcessService(PigYcshgAi):
             # "matchGoodsName": "外星人"
         }
         response = self.post(
-            "/ycshg-ai-platform-produce-hgdzBiz-biz/yk/invoice-info/v1/page-goods-info",
+            "/ycshg-ai-platform-produce-hgdz-biz/feign/invoice-info/v1/page-goods-info",
             data)
         print(response.text)
 
@@ -137,7 +138,7 @@ class ProcessService(PigYcshgAi):
             "pageSize": 10
         }
         response = self.post(
-            "/ycshg-ai-platform-produce-hgdzBiz-biz/yk/invoice-info/v1/page-sync-record",
+            "/ycshg-ai-platform-produce-hgdz-biz/feign/invoice-info/v1/page-sync-record",
             data)
         print(response.text)
 
@@ -156,7 +157,7 @@ class ProcessService(PigYcshgAi):
             "createTimeEnd": "2025-05-20 23:59:00"
         }
         response = self.post(
-            "/ycshg-ai-platform-produce-hgdzBiz-biz/yk/invoice-info/blue/v1/page-invoice-info",
+            "/ycshg-ai-platform-produce-hgdz-biz/feign/invoice-info/blue/v1/page-invoice-info",
             data)
         print(response.text)
 
@@ -166,24 +167,25 @@ class ProcessService(PigYcshgAi):
             "invoiceId": id,
         }
         response = self.post(
-            "/ycshg-ai-platform-produce-hgdzBiz-biz/yk/invoice-info/blue/v1/delete",
+            "/ycshg-ai-platform-produce-hgdz-biz/feign/invoice-info/blue/v1/delete",
             data)
         print(response.text)
 
     def applyInvoice(self):
         data = invoiceData
         response = self.post(
-            "/ycshg-ai-platform-produce-hgdzBiz-biz/yk/invoice-info/blue/v1/apply-invoice",
+            "/ycshg-ai-platform-produce-hgdz-biz/feign/invoice-info/blue/v1/apply-invoice",
             data)
         print(response.text)
 
     def queryBlueInvoice(self, invoiceId):
         data = {
-            "customerId": 789456456465465,
+            "customerId": 342646143090688,
+            "appEnterpriseId": 3349039842754560000,
             "invoiceId": invoiceId
         }
         response = self.post(
-            "/ycshg-ai-platform-produce-hgdzBiz-biz/yk/invoice-info/blue/v1/query",
+            "/ycshg-ai-platform-produce-hgdz-biz/feign/invoice-info/blue/v1/query",
             data)
         print(response.text)
 
@@ -192,7 +194,7 @@ class ProcessService(PigYcshgAi):
             "customerId": 789456456465465
         }
         response = self.post(
-            "/ycshg-ai-platform-produce-hgdzBiz-biz/yk/invoice-info/blue/v1/get-select-param",
+            "/ycshg-ai-platform-produce-hgdz-biz/feign/invoice-info/blue/v1/get-select-param",
             data)
         print(response.text)
 
@@ -215,8 +217,8 @@ processService = ProcessService()
 # 发票
 # processService.delete(337603169632256)
 # processService.pageInvoiceInfo()
-processService.applyInvoice()
-# processService.queryBlueInvoice(337603633102848)
+# processService.applyInvoice()
+processService.queryBlueInvoice(338852694900736)
 
 # ai相关的接口
 # processService.batchMatchGoodsAi()

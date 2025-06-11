@@ -8,7 +8,7 @@ class BankReceiptService(PigYcshgAi):
             "accountBookId": 3325306714030080000,
             "period": 202504
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/bank-receipt/v1/page',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/bank-receipt/v1/page',
                              data)
         print(response.text)
 

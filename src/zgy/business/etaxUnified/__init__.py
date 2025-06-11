@@ -23,7 +23,7 @@ envAndHostRelMap = {
     prod: ycshg_prod
 }
 
-__cur_env__ = test
+__cur_env__ = dev
 
 
 class SignalService(CommonParent):

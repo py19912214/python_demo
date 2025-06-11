@@ -4,7 +4,7 @@ from urllib.parse import quote
 from src.zgy.business import *
 
 localHostPortRelMap = {
-    "/invoice-cloud-platform/": "20251",
+    "/ycshg-saas-individual-tax-cronjob/": "9704",
 }
 appKeyEnvRelMap = {
     "dev": {

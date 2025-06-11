@@ -6,7 +6,7 @@ class EnterpriseService(PigYcshgAi):
         data = {
 
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/enterprise/v1/select-page', data)
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/enterprise/v1/select-page', data)
         print(response.text)
 
     def edit_enterprise(self):
@@ -18,7 +18,7 @@ class EnterpriseService(PigYcshgAi):
             "creditCodeStatus": "THREE_IN_ONE",
             "syncAccountInfo": 1,
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/enterprise-detail/v1/edit-enterprise', data)
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/enterprise-detail/v1/edit-enterprise', data)
         print(response.text)
 
     def sync_enterprise_info(self):
@@ -44,7 +44,7 @@ class EnterpriseService(PigYcshgAi):
                 "orderType": 1
             }
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/feign/biz/enterprise/v1/sync-enterprise-info',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/feign/biz/enterprise/v1/sync-enterprise-info',
                              data)
         print(response.text)
 
@@ -53,6 +53,6 @@ processService = EnterpriseService()
 # 查询列表
 # processService.selectPage()
 # 创建企业
-# processService.sync_enterprise_info()
+processService.sync_enterprise_info()
 # 编辑企业
 processService.edit_enterprise()

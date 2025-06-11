@@ -46,7 +46,7 @@ pageParam = {
 class IncomeSettlementProcessService(PigYcshgAi):
     def page(self):
         data = pageParam
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/business-income-settlement/v1/select-info-page',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/business-income-settlement/v1/select-info-page',
                              data)
         print(response.text)
 
@@ -55,7 +55,7 @@ class IncomeSettlementProcessService(PigYcshgAi):
             "enterpriseIds": [202504100000002],
             "year": 2024,
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/business-income-settlement/v1/update-levy',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/business-income-settlement/v1/update-levy',
                              data)
         print(response.text)
 
@@ -64,7 +64,7 @@ class IncomeSettlementProcessService(PigYcshgAi):
             "enterpriseIds": [202504100000002],
             "year": 2023,
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/business-income-settlement/v1/fetch-count',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/business-income-settlement/v1/fetch-count',
                              data)
         print(response.text)
 
@@ -73,7 +73,7 @@ class IncomeSettlementProcessService(PigYcshgAi):
             "enterpriseIds": [202504100000002],
             "year": 2024,
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/business-income-settlement/v1/batch-declare',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/business-income-settlement/v1/batch-declare',
                              data)
         print(response.text)
 
@@ -82,7 +82,7 @@ class IncomeSettlementProcessService(PigYcshgAi):
             "enterpriseIds": [202504100000002],
             "year": 2025,
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/business-income-settlement/v1/tag-none-declare',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/business-income-settlement/v1/tag-none-declare',
                              data)
         print(response.text)
 
@@ -92,7 +92,7 @@ class IncomeSettlementProcessService(PigYcshgAi):
             "year": 2025,
         }
         response = self.post(
-            '/ycshg-ai-platform-produce-hgdzBiz-biz/yk/business-income-settlement/v1/remove-tag-none-declare',
+            '/ycshg-ai-platform-produce-hgdz-biz/yk/business-income-settlement/v1/remove-tag-none-declare',
             data)
         print(response.text)
 
@@ -102,13 +102,13 @@ class IncomeSettlementProcessService(PigYcshgAi):
             "year": 2024,
         }
         response = self.post(
-            '/ycshg-ai-platform-produce-hgdzBiz-biz/yk/business-income-settlement/v1/update-status',
+            '/ycshg-ai-platform-produce-hgdz-biz/yk/business-income-settlement/v1/update-status',
             data)
         print(response.text)
 
     def export(self, filePath):
         data = pageParam
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/business-income-settlement/v1/export',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/business-income-settlement/v1/export',
                              data)
         with open(filePath, 'wb') as f:
             for chunk in response.iter_content(chunk_size=8192):

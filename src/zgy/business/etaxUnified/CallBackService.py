@@ -13,6 +13,19 @@ class InvoiceBaseService(SignalService):
             data)
         print(response.text)
 
+    def needFaceAuth(self, tpTaskId):
+        data = {
+            "tpTaskId": tpTaskId,
+            "userName": "userName",
+            "taxBureauQrCode": "taxBureauQrCode",
+            "incomeTaxQrCode": "incomeTaxQrCode"
+        }
+        response = self.post(
+            "/invoice-cloud-platform/nk/invoice-task-callback/v1/need-face-auth",
+            data)
+        print(response.text)
+
 
 processService = InvoiceBaseService()
-processService.syncBlueInvoice(336669841080321)
+# processService.syncBlueInvoice(336669841080321)
+processService.needFaceAuth(341387411832833)

@@ -63,13 +63,13 @@ pageParam = {
 class IndividualDetailService(PigYcshgAi):
     def page(self):
         data = pageParam
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/individual-tax-declare-detail/select-info-page',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax-declare-detail/select-info-page',
                              data)
         print(response.text)
 
     def export(self, filePath):
         data = pageParam
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/individual-tax-declare-detail/export',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax-declare-detail/export',
                              data)
         with open(filePath, 'wb') as f:
             for chunk in response.iter_content(chunk_size=8192):
@@ -84,7 +84,7 @@ class IndividualDetailService(PigYcshgAi):
             # "taxType": "PRODUCTION_OPERATION",
             "taxType": "COMPREHENSIVE_INCOME",
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/individual-tax-declare-detail/update-status',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax-declare-detail/update-status',
                              data)
         print(response.text)
 
@@ -95,7 +95,7 @@ class IndividualDetailService(PigYcshgAi):
             # "taxType": "PRODUCTION_OPERATION",
             "taxType": "COMPREHENSIVE_INCOME",
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/individual-tax-declare-detail/batch-declare',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax-declare-detail/batch-declare',
                              data)
         print(response.text)
 
@@ -107,7 +107,7 @@ class IndividualDetailService(PigYcshgAi):
             "taxType": "COMPREHENSIVE_INCOME",
             "syncSalary": True
         }
-        response = self.post('/ycshg-ai-platform-produce-hgdzBiz-biz/yk/individual-tax-declare-detail/tag-none-declare',
+        response = self.post('/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax-declare-detail/tag-none-declare',
                              data)
         print(response.text)
 
@@ -120,7 +120,7 @@ class IndividualDetailService(PigYcshgAi):
             "syncSalary": True
         }
         response = self.post(
-            '/ycshg-ai-platform-produce-hgdzBiz-biz/yk/individual-tax-declare-detail/remove-tag-none-declare',
+            '/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax-declare-detail/remove-tag-none-declare',
             data)
         print(response.text)
 
@@ -130,7 +130,7 @@ class IndividualDetailService(PigYcshgAi):
             "period": 202504
         }
         response = self.post(
-            '/ycshg-ai-platform-produce-hgdzBiz-biz/yk/individual-tax-declare-detail/update-levy-task',
+            '/ycshg-ai-platform-produce-hgdz-biz/yk/individual-tax-declare-detail/update-levy-task',
             data)
         print(response.text)
 

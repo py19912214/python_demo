@@ -23,7 +23,7 @@ __merchant_id__ = '509600'
 class PigQhs(CommonParent):
     def __init__(self):
         super().__init__(__cur_env__, localHostPortRelMap, envAndHostRelMap)
-        # self.refreshPigTenantToken()
+        self.refreshPigTenantToken()
 
     def buildGetHeaders(self):
         return {
@@ -64,4 +64,4 @@ class PigQhs(CommonParent):
             host + "/api-uaa/oauth/token?" + urlParams.decode("utf-8"),
             params,
             headers)
-        self.authorization = "Bearer " + json.loads(response.text)['data']['access`_token']
+        self.authorization = "Bearer " + json.loads(response.text)['data']['access_token']

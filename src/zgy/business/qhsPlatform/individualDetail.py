@@ -1,4 +1,4 @@
-from src.zgy.business.qhs import PigQhs
+from src.zgy.business.qhsPlatform import PigQhs
 
 
 class IndividualCallBackService(PigQhs):

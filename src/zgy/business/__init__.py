@@ -2,6 +2,7 @@ import datetime
 import hashlib
 import hmac
 import json
+import time
 
 from src.zgy import *
 from src.zgy.common import HttpUtils
@@ -73,3 +74,14 @@ class CommonParent:
 
     def checkReqSuccess(self, response):
         return json.loads(response.text)['code'] == 0
+
+    def loopSubmit(self, url, data):
+        while True:
+            try:
+                response = self.post(url, data)
+                print(response.text)
+                if self.checkReqSuccess(response):
+                    return response
+            except Exception as err:
+                print(f"处理异常: '{err}'")
+            time.sleep(10)

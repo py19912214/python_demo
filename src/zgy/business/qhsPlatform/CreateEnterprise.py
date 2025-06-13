@@ -72,7 +72,8 @@ class IndividualCallBackService(PigQhs):
 
     def importOldAccount(self, enterpriseId):
         todoId = databaseProcess.queryFirstColumns(connection,
-                                                   "select id from `qhs_platform`.qhs_enterprise_to_do where enterprise_id='" + str(enterpriseId) + "' and to_do_code='MA1003'")
+                                                   "select id from `qhs_platform`.qhs_enterprise_to_do where enterprise_id='" + str(
+                                                       enterpriseId) + "' and to_do_code='MA1003'")
         print('todoId: ' + str(todoId))
         data = {
         }
@@ -164,17 +165,6 @@ class IndividualCallBackService(PigQhs):
         self.loopSubmit('/qhs-platform-manage/yk/individual-tax/register', data)
         print('个税开通成功')
 
-    def loopSubmit(self, url, data):
-        while True:
-            try:
-                response = self.post(url, data)
-                print(response.text)
-                if self.checkReqSuccess(response):
-                    return response
-            except Exception as err:
-                print(f"处理异常: '{err}'")
-            time.sleep(10)
-
 
 processService = IndividualCallBackService()
 databaseProcess = Database()
@@ -211,3 +201,5 @@ processService.openNational(enterpriseId)
 processService.importOldAccount(enterpriseId)
 # 7.建账审核 需要国税开通成功后 才可以
 processService.createAccountAudit(enterpriseId)
+
+print("创建成功")

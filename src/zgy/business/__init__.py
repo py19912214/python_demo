@@ -70,3 +70,6 @@ class CommonParent:
     # 走api的形式 需要处理
     def apiPost(self, url, params):
         return HttpUtils.post(self.buildUrl(url), params, self.buildApiHeader(params));
+
+    def checkReqSuccess(self, response):
+        return json.loads(response.text)['code'] == 0

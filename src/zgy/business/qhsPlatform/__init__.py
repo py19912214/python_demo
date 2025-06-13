@@ -1,10 +1,11 @@
-import json
 import urllib.parse
 
 from src.zgy.business import *
 
 localHostPortRelMap = {
     "/qhs-platform-cronjob/": "9921",
+    "/qhs-platform-applet/": "9923",
+    "/qhs-platform-web/": "9924",
     "/qhs-platform-manage/": "9922",
 }
 envAndHostRelMap = {
@@ -21,9 +22,19 @@ __merchant_id__ = '509600'
 
 
 class PigQhs(CommonParent):
+    # test
+    tenant_id = '3109333835776000000'
+    tenant_enterprise_id = '342877538418688'
+
     def __init__(self):
         super().__init__(__cur_env__, localHostPortRelMap, envAndHostRelMap)
         self.refreshPigTenantToken()
+
+    def setTenantEnterpriseId(self, enterpriseId):
+        self.tenant_enterprise_id = str(enterpriseId)
+
+    def setTenantId(self, tenantId):
+        self.tenant_id = str(tenantId)
 
     def buildGetHeaders(self):
         return {
@@ -32,7 +43,6 @@ class PigQhs(CommonParent):
             'x-corp-id': __corp_id__,
             'x-merchant-id': __merchant_id__,
             'authorization': self.authorization
-
         }
 
     def buildPostHeaders(self):
@@ -41,7 +51,9 @@ class PigQhs(CommonParent):
             'x-platform-source': __x_platform_source__,
             'x-corp-id': __corp_id__,
             'x-merchant-id': __merchant_id__,
-            'authorization': self.authorization
+            'authorization': self.authorization,
+            'x-tenant-id': self.tenant_id,
+            'x-tenant-enterprise-id': self.tenant_enterprise_id
         }
 
     def refreshPigTenantToken(self):
@@ -54,7 +66,7 @@ class PigQhs(CommonParent):
             "loginType": "password",
             "username": "13982081834",
             "password": "Ltnn5Hqpu10hkxcn88fMxQ==",
-            "loginAccountSystem": "QHS_MANAGE"
+            "loginAccountSystem": "QHS_TENANT"
         }
         urlParams = urllib.parse.urlencode(params).encode('utf-8')
         host = qhs_platform_test

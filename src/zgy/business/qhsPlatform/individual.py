@@ -5,7 +5,7 @@ class IndividualCallBackService(PigQhs):
 
     def register(self):
         data = {
-            "enterpriseId": "341407298551808",
+            "enterpriseId": "342877538418688",
             "taxArea": "AREA_CODE151",
             "loginType": "INDIVIDUAL_TAX_PASSWORD",
             "password": "123456",
